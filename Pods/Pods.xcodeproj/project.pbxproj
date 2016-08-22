@@ -10,76 +10,22 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>01A8857448F291C8FE17C98702F17170</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CleverTapUTMDetail.h</string>
-			<key>path</key>
-			<string>CleverTapSDK.framework/Versions/A/Headers/CleverTapUTMDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09A88250ECC9DDE730E547690DA7D839</key>
+		<key>01EAB6B51C67EEE06F092C0C5BE99A96</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>B8B0E58B1387D5050CACECDDC57A13EF</string>
+				<string>7E15FA22EA0A02B2B5989FAA37AC6BE6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1259437C5FF5ABD6A2532A45B71B051D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1522C8B6EB54BF04F730640BFFCB9AFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>Versions</string>
 			<key>path</key>
-			<string>Pods-demo10-acknowledgements.plist</string>
+			<string>Versions</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1CF4C8241FEE3EFB3E8D94552A06B6BA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>24F1A07BA6DB2F1F0F96A49DD91CC276</string>
-				<string>1522C8B6EB54BF04F730640BFFCB9AFA</string>
-				<string>4B474D02470D4908762329D7ABA98FAD</string>
-				<string>21DF55EFFAA9B69AF86FDE31E5D45928</string>
-				<string>7CE9DBFA6FA60C3714416C37075FE11E</string>
-				<string>D1EA165096473C11D8CB131DB60F9187</string>
-				<string>81841EFE3C2EFEDD5C32AFDF796AD7DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-demo10</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-demo10</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21DF55EFFAA9B69AF86FDE31E5D45928</key>
+		<key>024DB1ADEE3F8970F190B72F8F5FDD78</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -92,7 +38,134 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>24F1A07BA6DB2F1F0F96A49DD91CC276</key>
+		<key>032C5F6D5A95D5503F1CC44A58D0C920</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapBuildInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0395190FF1BD22B998B871C79B440B36</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-demo10.a</string>
+			<key>path</key>
+			<string>libPods-demo10.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>056DF7AE8E691E049A1F9A2A13E1A4FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>080D7FA2322272F2A40F372783AE8148</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapSyncDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A28548B313DF3C0AEB318DC8ED5547D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-ShareExtension-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0F3DEA33CDAF256D4A5B62163CD2AEB6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapEventDetail.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1259437C5FF5ABD6A2532A45B71B051D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>14B78C081F88A269ED41BF8BE5857345</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapEventDetail.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1DAE4F4AB503617F64883372CD2A7BB6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-NotificationService-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F82F79D43011BB823A5FF72E1969525</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0A28548B313DF3C0AEB318DC8ED5547D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>22E35534E0E70425B68A158962F0969E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-NotificationService-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23BF39FAC01817EAE2CE3E8ADDA8DE54</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -118,6 +191,39 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>2792531A075290BC00B0D032360BA6C9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>78C614561383F2A0ADB4D62C1B426FFC</string>
+				<string>BB3BEAC0426F82E5879313560E7D4FF3</string>
+				<string>0F3DEA33CDAF256D4A5B62163CD2AEB6</string>
+				<string>93C929F7F505CB3505FCE0EE642D8899</string>
+				<string>845B8C785634002E2896B49D3C1ED5F4</string>
+				<string>67C7F126AD4E6455F08B3F7641D689DA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Headers</string>
+			<key>path</key>
+			<string>Headers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>288AEA5DD1A28C29BDF47736AE2D684C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FDCB1D95097178406C97550BE6343D58</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -132,10 +238,104 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>30C4115A89430E6FD8AA04C832097BE0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>81A0C034AB7B0C15FFBE4F884D2473A5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>33E99B7F6979D344D5A2CE0E5E68CAB2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-NotificationService.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37448D0032125D228886121036DE054B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>056DF7AE8E691E049A1F9A2A13E1A4FF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3829BA52D472CB3A08A0F75BB26453EA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-ShareExtension-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>39DA52055A74AA92E42BF46E50485F41</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FACE06E6F41ECFBEEBD425212EDC39EF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3CAC947BCA904891A5C56AD9263665A6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4B474D02470D4908762329D7ABA98FAD</string>
+			<string>6649DE038F82DBDF5C923790E12E44B5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -151,6 +351,36 @@
 			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F9E28BAFBEF420D6ECB20DE7ACF1AA0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0395190FF1BD22B998B871C79B440B36</string>
+				<string>B3A3620E41668769DC08D0058FABA7F4</string>
+				<string>E7788A371AF734C803217020812CEDF7</string>
+				<string>87F5C615F33247F3C5EEAA428BDCD40E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>41B3DB68C71D9AAC6CB66DF2A1D3C856</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B2CF594E1AD93489B423D0F6810CDABB</string>
+				<string>4E24FD094272AA97ED20A7B510D500D4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>42287DDF97330524BA3EF220F0276DA6</key>
 		<dict>
@@ -223,16 +453,92 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>4B474D02470D4908762329D7ABA98FAD</key>
+		<key>4BAA053BFCD709474D815F7FD425B5B2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F6494A0CC8DB28EFDC2C36075B0543B4</string>
+				<string>E2AEE295EDB2BBA76C31A4F022832049</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AppExtension</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BC0728FFF276FA7430C6A05D16B49D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1DAE4F4AB503617F64883372CD2A7BB6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4E24FD094272AA97ED20A7B510D500D4</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>EC43FB59F920492503365CCD0237BA67</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>526AAE19777DF47194763CE4DE33C1E7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1F82F79D43011BB823A5FF72E1969525</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>569B92917B09E7AB459DB22265FE59F1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-demo10-dummy.m</string>
+			<string>CleverTapInAppNotificationDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -256,95 +562,24 @@
 			<key>productName</key>
 			<string>Pods-demo10</string>
 			<key>productReference</key>
-			<string>C2485064154DA61BB61B325B31877EBC</string>
+			<string>0395190FF1BD22B998B871C79B440B36</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>5937FD4CF398A7DBB52AC975ECF759A9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>87D6BEB7295FB88E21EA48CC127FA0DC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5BB8DA3B3881B4DF2B00456435A43F95</key>
+		<key>5D55B0DEF023E93BBCC1AB321A662C6E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CleverTapEventDetail.h</string>
+			<string>text</string>
 			<key>path</key>
-			<string>CleverTapSDK.framework/Versions/A/Headers/CleverTapEventDetail.h</string>
+			<string>Pods-NotificationService-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>61C6D958A2946B086A28E82050C84A94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CleverTapBuildInfo.h</string>
-			<key>path</key>
-			<string>CleverTapSDK.framework/Versions/A/Headers/CleverTapBuildInfo.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7533BDC8AA7046FDA1345C7BB711B9BF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1CF4C8241FEE3EFB3E8D94552A06B6BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CE9DBFA6FA60C3714416C37075FE11E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-demo10-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>09A88250ECC9DDE730E547690DA7D839</string>
-				<string>BDAD39CB1EDCB5B58681347680556979</string>
-				<string>7533BDC8AA7046FDA1345C7BB711B9BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81841EFE3C2EFEDD5C32AFDF796AD7DA</key>
+		<key>64298C3D92083392646331D29EF0DD09</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -353,11 +588,63 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-demo10.release.xcconfig</string>
+			<string>Pods-NotificationContent.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>82FB2FF5DB1107666776A083A387B612</key>
+		<key>653F563802B0775D89BCD91970827DAA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9940F2A9D84D894CC98DFBBDD4382C35</string>
+			<key>buildPhases</key>
+			<array>
+				<string>526AAE19777DF47194763CE4DE33C1E7</string>
+				<string>288AEA5DD1A28C29BDF47736AE2D684C</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-ShareExtension</string>
+			<key>productName</key>
+			<string>Pods-ShareExtension</string>
+			<key>productReference</key>
+			<string>87F5C615F33247F3C5EEAA428BDCD40E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>6649DE038F82DBDF5C923790E12E44B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-demo10-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6767165C0FE819CD37012CB59E03AFEE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2792531A075290BC00B0D032360BA6C9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>A</string>
+			<key>path</key>
+			<string>A</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67C7F126AD4E6455F08B3F7641D689DA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -365,14 +652,322 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CleverTapInAppNotificationDelegate.h</string>
 			<key>path</key>
-			<string>CleverTapSDK.framework/Versions/A/Headers/CleverTapInAppNotificationDelegate.h</string>
+			<string>CleverTapUTMDetail.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>87D6BEB7295FB88E21EA48CC127FA0DC</key>
+		<key>693E9E1577B0F4F9786F782745DFD3B2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>ACF8598CC0E7B7833B4A3BE357CCFBC9</string>
+				<string>032C5F6D5A95D5503F1CC44A58D0C920</string>
+				<string>14B78C081F88A269ED41BF8BE5857345</string>
+				<string>569B92917B09E7AB459DB22265FE59F1</string>
+				<string>080D7FA2322272F2A40F372783AE8148</string>
+				<string>94F8C86E8E9992853DDA1330C17CBCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Headers</string>
+			<key>path</key>
+			<string>Headers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6D23976470A455B2B0BE5D912D502C4A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6767165C0FE819CD37012CB59E03AFEE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Versions</string>
+			<key>path</key>
+			<string>Versions</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7203E3957BE76CC34847A8704B96FDCF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CE24B2EFBB542B09C1A5CB37EAC6195</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7498A807AC6E40E05C594705643561D3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-ShareExtension-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>74F7ACB2DAFBCE316FAB5FE29C4758B0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5D55B0DEF023E93BBCC1AB321A662C6E</string>
+				<string>7E01A1BF9DC3C63D00CD37EABCF57725</string>
+				<string>1DAE4F4AB503617F64883372CD2A7BB6</string>
+				<string>22E35534E0E70425B68A158962F0969E</string>
+				<string>F86CE60C335E852A2D88C5706C21273B</string>
+				<string>86F74C7C75EB6434375AD1CBEC05983B</string>
+				<string>33E99B7F6979D344D5A2CE0E5E68CAB2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-NotificationService</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-NotificationService</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>75B5CA6A3980C057CE60BF87F56B05AD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4BC0728FFF276FA7430C6A05D16B49D3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7616161AA2D8DC8AD10A35868D51096C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-NotificationContent-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>78C614561383F2A0ADB4D62C1B426FFC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTap.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7A71AE070085CF750D7D6EED227FFF8C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>99A1509B5075ECB60EEF5515853FAB66</string>
+			<key>buildPhases</key>
+			<array>
+				<string>75B5CA6A3980C057CE60BF87F56B05AD</string>
+				<string>80B33B0FACD470EE5B41AEA4BB803B13</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-NotificationService</string>
+			<key>productName</key>
+			<string>Pods-NotificationService</string>
+			<key>productReference</key>
+			<string>E7788A371AF734C803217020812CEDF7</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
+				<string>39DA52055A74AA92E42BF46E50485F41</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>3F9E28BAFBEF420D6ECB20DE7ACF1AA0</string>
+				<string>DF293546D1F7BBF0A3A7D586770DE0DB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7E01A1BF9DC3C63D00CD37EABCF57725</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-NotificationService-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7E15FA22EA0A02B2B5989FAA37AC6BE6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>693E9E1577B0F4F9786F782745DFD3B2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>A</string>
+			<key>path</key>
+			<string>A</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8038606BF0FE7B500E51BBC69E2A597E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D8E45328F50A1D853A33A98F8651CE8D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>80B33B0FACD470EE5B41AEA4BB803B13</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FA7C4E42AA01D09C5CD60D9E61E52844</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>81A0C034AB7B0C15FFBE4F884D2473A5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ShareExtension.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>845B8C785634002E2896B49D3C1ED5F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapSyncDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86F74C7C75EB6434375AD1CBEC05983B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-NotificationService.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>87F5C615F33247F3C5EEAA428BDCD40E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-ShareExtension.a</string>
+			<key>path</key>
+			<string>libPods-ShareExtension.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8A4184EE8688315E14F8AF6206394B0A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-ShareExtension-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CE24B2EFBB542B09C1A5CB37EAC6195</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -380,6 +975,19 @@
 			<string>wrapper.framework</string>
 			<key>path</key>
 			<string>CleverTapSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>911DC30555E06C59A22BCEE7A6FA3B5A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-ShareExtension-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -402,10 +1010,103 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
+		<key>93C929F7F505CB3505FCE0EE642D8899</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapInAppNotificationDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>94F8C86E8E9992853DDA1330C17CBCF4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapUTMDetail.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>95ED1D5AB0CC0658E09E28E107C21BF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>01EAB6B51C67EEE06F092C0C5BE99A96</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CleverTapSDK.framework</string>
+			<key>path</key>
+			<string>CleverTapSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9940F2A9D84D894CC98DFBBDD4382C35</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>30C4115A89430E6FD8AA04C832097BE0</string>
+				<string>8038606BF0FE7B500E51BBC69E2A597E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>99589A1D258466087D7140F0D021605B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>41B3DB68C71D9AAC6CB66DF2A1D3C856</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B7BC348683F642B6F71E87A4DD7F9748</string>
+				<string>37448D0032125D228886121036DE054B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-NotificationContent</string>
+			<key>productName</key>
+			<string>Pods-NotificationContent</string>
+			<key>productReference</key>
+			<string>B3A3620E41668769DC08D0058FABA7F4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>99A1509B5075ECB60EEF5515853FAB66</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9D7FCDCEC7CCABBBD53B1C5EA5A3FD19</string>
+				<string>AC2B4186C94F5E688ADC4F93652D2A1E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
 		<key>9D2DD6D24083891F9C46929C9FFABC48</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>D1EA165096473C11D8CB131DB60F9187</string>
+			<string>F157379108EDE761B2D4F73AA7D41631</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -442,6 +1143,95 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>9D7FCDCEC7CCABBBD53B1C5EA5A3FD19</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>86F74C7C75EB6434375AD1CBEC05983B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9E5D42A1C9EE744D22143D3398CB229D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-demo10.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F572537B61F2E285B2260E93861C3A6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>95ED1D5AB0CC0658E09E28E107C21BF0</string>
+				<string>7203E3957BE76CC34847A8704B96FDCF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Main</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9FEA485B836EBA1A237D7BA7BA89C516</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-NotificationContent-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A4C66A24B9AC44473FEC9E88977FE33D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F0D30E1CCFA81D0928E0CA39CE0607B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>A543B0DF9C8217C6603CE479B949350F</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -455,7 +1245,75 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>AB4381501B2F64BE7D521AB76D8E06EE</key>
+		<key>A9A97481F6EDC6EAED55F2A4D76D075A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-NotificationContent-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AC2B4186C94F5E688ADC4F93652D2A1E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>33E99B7F6979D344D5A2CE0E5E68CAB2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>ACCAB0E6BE7437A14531FB50B642FB68</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-demo10-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACF8598CC0E7B7833B4A3BE357CCFBC9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -463,10 +1321,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CleverTapSyncDelegate.h</string>
 			<key>path</key>
-			<string>CleverTapSDK.framework/Versions/A/Headers/CleverTapSyncDelegate.h</string>
+			<string>CleverTap.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -548,7 +1404,77 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>B03CDA98A57E0666CDB93B5A81F9E713</key>
+		<key>B2CF594E1AD93489B423D0F6810CDABB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>64298C3D92083392646331D29EF0DD09</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B3A3620E41668769DC08D0058FABA7F4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-NotificationContent.a</string>
+			<key>path</key>
+			<string>libPods-NotificationContent.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B7BC348683F642B6F71E87A4DD7F9748</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A4C66A24B9AC44473FEC9E88977FE33D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BB3BEAC0426F82E5879313560E7D4FF3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -556,31 +1482,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CleverTap.h</string>
 			<key>path</key>
-			<string>CleverTapSDK.framework/Versions/A/Headers/CleverTap.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8B0E58B1387D5050CACECDDC57A13EF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B03CDA98A57E0666CDB93B5A81F9E713</string>
-				<string>61C6D958A2946B086A28E82050C84A94</string>
-				<string>5BB8DA3B3881B4DF2B00456435A43F95</string>
-				<string>82FB2FF5DB1107666776A083A387B612</string>
-				<string>AB4381501B2F64BE7D521AB76D8E06EE</string>
-				<string>01A8857448F291C8FE17C98702F17170</string>
-				<string>5937FD4CF398A7DBB52AC975ECF759A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTap-iOS-SDK</string>
-			<key>path</key>
-			<string>CleverTap-iOS-SDK</string>
+			<string>CleverTapBuildInfo.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -597,33 +1500,39 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BDAD39CB1EDCB5B58681347680556979</key>
+		<key>C551DC016E4E2EEC5993D7808A753002</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-demo10-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7CB849A83C311C227A75BB2C3B8D17F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C2485064154DA61BB61B325B31877EBC</string>
+				<string>23BF39FAC01817EAE2CE3E8ADDA8DE54</string>
+				<string>C551DC016E4E2EEC5993D7808A753002</string>
+				<string>6649DE038F82DBDF5C923790E12E44B5</string>
+				<string>024DB1ADEE3F8970F190B72F8F5FDD78</string>
+				<string>ACCAB0E6BE7437A14531FB50B642FB68</string>
+				<string>F157379108EDE761B2D4F73AA7D41631</string>
+				<string>9E5D42A1C9EE744D22143D3398CB229D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>Pods-demo10</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-demo10</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2485064154DA61BB61B325B31877EBC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-demo10.a</string>
-			<key>path</key>
-			<string>libPods-demo10.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
 		<dict>
@@ -652,19 +1561,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>D1EA165096473C11D8CB131DB60F9187</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-demo10.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
 			<key>attributes</key>
@@ -691,7 +1587,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>BDAD39CB1EDCB5B58681347680556979</string>
+			<string>3F9E28BAFBEF420D6ECB20DE7ACF1AA0</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -701,12 +1597,177 @@
 			<key>targets</key>
 			<array>
 				<string>5812A0FBED89A59A66B519082327DAFE</string>
+				<string>99589A1D258466087D7140F0D021605B</string>
+				<string>7A71AE070085CF750D7D6EED227FFF8C</string>
+				<string>653F563802B0775D89BCD91970827DAA</string>
 			</array>
+		</dict>
+		<key>D8E45328F50A1D853A33A98F8651CE8D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ShareExtension.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DC84087FECA55E451546E26737BD9A8C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>911DC30555E06C59A22BCEE7A6FA3B5A</string>
+				<string>7498A807AC6E40E05C594705643561D3</string>
+				<string>0A28548B313DF3C0AEB318DC8ED5547D</string>
+				<string>8A4184EE8688315E14F8AF6206394B0A</string>
+				<string>3829BA52D472CB3A08A0F75BB26453EA</string>
+				<string>81A0C034AB7B0C15FFBE4F884D2473A5</string>
+				<string>D8E45328F50A1D853A33A98F8651CE8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-ShareExtension</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-ShareExtension</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF293546D1F7BBF0A3A7D586770DE0DB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C7CB849A83C311C227A75BB2C3B8D17F</string>
+				<string>EBAE40124143ADFBBBFC0EE70B8667FE</string>
+				<string>74F7ACB2DAFBCE316FAB5FE29C4758B0</string>
+				<string>DC84087FECA55E451546E26737BD9A8C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E2AEE295EDB2BBA76C31A4F022832049</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EC8CD3F857E7E6625B9C8A8B9E20A9A5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7788A371AF734C803217020812CEDF7</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-NotificationService.a</string>
+			<key>path</key>
+			<string>libPods-NotificationService.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EBAE40124143ADFBBBFC0EE70B8667FE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7616161AA2D8DC8AD10A35868D51096C</string>
+				<string>ECF9DDBAEE873D50FE4FE19CABB36BCF</string>
+				<string>F0D30E1CCFA81D0928E0CA39CE0607B0</string>
+				<string>A9A97481F6EDC6EAED55F2A4D76D075A</string>
+				<string>9FEA485B836EBA1A237D7BA7BA89C516</string>
+				<string>64298C3D92083392646331D29EF0DD09</string>
+				<string>EC43FB59F920492503365CCD0237BA67</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-NotificationContent</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-NotificationContent</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC43FB59F920492503365CCD0237BA67</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-NotificationContent.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC8CD3F857E7E6625B9C8A8B9E20A9A5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>path</key>
+			<string>CleverTapSDK.appex.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ECF9DDBAEE873D50FE4FE19CABB36BCF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-NotificationContent-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0D30E1CCFA81D0928E0CA39CE0607B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-NotificationContent-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F157379108EDE761B2D4F73AA7D41631</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-demo10.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F28D90240D629EF67ABE749467939CBE</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>81841EFE3C2EFEDD5C32AFDF796AD7DA</string>
+			<string>9E5D42A1C9EE744D22143D3398CB229D</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -742,6 +1803,64 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>F6494A0CC8DB28EFDC2C36075B0543B4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6D23976470A455B2B0BE5D912D502C4A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CleverTapSDK.appex.framework</string>
+			<key>path</key>
+			<string>CleverTapSDK.appex.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F86CE60C335E852A2D88C5706C21273B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-NotificationService-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA7C4E42AA01D09C5CD60D9E61E52844</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FACE06E6F41ECFBEEBD425212EDC39EF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4BAA053BFCD709474D815F7FD425B5B2</string>
+				<string>9F572537B61F2E285B2260E93861C3A6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CleverTap-iOS-SDK</string>
+			<key>path</key>
+			<string>../../clevertap-ios-sdk</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDCB1D95097178406C97550BE6343D58</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

@@ -1,1 +1,1 @@
-../../../../CleverTap-iOS-SDK/CleverTapSDK.framework/Headers/CleverTapInAppNotificationDelegate.h
+../../../../../../clevertap-ios-sdk/CleverTapSDK.framework/Headers/CleverTapInAppNotificationDelegate.h

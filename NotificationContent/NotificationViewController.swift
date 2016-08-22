@@ -16,6 +16,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        CleverTap.setDebugLevel(1277182231)
         // Do any required interface initialization here.
     }
     

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52B7F3D71D6B685C007DCFD4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */; };
+		52B7F3DA1D6B685C007DCFD4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */; };
+		52B7F3DE1D6B685C007DCFD4 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52C91CDF1D6B615700218734 /* libPods-NotificationContent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCF35AF4A04B8759B85A662 /* libPods-NotificationContent.a */; };
+		52C91CE01D6B615E00218734 /* libPods-NotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9943E8FA6D087A25BF97C2 /* libPods-NotificationService.a */; };
 		52CFDD281D639FFA00945DA7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFDD241D639FE400945DA7 /* NotificationService.swift */; };
 		52CFDD2F1D63A17100945DA7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFDD2E1D63A17100945DA7 /* UserNotifications.framework */; };
 		52CFDD311D63A17100945DA7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFDD301D63A17100945DA7 /* UserNotificationsUI.framework */; };
@@ -20,9 +25,17 @@
 		52F2363A1D637AF50027E5C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F236381D637AF50027E5C4 /* LaunchScreen.storyboard */; };
 		52F2364E1D639C870027E5C4 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52F236471D639C870027E5C4 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		680200F9F2715AB8842DECE9 /* libPods-demo10.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077F4BB2D30BBF62DF2F06BB /* libPods-demo10.a */; };
+		F8AC16B24376DD243A0431E9 /* libPods-ShareExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D3DA5758D23AD71D23DD2 /* libPods-ShareExtension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		52B7F3DC1D6B685C007DCFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F236241D637AF50027E5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B7F3D31D6B685C007DCFD4;
+			remoteInfo = ShareExtension;
+		};
 		52CFDD391D63A17100945DA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52F236241D637AF50027E5C4 /* Project object */;
@@ -46,6 +59,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				52B7F3DE1D6B685C007DCFD4 /* ShareExtension.appex in Embed App Extensions */,
 				52F2364E1D639C870027E5C4 /* NotificationService.appex in Embed App Extensions */,
 				52CFDD3B1D63A17100945DA7 /* NotificationContent.appex in Embed App Extensions */,
 			);
@@ -55,8 +69,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		016BE03D12045C37DA6D341C /* Pods-ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
 		077F4BB2D30BBF62DF2F06BB /* libPods-demo10.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo10.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A4092F132C16368A0E6587 /* Pods-demo10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo10/Pods-demo10.debug.xcconfig"; sourceTree = "<group>"; };
+		2D9943E8FA6D087A25BF97C2 /* libPods-NotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		52B7F3D91D6B685C007DCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		52B7F3DB1D6B685C007DCFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B7F3E21D6B9C96007DCFD4 /* extension-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "extension-bridging-header.h"; sourceTree = "<group>"; };
+		52C91CDC1D6B605600218734 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52C91CE11D6B61EA00218734 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		52CFDD231D639FE400945DA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52CFDD241D639FE400945DA7 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		52CFDD2D1D63A17100945DA7 /* NotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,14 +99,29 @@
 		52F236411D637C850027E5C4 /* bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
 		52F236421D6380FB0027E5C4 /* demo10.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = demo10.entitlements; sourceTree = "<group>"; };
 		52F236471D639C870027E5C4 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5690295DA251575FF4A2F1AE /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5BC5F6AA9D6B5844500127 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
 		9DCB25DD8145893DB2671DA5 /* Pods-demo10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo10.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo10/Pods-demo10.release.xcconfig"; sourceTree = "<group>"; };
+		B31DF93D6CBC185E424B055D /* Pods-NotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationContent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+		F13D3DA5758D23AD71D23DD2 /* libPods-ShareExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF148D262F7C4BE48DB4EDF /* Pods-NotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationContent.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		FFCF35AF4A04B8759B85A662 /* libPods-NotificationContent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationContent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52B7F3D11D6B685C007DCFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AC16B24376DD243A0431E9 /* libPods-ShareExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52CFDD2A1D63A17100945DA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C91CDF1D6B615700218734 /* libPods-NotificationContent.a in Frameworks */,
 				52CFDD311D63A17100945DA7 /* UserNotificationsUI.framework in Frameworks */,
 				52CFDD2F1D63A17100945DA7 /* UserNotifications.framework in Frameworks */,
 			);
@@ -100,12 +139,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C91CE01D6B615E00218734 /* libPods-NotificationService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52B7F3D51D6B685C007DCFD4 /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */,
+				52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */,
+				52B7F3DB1D6B685C007DCFD4 /* Info.plist */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
 		52CFDD221D639FE400945DA7 /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +181,7 @@
 				52F2362E1D637AF50027E5C4 /* demo10 */,
 				52CFDD221D639FE400945DA7 /* NotificationService */,
 				52CFDD321D63A17100945DA7 /* NotificationContent */,
+				52B7F3D51D6B685C007DCFD4 /* ShareExtension */,
 				52F2362D1D637AF50027E5C4 /* Products */,
 				85A323C5B10A46668C8E84C5 /* Pods */,
 				B252101F7B12716B0F4F8680 /* Frameworks */,
@@ -143,6 +194,7 @@
 				52F2362C1D637AF50027E5C4 /* demo10.app */,
 				52F236471D639C870027E5C4 /* NotificationService.appex */,
 				52CFDD2D1D63A17100945DA7 /* NotificationContent.appex */,
+				52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +204,7 @@
 			children = (
 				52F236421D6380FB0027E5C4 /* demo10.entitlements */,
 				52F236411D637C850027E5C4 /* bridging-header.h */,
+				52B7F3E21D6B9C96007DCFD4 /* extension-bridging-header.h */,
 				52F2362F1D637AF50027E5C4 /* AppDelegate.swift */,
 				52F236311D637AF50027E5C4 /* ViewController.swift */,
 				52F236331D637AF50027E5C4 /* Main.storyboard */,
@@ -167,6 +220,12 @@
 			children = (
 				18A4092F132C16368A0E6587 /* Pods-demo10.debug.xcconfig */,
 				9DCB25DD8145893DB2671DA5 /* Pods-demo10.release.xcconfig */,
+				B31DF93D6CBC185E424B055D /* Pods-NotificationContent.debug.xcconfig */,
+				FAF148D262F7C4BE48DB4EDF /* Pods-NotificationContent.release.xcconfig */,
+				5690295DA251575FF4A2F1AE /* Pods-NotificationService.debug.xcconfig */,
+				5A5BC5F6AA9D6B5844500127 /* Pods-NotificationService.release.xcconfig */,
+				3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */,
+				016BE03D12045C37DA6D341C /* Pods-ShareExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -174,9 +233,14 @@
 		B252101F7B12716B0F4F8680 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52C91CE11D6B61EA00218734 /* CoreGraphics.framework */,
+				52C91CDC1D6B605600218734 /* UIKit.framework */,
 				077F4BB2D30BBF62DF2F06BB /* libPods-demo10.a */,
 				52CFDD2E1D63A17100945DA7 /* UserNotifications.framework */,
 				52CFDD301D63A17100945DA7 /* UserNotificationsUI.framework */,
+				FFCF35AF4A04B8759B85A662 /* libPods-NotificationContent.a */,
+				2D9943E8FA6D087A25BF97C2 /* libPods-NotificationService.a */,
+				F13D3DA5758D23AD71D23DD2 /* libPods-ShareExtension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,13 +248,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		52B7F3D31D6B685C007DCFD4 /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B7F3E11D6B685C007DCFD4 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				B483A22BC315EBB763C25A63 /* [CP] Check Pods Manifest.lock */,
+				52B7F3D01D6B685C007DCFD4 /* Sources */,
+				52B7F3D11D6B685C007DCFD4 /* Frameworks */,
+				52B7F3D21D6B685C007DCFD4 /* Resources */,
+				B08A5D988BF50D33F0C741EA /* [CP] Embed Pods Frameworks */,
+				3034CF7DEFB1658C8783405C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareExtension;
+			productName = ShareExtension;
+			productReference = 52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		52CFDD2C1D63A17100945DA7 /* NotificationContent */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52CFDD3C1D63A17100945DA7 /* Build configuration list for PBXNativeTarget "NotificationContent" */;
 			buildPhases = (
+				C1C29A9FDDF7CC9A23672F72 /* [CP] Check Pods Manifest.lock */,
 				52CFDD291D63A17100945DA7 /* Sources */,
 				52CFDD2A1D63A17100945DA7 /* Frameworks */,
 				52CFDD2B1D63A17100945DA7 /* Resources */,
+				9E998A41D369226D705CA2FC /* [CP] Embed Pods Frameworks */,
+				48F4F5A5D8A212CFDEF83948 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +305,7 @@
 			dependencies = (
 				52F2364D1D639C870027E5C4 /* PBXTargetDependency */,
 				52CFDD3A1D63A17100945DA7 /* PBXTargetDependency */,
+				52B7F3DD1D6B685C007DCFD4 /* PBXTargetDependency */,
 			);
 			name = demo10;
 			productName = demo10;
@@ -228,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52F2364F1D639C870027E5C4 /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
+				DFDC6179D94D4B0314B84224 /* [CP] Check Pods Manifest.lock */,
 				52F236431D639C870027E5C4 /* Sources */,
 				52F236441D639C870027E5C4 /* Frameworks */,
 				52F236451D639C870027E5C4 /* Resources */,
+				065F6BDB9464FCD9EFABD7B8 /* [CP] Embed Pods Frameworks */,
+				328B88EA0536891B2792B1B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +342,11 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CleverTap;
 				TargetAttributes = {
+					52B7F3D31D6B685C007DCFD4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A5J34NR598;
+						ProvisioningStyle = Automatic;
+					};
 					52CFDD2C1D63A17100945DA7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = A5J34NR598;
@@ -292,11 +388,20 @@
 				52F2362B1D637AF50027E5C4 /* demo10 */,
 				52F236461D639C870027E5C4 /* NotificationService */,
 				52CFDD2C1D63A17100945DA7 /* NotificationContent */,
+				52B7F3D31D6B685C007DCFD4 /* ShareExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52B7F3D21D6B685C007DCFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B7F3DA1D6B685C007DCFD4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52CFDD2B1D63A17100945DA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,6 +430,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		065F6BDB9464FCD9EFABD7B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3034CF7DEFB1658C8783405C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		328B88EA0536891B2792B1B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F4F5A5D8A212CFDEF83948 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7C787A0FB64956FA50CBB8AB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,7 +520,82 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo10/Pods-demo10-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9E998A41D369226D705CA2FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08A5D988BF50D33F0C741EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B483A22BC315EBB763C25A63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1C29A9FDDF7CC9A23672F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		C6181FEBB991D35E3ADDE4DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFDC6179D94D4B0314B84224 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,6 +613,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		52B7F3D01D6B685C007DCFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B7F3D71D6B685C007DCFD4 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52CFDD291D63A17100945DA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,6 +649,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		52B7F3DD1D6B685C007DCFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B7F3D31D6B685C007DCFD4 /* ShareExtension */;
+			targetProxy = 52B7F3DC1D6B685C007DCFD4 /* PBXContainerItemProxy */;
+		};
 		52CFDD3A1D63A17100945DA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 52CFDD2C1D63A17100945DA7 /* NotificationContent */;
@@ -414,6 +667,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B7F3D91D6B685C007DCFD4 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		52CFDD351D63A17100945DA7 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,28 +702,126 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		52CFDD3D1D63A17100945DA7 /* Debug */ = {
+		52B7F3DF1D6B685C007DCFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = A5J34NR598;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../clevertap-ios-sdk\"/**",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"CleverTapSDK.appex\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52B7F3E01D6B685C007DCFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016BE03D12045C37DA6D341C /* Pods-ShareExtension.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A5J34NR598;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../clevertap-ios-sdk\"/**",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"CleverTapSDK.appex\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		52CFDD3D1D63A17100945DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31DF93D6CBC185E424B055D /* Pods-NotificationContent.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A5J34NR598;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../clevertap-ios-sdk\"/**",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = NotificationContent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		52CFDD3E1D63A17100945DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF148D262F7C4BE48DB4EDF /* Pods-NotificationContent.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = A5J34NR598;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../clevertap-ios-sdk\"/**",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = NotificationContent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -598,26 +957,38 @@
 		};
 		52F236501D639C870027E5C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5690295DA251575FF4A2F1AE /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = A5J34NR598;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../clevertap-ios-sdk\"/**",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/NotificationService/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		52F236511D639C870027E5C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5BC5F6AA9D6B5844500127 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = A5J34NR598;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../clevertap-ios-sdk\"/**",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/NotificationService/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -625,6 +996,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		52B7F3E11D6B685C007DCFD4 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B7F3DF1D6B685C007DCFD4 /* Debug */,
+				52B7F3E01D6B685C007DCFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52CFDD3C1D63A17100945DA7 /* Build configuration list for PBXNativeTarget "NotificationContent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -632,6 +1012,7 @@
 				52CFDD3E1D63A17100945DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52F236271D637AF50027E5C4 /* Build configuration list for PBXProject "demo10" */ = {
 			isa = XCConfigurationList;

@@ -1,1 +1,1 @@
-../../../../CleverTap-iOS-SDK/CleverTapSDK.framework/Headers/CleverTapUTMDetail.h
+../../../../../../clevertap-ios-sdk/CleverTapSDK.framework/Headers/CleverTapUTMDetail.h

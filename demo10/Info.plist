@@ -18,6 +18,10 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>CleverTapAccountID</key>
+	<string>487-66K-Z74Z</string>
+	<key>CleverTapToken</key>
+	<string>366-ab4</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -28,6 +32,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -41,9 +47,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>CleverTapAccountID</key>
-	<string>487-66K-Z74Z</string>
-	<key>CleverTapToken</key>
-	<string>366-ab4</string>
 </dict>
 </plist>

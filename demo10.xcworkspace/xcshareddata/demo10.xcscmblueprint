@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A95558FA6A134D622963E18C72EC9EE7DE256904",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A95558FA6A134D622963E18C72EC9EE7DE256904" : 9223372036854775807,
+    "E7F2737C934D502567EAFD9D71CD56D25951FF12" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "89485251-267E-4437-81A5-21CB12E85996",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A95558FA6A134D622963E18C72EC9EE7DE256904" : "demo10\/",
+    "E7F2737C934D502567EAFD9D71CD56D25951FF12" : "clevertap-ios-sdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "demo10",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "demo10.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CleverTap\/ios-10-demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A95558FA6A134D622963E18C72EC9EE7DE256904"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CleverTap\/clevertap-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E7F2737C934D502567EAFD9D71CD56D25951FF12"
+    }
+  ]
+}

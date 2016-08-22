@@ -1,1 +1,1 @@
-../../../../CleverTap-iOS-SDK/CleverTapSDK.framework/Headers/CleverTapSyncDelegate.h
+../../../../../../clevertap-ios-sdk/CleverTapSDK.framework/Headers/CleverTapSyncDelegate.h
