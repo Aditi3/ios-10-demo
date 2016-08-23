@@ -10,5 +10,4 @@
 #import <CleverTapSDK.appex/CleverTapBuildInfo.h>
 #import <CleverTapSDK.appex/CleverTapEventDetail.h>
 #import <CleverTapSDK.appex/CleverTapSyncDelegate.h>
-#import <CleverTapSDK.appex/CleverTapInAppNotificationDelegate.h>
 #import <CleverTapSDK.appex/CleverTapUTMDetail.h>

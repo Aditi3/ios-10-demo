@@ -99,16 +99,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0F3DEA33CDAF256D4A5B62163CD2AEB6</key>
+		<key>1123E9229CBCE356CCDCFA7306B510E1</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>E3C439402D9647F1DECD5A4655E06FE3</string>
+				<string>C0B381091AEF801FC752979A6EEA1228</string>
+				<string>9A6A25884D6C08A6F402F73780DF42F9</string>
+				<string>DA7F7B2E29485E7FA8468FAF6ECA3B88</string>
+				<string>F9C3788FAB676C3C0A47D30BCDC77B9A</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Headers</string>
 			<key>path</key>
-			<string>CleverTapEventDetail.h</string>
+			<string>Headers</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -190,26 +196,6 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>2792531A075290BC00B0D032360BA6C9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>78C614561383F2A0ADB4D62C1B426FFC</string>
-				<string>BB3BEAC0426F82E5879313560E7D4FF3</string>
-				<string>0F3DEA33CDAF256D4A5B62163CD2AEB6</string>
-				<string>93C929F7F505CB3505FCE0EE642D8899</string>
-				<string>845B8C785634002E2896B49D3C1ED5F4</string>
-				<string>67C7F126AD4E6455F08B3F7641D689DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Headers</string>
-			<key>path</key>
-			<string>Headers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>288AEA5DD1A28C29BDF47736AE2D684C</key>
 		<dict>
@@ -629,34 +615,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6767165C0FE819CD37012CB59E03AFEE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2792531A075290BC00B0D032360BA6C9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>A</string>
-			<key>path</key>
-			<string>A</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67C7F126AD4E6455F08B3F7641D689DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapUTMDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>693E9E1577B0F4F9786F782745DFD3B2</key>
 		<dict>
 			<key>children</key>
@@ -681,7 +639,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6767165C0FE819CD37012CB59E03AFEE</string>
+				<string>BB1ED8BA721386C9E7BFA4CB3DC56B19</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -762,19 +720,6 @@
 			<string>text</string>
 			<key>path</key>
 			<string>Pods-NotificationContent-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78C614561383F2A0ADB4D62C1B426FFC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTap.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -913,19 +858,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>845B8C785634002E2896B49D3C1ED5F4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapSyncDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>86F74C7C75EB6434375AD1CBEC05983B</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1010,19 +942,6 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>93C929F7F505CB3505FCE0EE642D8899</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapInAppNotificationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>94F8C86E8E9992853DDA1330C17CBCF4</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1102,6 +1021,19 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>9A6A25884D6C08A6F402F73780DF42F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapEventDetail.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9D2DD6D24083891F9C46929C9FFABC48</key>
 		<dict>
@@ -1474,16 +1406,18 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>BB3BEAC0426F82E5879313560E7D4FF3</key>
+		<key>BB1ED8BA721386C9E7BFA4CB3DC56B19</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>1123E9229CBCE356CCDCFA7306B510E1</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>A</string>
 			<key>path</key>
-			<string>CleverTapBuildInfo.h</string>
+			<string>A</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1497,6 +1431,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C0B381091AEF801FC752979A6EEA1228</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapBuildInfo.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1615,6 +1562,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>DA7F7B2E29485E7FA8468FAF6ECA3B88</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapSyncDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>DC84087FECA55E451546E26737BD9A8C</key>
 		<dict>
 			<key>children</key>
@@ -1662,6 +1622,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E3C439402D9647F1DECD5A4655E06FE3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTap.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1829,6 +1802,19 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-NotificationService-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9C3788FAB676C3C0A47D30BCDC77B9A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapUTMDetail.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

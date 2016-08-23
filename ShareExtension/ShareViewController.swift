@@ -11,13 +11,6 @@ import Social
 
 class ShareViewController: SLComposeServiceViewController {
     
-    override static func initialize() {
-        super.initialize()
-        print("initialized")
-        CleverTap.setDebugLevel(1277182231)
-        //CleverTap.sharedInstance().recordEvent("ShareFOOEventInit")
-    }
-
     override func isContentValid() -> Bool {
         // Do validation of contentText and/or NSExtensionContext attachments here
         return true
