@@ -8,11 +8,14 @@
 
 import UIKit
 import UserNotifications
+import SharedManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    let appGroupName: String = "group.com.clevertap.demo10"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -29,6 +32,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             }
         }
+        
+        let userId = "123456"
+        var sharedManager = SharedManager(forAppGroup: appGroupName)
+        sharedManager.userId = "123456"
+        CleverTap.sharedInstance().onUserLogin(["Identity":userId])
         
         return true
     }

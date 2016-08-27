@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		526CB4761D713CC5003DA1A3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526CB4741D713ADD003DA1A3 /* Media.xcassets */; };
+		526197071D720160000705E5 /* SharedManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 526197051D720160000705E5 /* SharedManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5261970A1D720160000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
+		5261970B1D720160000705E5 /* SharedManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		526197101D7202CD000705E5 /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261970F1D7202CD000705E5 /* SharedManager.swift */; };
+		526197111D7206E9000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
+		526197121D7206F1000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
+		526197131D7206F6000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
+		526197141D721487000705E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526CB4741D713ADD003DA1A3 /* Images.xcassets */; };
 		52B7F3D71D6B685C007DCFD4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */; };
 		52B7F3DA1D6B685C007DCFD4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */; };
 		52B7F3DE1D6B685C007DCFD4 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -30,6 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		526197081D720160000705E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F236241D637AF50027E5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526197021D720160000705E5;
+			remoteInfo = SharedManager;
+		};
 		52B7F3DC1D6B685C007DCFD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52F236241D637AF50027E5C4 /* Project object */;
@@ -54,6 +68,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		526196FD1D71F809000705E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5261970B1D720160000705E5 /* SharedManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52F236521D639C870027E5C4 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,7 +100,14 @@
 		18A4092F132C16368A0E6587 /* Pods-demo10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo10/Pods-demo10.debug.xcconfig"; sourceTree = "<group>"; };
 		2D9943E8FA6D087A25BF97C2 /* libPods-NotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		526CB4741D713ADD003DA1A3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../demo10/Media.xcassets; sourceTree = "<group>"; };
+		526196E91D71F525000705E5 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
+		526196EA1D71F531000705E5 /* NotificationContent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationContent.entitlements; sourceTree = "<group>"; };
+		526196EB1D71F535000705E5 /* ShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareExtension.entitlements; sourceTree = "<group>"; };
+		526197031D720160000705E5 /* SharedManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		526197051D720160000705E5 /* SharedManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedManager.h; sourceTree = "<group>"; };
+		526197061D720160000705E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5261970F1D7202CD000705E5 /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedManager.swift; sourceTree = "<group>"; };
+		526CB4741D713ADD003DA1A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../demo10/Images.xcassets; sourceTree = "<group>"; };
 		52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		52B7F3D91D6B685C007DCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -111,10 +143,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		526196FF1D720160000705E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52B7F3D11D6B685C007DCFD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526197131D7206F6000705E5 /* SharedManager.framework in Frameworks */,
 				F8AC16B24376DD243A0431E9 /* libPods-ShareExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526197121D7206F1000705E5 /* SharedManager.framework in Frameworks */,
 				52C91CDF1D6B615700218734 /* libPods-NotificationContent.a in Frameworks */,
 				52CFDD311D63A17100945DA7 /* UserNotificationsUI.framework in Frameworks */,
 				52CFDD2F1D63A17100945DA7 /* UserNotifications.framework in Frameworks */,
@@ -134,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				680200F9F2715AB8842DECE9 /* libPods-demo10.a in Frameworks */,
+				5261970A1D720160000705E5 /* SharedManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526197111D7206E9000705E5 /* SharedManager.framework in Frameworks */,
 				52C91CE01D6B615E00218734 /* libPods-NotificationService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,9 +191,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526197041D720160000705E5 /* SharedManager */ = {
+			isa = PBXGroup;
+			children = (
+				526197051D720160000705E5 /* SharedManager.h */,
+				5261970F1D7202CD000705E5 /* SharedManager.swift */,
+				526197061D720160000705E5 /* Info.plist */,
+				526CB4741D713ADD003DA1A3 /* Images.xcassets */,
+			);
+			path = SharedManager;
+			sourceTree = "<group>";
+		};
 		52B7F3D51D6B685C007DCFD4 /* ShareExtension */ = {
 			isa = PBXGroup;
 			children = (
+				526196EB1D71F535000705E5 /* ShareExtension.entitlements */,
 				52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */,
 				52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */,
 				52B7F3DB1D6B685C007DCFD4 /* Info.plist */,
@@ -161,7 +216,7 @@
 		52CFDD221D639FE400945DA7 /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
-				526CB4741D713ADD003DA1A3 /* Media.xcassets */,
+				526196E91D71F525000705E5 /* NotificationService.entitlements */,
 				52CFDD241D639FE400945DA7 /* NotificationService.swift */,
 				52CFDD231D639FE400945DA7 /* Info.plist */,
 			);
@@ -171,6 +226,7 @@
 		52CFDD321D63A17100945DA7 /* NotificationContent */ = {
 			isa = PBXGroup;
 			children = (
+				526196EA1D71F531000705E5 /* NotificationContent.entitlements */,
 				52CFDD331D63A17100945DA7 /* NotificationViewController.swift */,
 				52CFDD351D63A17100945DA7 /* MainInterface.storyboard */,
 				52CFDD381D63A17100945DA7 /* Info.plist */,
@@ -185,6 +241,7 @@
 				52CFDD221D639FE400945DA7 /* NotificationService */,
 				52CFDD321D63A17100945DA7 /* NotificationContent */,
 				52B7F3D51D6B685C007DCFD4 /* ShareExtension */,
+				526197041D720160000705E5 /* SharedManager */,
 				52F2362D1D637AF50027E5C4 /* Products */,
 				85A323C5B10A46668C8E84C5 /* Pods */,
 				B252101F7B12716B0F4F8680 /* Frameworks */,
@@ -198,6 +255,7 @@
 				52F236471D639C870027E5C4 /* NotificationService.appex */,
 				52CFDD2D1D63A17100945DA7 /* NotificationContent.appex */,
 				52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */,
+				526197031D720160000705E5 /* SharedManager.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,7 +308,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		526197001D720160000705E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526197071D720160000705E5 /* SharedManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		526197021D720160000705E5 /* SharedManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5261970C1D720160000705E5 /* Build configuration list for PBXNativeTarget "SharedManager" */;
+			buildPhases = (
+				526196FE1D720160000705E5 /* Sources */,
+				526196FF1D720160000705E5 /* Frameworks */,
+				526197001D720160000705E5 /* Headers */,
+				526197011D720160000705E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedManager;
+			productName = SharedManager;
+			productReference = 526197031D720160000705E5 /* SharedManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		52B7F3D31D6B685C007DCFD4 /* ShareExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52B7F3E11D6B685C007DCFD4 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
@@ -302,6 +389,7 @@
 				7C787A0FB64956FA50CBB8AB /* [CP] Embed Pods Frameworks */,
 				7E848A09805792C689F7C31D /* [CP] Copy Pods Resources */,
 				52F236521D639C870027E5C4 /* Embed App Extensions */,
+				526196FD1D71F809000705E5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,6 +397,7 @@
 				52F2364D1D639C870027E5C4 /* PBXTargetDependency */,
 				52CFDD3A1D63A17100945DA7 /* PBXTargetDependency */,
 				52B7F3DD1D6B685C007DCFD4 /* PBXTargetDependency */,
+				526197091D720160000705E5 /* PBXTargetDependency */,
 			);
 			name = demo10;
 			productName = demo10;
@@ -345,15 +434,31 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CleverTap;
 				TargetAttributes = {
+					526197021D720160000705E5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A5J34NR598;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
 					52B7F3D31D6B685C007DCFD4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = A5J34NR598;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					52CFDD2C1D63A17100945DA7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = A5J34NR598;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					52F2362B1D637AF50027E5C4 = {
 						CreatedOnToolsVersion = 8.0;
@@ -372,6 +477,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = A5J34NR598;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -392,11 +502,20 @@
 				52F236461D639C870027E5C4 /* NotificationService */,
 				52CFDD2C1D63A17100945DA7 /* NotificationContent */,
 				52B7F3D31D6B685C007DCFD4 /* ShareExtension */,
+				526197021D720160000705E5 /* SharedManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		526197011D720160000705E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526197141D721487000705E5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52B7F3D21D6B685C007DCFD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,7 +546,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526CB4761D713CC5003DA1A3 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +735,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		526196FE1D720160000705E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526197101D7202CD000705E5 /* SharedManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52B7F3D01D6B685C007DCFD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -653,6 +779,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		526197091D720160000705E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526197021D720160000705E5 /* SharedManager */;
+			targetProxy = 526197081D720160000705E5 /* PBXContainerItemProxy */;
+		};
 		52B7F3DD1D6B685C007DCFD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 52B7F3D31D6B685C007DCFD4 /* ShareExtension */;
@@ -706,10 +837,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5261970D1D720160000705E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A5J34NR598;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SharedManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.SharedManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5261970E1D720160000705E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A5J34NR598;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SharedManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.SharedManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		52B7F3DF1D6B685C007DCFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -749,6 +930,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 016BE03D12045C37DA6D341C /* Pods-ShareExtension.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -788,6 +970,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B31DF93D6CBC185E424B055D /* Pods-NotificationContent.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationContent/NotificationContent.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -811,6 +994,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FAF148D262F7C4BE48DB4EDF /* Pods-NotificationContent.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationContent/NotificationContent.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -963,6 +1147,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5690295DA251575FF4A2F1AE /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -982,6 +1167,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A5BC5F6AA9D6B5844500127 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1000,6 +1186,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5261970C1D720160000705E5 /* Build configuration list for PBXNativeTarget "SharedManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5261970D1D720160000705E5 /* Debug */,
+				5261970E1D720160000705E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		52B7F3E11D6B685C007DCFD4 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
