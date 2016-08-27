@@ -19,7 +19,7 @@ class ShareViewController: SLComposeServiceViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         CleverTap.setDebugLevel(1277182231)
-        CleverTap.sharedInstance().recordEvent("ShareFOOEvent")
+        CleverTap.sharedInstance().recordEvent("CustomShareEvent")
     }
 
     override func didSelectPost() {

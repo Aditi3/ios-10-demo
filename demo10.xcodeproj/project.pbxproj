@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526CB4761D713CC5003DA1A3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526CB4741D713ADD003DA1A3 /* Media.xcassets */; };
 		52B7F3D71D6B685C007DCFD4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */; };
 		52B7F3DA1D6B685C007DCFD4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */; };
 		52B7F3DE1D6B685C007DCFD4 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -74,6 +75,7 @@
 		18A4092F132C16368A0E6587 /* Pods-demo10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo10/Pods-demo10.debug.xcconfig"; sourceTree = "<group>"; };
 		2D9943E8FA6D087A25BF97C2 /* libPods-NotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		526CB4741D713ADD003DA1A3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../demo10/Media.xcassets; sourceTree = "<group>"; };
 		52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		52B7F3D91D6B685C007DCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		52CFDD221D639FE400945DA7 /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
+				526CB4741D713ADD003DA1A3 /* Media.xcassets */,
 				52CFDD241D639FE400945DA7 /* NotificationService.swift */,
 				52CFDD231D639FE400945DA7 /* Info.plist */,
 			);
@@ -424,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526CB4761D713CC5003DA1A3 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
