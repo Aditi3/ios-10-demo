@@ -75,7 +75,7 @@ extension UIImage: MediaAttachment {
 
 fileprivate extension UNNotificationAttachment {
     
-    static func create<T: MediaAttachment>(media: T) -> UNNotificationAttachment? {
+    static func create<T: MediaAttachment>(fromMedia media: T) -> UNNotificationAttachment? {
         let fileManager = FileManager.default
         let tmpSubFolderName = ProcessInfo.processInfo.globallyUniqueString
         let tmpSubFolderURL = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent(tmpSubFolderName, isDirectory: true)
@@ -213,7 +213,7 @@ public struct SharedManager {
         case .image:
             loadImage(urlString: url, completion: { image, error in
                 if (image != nil) {
-                    if let attachment = UNNotificationAttachment.create(media: image!) {
+                    if let attachment = UNNotificationAttachment.create(fromMedia: image!) {
                         completionHandler(attachment)
                         return
                     }
@@ -224,7 +224,7 @@ public struct SharedManager {
         case .gif:
             loadGIF(urlString: url, completion: { gif, error in
                 if (gif != nil) {
-                    if let attachment = UNNotificationAttachment.create(media: gif!) {
+                    if let attachment = UNNotificationAttachment.create(fromMedia: gif!) {
                         completionHandler(attachment)
                         return
                     }
