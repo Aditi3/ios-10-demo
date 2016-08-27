@@ -14,7 +14,6 @@ class NotificationService: UNNotificationServiceExtension {
 
     var contentHandler: ((UNNotificationContent) -> Void)?
     var bestAttemptContent: UNMutableNotificationContent?
-    
     let appGroupName: String = "group.com.clevertap.demo10"
 
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
@@ -35,8 +34,8 @@ class NotificationService: UNNotificationServiceExtension {
             // check for a media attachment
             let userInfo = bestAttemptContent.userInfo
             guard
-                let _mediaType = userInfo["mediaType"] as? String,
                 let url = userInfo["mediaUrl"] as? String,
+                let _mediaType = userInfo["mediaType"] as? String,
                 let mediaType = MediaType(rawValue:_mediaType)
                 else {
                     contentHandler(bestAttemptContent)
