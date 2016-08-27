@@ -74,16 +74,39 @@ fileprivate extension UNNotificationAttachment {
     }
     
     static func create(fileIdentifier: String, fileUrl: URL, options: [String : Any]? = nil) -> UNNotificationAttachment? {
+        var n: UNNotificationAttachment?
         do {
-            return try UNNotificationAttachment(identifier: fileIdentifier, url: fileUrl, options: options)
+            n = try UNNotificationAttachment(identifier: fileIdentifier, url: fileUrl, options: options)
         } catch {
             print("error " + error.localizedDescription)
         }
-        return nil
+        return n
     }
 }
 
+private func localResourceURL(forUrlString url: String) -> URL? {
+    if (url.hasPrefix("http")) { return nil }
+    
+    let components = url.components(separatedBy: ".")
+    guard let fileName = components.first as String?, let ext = components.last as String? else {
+        return nil
+    }
+    
+    return Bundle(identifier: "com.clevertap.SharedManager")?.url(forResource: fileName, withExtension: ext)
+}
+
+private func imageFromLocalUrl(urlString url : String) -> UIImage? {
+    guard let localURL = localResourceURL(forUrlString: url) else { return nil }
+    return UIImage(contentsOfFile: localURL.path)
+}
+
 private func loadImage(urlString:String, completion: @escaping (UIImage?, Error?) -> Void) {
+    
+    if let localImage = imageFromLocalUrl(urlString: urlString) {
+        completion(localImage, nil)
+        return
+    }
+    
     loadRemoteMedia(urlString: urlString, completion: { data, error in
         guard let _ = data else {
             completion(nil, error)
@@ -134,49 +157,23 @@ public struct SharedManager {
     }
     
     public func createNotificationAttachment(forMediaType mediaType: MediaType, withUrl url: String, completionHandler: ((UNNotificationAttachment?) -> Void)) {
-        // check to see if the url is local or remote
-        
-        if (!url.hasPrefix("http")) {
-            // looking for a filename e.g. image.jpg
-            let components = url.components(separatedBy: ".")
-            guard let fileName = components.first as String?, let ext = components.last as String? else {
-                completionHandler(nil)
-                return
-            }
-            
-            print(Bundle.main.url(forResource: fileName, withExtension: ext))
-            
-            if let resourceUrl = Bundle.main.url(forResource: fileName, withExtension: ext) {
-                if FileManager.default.fileExists(atPath: resourceUrl.path) {
-                    if let attachment = UNNotificationAttachment.create(fileIdentifier: fileName, fileUrl: resourceUrl, options: MediaType.attachmentOptions(forType: mediaType)) {
+        switch(mediaType) {
+        case MediaType.image:
+            loadImage(urlString: url, completion: { image, error in
+                if (image != nil) {
+                    if let attachment = UNNotificationAttachment.create(media: image!, options: image!.attachmentOptions) {
                         completionHandler(attachment)
                         return
                     }
-                    
                 }
-            }
-            completionHandler(nil)
-        }
-        
-        else {
-            switch(mediaType) {
-            case MediaType.image:
-                loadImage(urlString: url, completion: { image, error in
-                    if (image != nil) {
-                        if let attachment = UNNotificationAttachment.create(media: image!, options: image!.attachmentOptions) {
-                            completionHandler(attachment)
-                            return
-                        }
-                    }
-                    completionHandler(nil)
-                })
-                
-            case MediaType.video:
-                break
-                
-            case MediaType.audio:
-                break
-            }
+                completionHandler(nil)
+            })
+            
+        case MediaType.video:
+            break
+            
+        case MediaType.audio:
+            break
         }
     }
 }
