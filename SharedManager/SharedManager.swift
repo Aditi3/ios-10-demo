@@ -91,8 +91,7 @@ private func localResourceURL(forUrlString url: String) -> URL? {
     guard let fileName = components.first as String?, let ext = components.last as String? else {
         return nil
     }
-    
-    return Bundle(identifier: "com.clevertap.SharedManager")?.url(forResource: fileName, withExtension: ext)
+    return SharedManager.bundle?.url(forResource: fileName, withExtension: ext)
 }
 
 private func imageFromLocalUrl(urlString url : String) -> UIImage? {
@@ -126,6 +125,9 @@ private func loadRemoteMedia(urlString: String, completion: @escaping (Data?, Er
 }
 
 public struct SharedManager {
+    
+    static var bundle: Bundle? = Bundle(identifier: "com.clevertap.SharedManager")
+    
     private var appGroupName: String
     
     private let userIdKey = "userId"
