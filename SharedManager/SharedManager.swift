@@ -14,9 +14,21 @@ public enum MediaType: String {
     case gif = "gif"
     case video = "video"
     case audio = "audio"
+}
+
+fileprivate struct Media {
+    private var data: Data
+    private var ext: String
+    private var type: MediaType
     
-    fileprivate static func attachmentOptions(forType type: MediaType) -> [String: Any?] {
-        switch(type) {
+    init(forMediaType mediaType: MediaType, withData data: Data, fileExtension ext: String) {
+        self.type = mediaType
+        self.data = data
+        self.ext = ext
+    }
+    
+    var attachmentOptions: [String: Any?] {
+        switch(self.type) {
         case .image:
             return [UNNotificationAttachmentOptionsThumbnailClippingRectKey: CGRect(x: 0.0, y: 0.0, width: 1.0, height: 0.50).dictionaryRepresentation]
         case .gif:
@@ -27,27 +39,13 @@ public enum MediaType: String {
             return [UNNotificationAttachmentOptionsThumbnailTimeKey: 0]
         }
     }
-}
-
-fileprivate protocol MediaAttachment {
-    var fileIdentifier: String { get }
-    var attachmentOptions: [String: Any?] { get }
-    var mediaData: Data? { get }
-}
-
-fileprivate struct GIF: MediaAttachment {
-    private var data: Data?
-    
-    init(withData data: Data) {
-        self.data = data
-    }
-
-    var attachmentOptions: [String: Any?] {
-        return MediaType.attachmentOptions(forType: .gif)
-    }
     
     var fileIdentifier: String {
-        return "image.gif"
+        return self.type.rawValue
+    }
+    
+    var fileExt: String {
+        return self.ext
     }
     
     var mediaData: Data? {
@@ -55,33 +53,15 @@ fileprivate struct GIF: MediaAttachment {
     }
 }
 
-extension UIImage: MediaAttachment {
-    
-    var attachmentOptions: [String: Any?] {
-        return MediaType.attachmentOptions(forType: .image)
-    }
-    
-    var fileIdentifier: String {
-        return "image.png"
-    }
-    
-    var mediaData: Data? {
-        guard let data = UIImagePNGRepresentation(self) else {
-            return nil
-        }
-        return data
-    }
-}
-
 fileprivate extension UNNotificationAttachment {
     
-    static func create<T: MediaAttachment>(fromMedia media: T) -> UNNotificationAttachment? {
+    static func create(fromMedia media: Media) -> UNNotificationAttachment? {
         let fileManager = FileManager.default
         let tmpSubFolderName = ProcessInfo.processInfo.globallyUniqueString
         let tmpSubFolderURL = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent(tmpSubFolderName, isDirectory: true)
         do {
             try fileManager.createDirectory(at: tmpSubFolderURL, withIntermediateDirectories: true, attributes: nil)
-            let fileIdentifier = media.fileIdentifier
+            let fileIdentifier = "\(media.fileIdentifier).\(media.fileExt)"
             let fileURL = tmpSubFolderURL.appendingPathComponent(fileIdentifier)
             
             guard let data = media.mediaData else {
@@ -107,71 +87,41 @@ fileprivate extension UNNotificationAttachment {
     }
 }
 
-private func localResourceURL(forUrlString url: String) -> URL? {
-    if (url.hasPrefix("http")) { return nil }
+private func resourceURL(forUrlString urlString: String) -> URL? {
     
-    let components = url.components(separatedBy: ".")
-    guard let fileName = components.first as String?, let ext = components.last as String? else {
-        return nil
+    var url = URL(string: urlString)
+    
+    if (!urlString.hasPrefix("http")) {
+        // expect a filename with extension e.g. logo.png
+        let components = urlString.components(separatedBy: ".")
+        guard let fileName = components.first as String?, let ext = components.last as String? else {
+            return nil
+        }
+        if let localURL = SharedManager.bundle?.url(forResource: fileName, withExtension: ext) {
+            url = localURL
+        }
     }
-    return SharedManager.bundle?.url(forResource: fileName, withExtension: ext)
+    return url
 }
 
-private func imageFromLocalUrl(urlString url : String) -> UIImage? {
-    guard let localURL = localResourceURL(forUrlString: url) else { return nil }
-    return UIImage(contentsOfFile: localURL.path)
-}
-
-private func gifFromLocalUrl(urlString url : String) -> GIF? {
-    guard let localURL = localResourceURL(forUrlString: url) else { return nil }
+private func loadAttachment(forMediaType mediaType: MediaType, withUrlString urlString: String, completionHandler: ((UNNotificationAttachment?) -> Void)) {
+    guard let url = resourceURL(forUrlString: urlString) else {
+        completionHandler(nil)
+        return
+    }
     
     do {
-        let data = try Data(contentsOf: localURL)
-        return GIF(withData: data)
+        let data = try Data(contentsOf: url)
+        let media = Media(forMediaType: mediaType, withData: data, fileExtension: url.pathExtension)
+        if let attachment = UNNotificationAttachment.create(fromMedia: media) {
+            completionHandler(attachment)
+            return
+        }
+        completionHandler(nil)
     } catch {
         print("error " + error.localizedDescription)
-        return nil
+        completionHandler(nil)
     }
-}
-
-private func loadImage(urlString:String, completion: @escaping (UIImage?, Error?) -> Void) {
-    if let localImage = imageFromLocalUrl(urlString: urlString) {
-        completion(localImage, nil)
-        return
-    }
-    
-    loadRemoteMedia(urlString: urlString, completion: { data, error in
-        guard let _ = data else {
-            completion(nil, error)
-            return
-        }
-        completion(UIImage(data: data!), nil)
-    })
-}
-
-private func loadGIF(urlString:String, completion: @escaping (GIF?, Error?) -> Void) {
-    if let gif = gifFromLocalUrl(urlString: urlString) {
-        completion(gif, nil)
-        return
-    }
-    
-    loadRemoteMedia(urlString: urlString, completion: { data, error in
-        guard let _ = data else {
-            completion(nil, error)
-            return
-        }
-        completion(GIF(withData: data!), nil)
-    })
-}
-
-private func loadRemoteMedia(urlString: String, completion: @escaping (Data?, Error?) -> Void) {
-    let mediaUrl = URL(string: urlString)!
-    URLSession.shared
-        .dataTask(with: mediaUrl, completionHandler: { data, response, error in
-            if (error != nil) { print(error?.localizedDescription) }
-            completion(data, error)
-        })
-        .resume()
 }
 
 public struct SharedManager {
@@ -208,35 +158,10 @@ public struct SharedManager {
         sharedUserDefaults?.synchronize()
     }
     
-    public func createNotificationAttachment(forMediaType mediaType: MediaType, withUrl url: String, completionHandler: ((UNNotificationAttachment?) -> Void)) {
-        switch(mediaType) {
-        case .image:
-            loadImage(urlString: url, completion: { image, error in
-                if (image != nil) {
-                    if let attachment = UNNotificationAttachment.create(fromMedia: image!) {
-                        completionHandler(attachment)
-                        return
-                    }
-                }
-                completionHandler(nil)
-            })
-            
-        case .gif:
-            loadGIF(urlString: url, completion: { gif, error in
-                if (gif != nil) {
-                    if let attachment = UNNotificationAttachment.create(fromMedia: gif!) {
-                        completionHandler(attachment)
-                        return
-                    }
-                }
-                completionHandler(nil)
-            })
-            
-        case .video:
-            break
-            
-        case .audio:
-            break
-        }
+    public func createNotificationAttachment(forMediaType mediaType: MediaType,
+                                             withUrl url: String,
+                                             completionHandler: ((UNNotificationAttachment?) -> Void)) {
+        
+        loadAttachment(forMediaType: mediaType, withUrlString: url, completionHandler: completionHandler)
     }
 }
