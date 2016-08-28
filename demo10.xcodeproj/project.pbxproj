@@ -19,6 +19,7 @@
 		526197391D72902B000705E5 /* peeps.png in Resources */ = {isa = PBXBuildFile; fileRef = 526197341D72902B000705E5 /* peeps.png */; };
 		5261973A1D72902B000705E5 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 526197351D72902B000705E5 /* sample.mp4 */; };
 		5261973B1D72902B000705E5 /* toys.gif in Resources */ = {isa = PBXBuildFile; fileRef = 526197361D72902B000705E5 /* toys.gif */; };
+		5261973D1D72938E000705E5 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5261973C1D72938E000705E5 /* sample.mp3 */; };
 		52B7F3D71D6B685C007DCFD4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */; };
 		52B7F3DA1D6B685C007DCFD4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */; };
 		52B7F3DE1D6B685C007DCFD4 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -116,6 +117,7 @@
 		526197341D72902B000705E5 /* peeps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peeps.png; sourceTree = "<group>"; };
 		526197351D72902B000705E5 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
 		526197361D72902B000705E5 /* toys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toys.gif; sourceTree = "<group>"; };
+		5261973C1D72938E000705E5 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 		52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		52B7F3D91D6B685C007DCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 		526197311D72902B000705E5 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				5261973C1D72938E000705E5 /* sample.mp3 */,
 				526197321D72902B000705E5 /* bugs.gif */,
 				526197331D72902B000705E5 /* logo.png */,
 				526197341D72902B000705E5 /* peeps.png */,
@@ -534,6 +537,7 @@
 			files = (
 				526197381D72902B000705E5 /* logo.png in Resources */,
 				526197371D72902B000705E5 /* bugs.gif in Resources */,
+				5261973D1D72938E000705E5 /* sample.mp3 in Resources */,
 				5261973B1D72902B000705E5 /* toys.gif in Resources */,
 				526197391D72902B000705E5 /* peeps.png in Resources */,
 				5261973A1D72902B000705E5 /* sample.mp4 in Resources */,
