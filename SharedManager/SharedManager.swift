@@ -36,7 +36,7 @@ fileprivate struct Media {
         case .video:
             return [UNNotificationAttachmentOptionsThumbnailTimeKey: 0]
         case .audio:
-            return [UNNotificationAttachmentOptionsThumbnailTimeKey: 0]
+            return [UNNotificationAttachmentOptionsThumbnailHiddenKey: 1]
         }
     }
     
