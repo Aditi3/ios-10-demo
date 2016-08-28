@@ -14,10 +14,11 @@
 		526197111D7206E9000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
 		526197121D7206F1000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
 		526197131D7206F6000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
-		526197191D722447000705E5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 526197181D722447000705E5 /* logo.png */; };
-		5261971B1D722F28000705E5 /* peeps.png in Resources */ = {isa = PBXBuildFile; fileRef = 5261971A1D722F28000705E5 /* peeps.png */; };
-		5261972E1D723E7C000705E5 /* bugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5261972D1D723E7C000705E5 /* bugs.gif */; };
-		526197301D724061000705E5 /* toys.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5261972F1D724061000705E5 /* toys.gif */; };
+		526197371D72902B000705E5 /* bugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 526197321D72902B000705E5 /* bugs.gif */; };
+		526197381D72902B000705E5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 526197331D72902B000705E5 /* logo.png */; };
+		526197391D72902B000705E5 /* peeps.png in Resources */ = {isa = PBXBuildFile; fileRef = 526197341D72902B000705E5 /* peeps.png */; };
+		5261973A1D72902B000705E5 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 526197351D72902B000705E5 /* sample.mp4 */; };
+		5261973B1D72902B000705E5 /* toys.gif in Resources */ = {isa = PBXBuildFile; fileRef = 526197361D72902B000705E5 /* toys.gif */; };
 		52B7F3D71D6B685C007DCFD4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */; };
 		52B7F3DA1D6B685C007DCFD4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */; };
 		52B7F3DE1D6B685C007DCFD4 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -110,10 +111,11 @@
 		526197051D720160000705E5 /* SharedManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedManager.h; sourceTree = "<group>"; };
 		526197061D720160000705E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5261970F1D7202CD000705E5 /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedManager.swift; sourceTree = "<group>"; };
-		526197181D722447000705E5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		5261971A1D722F28000705E5 /* peeps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peeps.png; sourceTree = "<group>"; };
-		5261972D1D723E7C000705E5 /* bugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bugs.gif; sourceTree = "<group>"; };
-		5261972F1D724061000705E5 /* toys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toys.gif; sourceTree = "<group>"; };
+		526197321D72902B000705E5 /* bugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bugs.gif; sourceTree = "<group>"; };
+		526197331D72902B000705E5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		526197341D72902B000705E5 /* peeps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peeps.png; sourceTree = "<group>"; };
+		526197351D72902B000705E5 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
+		526197361D72902B000705E5 /* toys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toys.gif; sourceTree = "<group>"; };
 		52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		52B7F3D91D6B685C007DCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -203,20 +205,21 @@
 				526197051D720160000705E5 /* SharedManager.h */,
 				5261970F1D7202CD000705E5 /* SharedManager.swift */,
 				526197061D720160000705E5 /* Info.plist */,
-				526197171D722447000705E5 /* images */,
+				526197311D72902B000705E5 /* assets */,
 			);
 			path = SharedManager;
 			sourceTree = "<group>";
 		};
-		526197171D722447000705E5 /* images */ = {
+		526197311D72902B000705E5 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				5261972F1D724061000705E5 /* toys.gif */,
-				5261972D1D723E7C000705E5 /* bugs.gif */,
-				5261971A1D722F28000705E5 /* peeps.png */,
-				526197181D722447000705E5 /* logo.png */,
+				526197321D72902B000705E5 /* bugs.gif */,
+				526197331D72902B000705E5 /* logo.png */,
+				526197341D72902B000705E5 /* peeps.png */,
+				526197351D72902B000705E5 /* sample.mp4 */,
+				526197361D72902B000705E5 /* toys.gif */,
 			);
-			path = images;
+			path = assets;
 			sourceTree = "<group>";
 		};
 		52B7F3D51D6B685C007DCFD4 /* ShareExtension */ = {
@@ -529,10 +532,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526197191D722447000705E5 /* logo.png in Resources */,
-				5261972E1D723E7C000705E5 /* bugs.gif in Resources */,
-				5261971B1D722F28000705E5 /* peeps.png in Resources */,
-				526197301D724061000705E5 /* toys.gif in Resources */,
+				526197381D72902B000705E5 /* logo.png in Resources */,
+				526197371D72902B000705E5 /* bugs.gif in Resources */,
+				5261973B1D72902B000705E5 /* toys.gif in Resources */,
+				526197391D72902B000705E5 /* peeps.png in Resources */,
+				5261973A1D72902B000705E5 /* sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1213,6 +1217,7 @@
 				5261970E1D720160000705E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52B7F3E11D6B685C007DCFD4 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
 			isa = XCConfigurationList;
