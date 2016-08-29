@@ -132,6 +132,8 @@ public struct SharedManager {
     
     private let userIdKey = "userId"
     
+    private let lastPushNotificationKey = "lastPushNotification"
+    
     private var sharedUserDefaults: UserDefaults?
     
     public var userId: String? {
@@ -143,13 +145,31 @@ public struct SharedManager {
         }
     }
     
+    public var lastPushNotification: [String: String]? {
+        get {
+            return self.retrieve(key: lastPushNotificationKey)
+        }
+        set(newValue) {
+            self.save(value: newValue!, forKey: lastPushNotificationKey)
+        }
+    }
+    
     private func save(value: String, forKey key: String) {
+        sharedUserDefaults?.set(value, forKey: key)
+        sharedUserDefaults?.synchronize()
+    }
+    
+    private func save(value: [String: String], forKey key: String) {
         sharedUserDefaults?.set(value, forKey: key)
         sharedUserDefaults?.synchronize()
     }
     
     private func retrieve(key: String) -> String? {
         return sharedUserDefaults?.object(forKey: key) as? String
+    }
+    
+    private func retrieve(key: String) -> [String: String]? {
+        return sharedUserDefaults?.object(forKey: key) as? [String: String]
     }
     
     public init(forAppGroup appGroupName: String) {

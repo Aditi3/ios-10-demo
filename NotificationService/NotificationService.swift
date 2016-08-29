@@ -10,6 +10,22 @@ import UserNotifications
 import SharedManager
 
 
+fileprivate extension UNNotificationContent {
+    func toDict() -> [String : String] {
+        var dict = [String:String]()
+        dict["title"] = self.title
+        dict["subtitle"] = self.subtitle
+        dict["body"] = self.body
+        for item in self.userInfo {
+            let key = "\(item.key)", value = "\(item.value)"
+            if (key != "aps") {
+                dict[key] = value
+            }
+        }
+        return dict
+    }
+}
+
 class NotificationService: UNNotificationServiceExtension {
 
     var contentHandler: ((UNNotificationContent) -> Void)?
@@ -21,18 +37,19 @@ class NotificationService: UNNotificationServiceExtension {
         bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
         
         CleverTap.setDebugLevel(1277182231)
-        let sharedManager = SharedManager(forAppGroup: appGroupName)
+        var sharedManager = SharedManager(forAppGroup: appGroupName)
         if let userId = sharedManager.userId {
             CleverTap.sharedInstance().onUserLogin(["Identity":userId])
         }
         
         if let bestAttemptContent = bestAttemptContent {
+            
             // Modify the notification content here...
+            let modifiedTitle = "\(bestAttemptContent.title) [modified]"
+            bestAttemptContent.title = modifiedTitle
             
-            bestAttemptContent.title = "\(bestAttemptContent.title) [modified]"
-            
-            // check for a media attachment
             let userInfo = bestAttemptContent.userInfo
+            // check for a media attachment
             guard
                 let url = userInfo["mediaUrl"] as? String,
                 let _mediaType = userInfo["mediaType"] as? String,
@@ -41,6 +58,9 @@ class NotificationService: UNNotificationServiceExtension {
                     contentHandler(bestAttemptContent)
                     return
                 }
+
+            // store the push payload data for use by the main app
+            sharedManager.lastPushNotification = bestAttemptContent.toDict()
             
             sharedManager.createNotificationAttachment(forMediaType: mediaType, withUrl: url, completionHandler: { attachment in
                 if let attachment = attachment {

@@ -38,6 +38,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         sharedManager.userId = "123456"
         CleverTap.sharedInstance().onUserLogin(["Identity":userId])
         
+        // grab the last push received saved by the Notification Service to the shared group user defaults
+        if let lastPush = sharedManager.lastPushNotification {
+            print("last push received: \(lastPush)")
+        }
+        
         return true
     }
 
