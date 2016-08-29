@@ -9,23 +9,6 @@
 import UserNotifications
 import SharedManager
 
-
-fileprivate extension UNNotificationContent {
-    func toDict() -> [String : String] {
-        var dict = [String:String]()
-        dict["title"] = self.title
-        dict["subtitle"] = self.subtitle
-        dict["body"] = self.body
-        for item in self.userInfo {
-            let key = "\(item.key)", value = "\(item.value)"
-            if (key != "aps") {
-                dict[key] = value
-            }
-        }
-        return dict
-    }
-}
-
 class NotificationService: UNNotificationServiceExtension {
 
     var contentHandler: ((UNNotificationContent) -> Void)?
@@ -60,7 +43,7 @@ class NotificationService: UNNotificationServiceExtension {
                 }
 
             // store the push payload data for use by the main app
-            sharedManager.lastPushNotification = bestAttemptContent.toDict()
+            sharedManager.persistLastPushNotification(withContent: bestAttemptContent)
             
             sharedManager.createNotificationAttachment(forMediaType: mediaType, withUrl: url, completionHandler: { attachment in
                 if let attachment = attachment {

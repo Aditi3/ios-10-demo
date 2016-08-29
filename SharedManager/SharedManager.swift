@@ -53,6 +53,22 @@ fileprivate struct Media {
     }
 }
 
+fileprivate extension UNNotificationContent {
+    func toDict() -> [String : String] {
+        var dict = [String:String]()
+        dict["title"] = self.title
+        dict["subtitle"] = self.subtitle
+        dict["body"] = self.body
+        for item in self.userInfo {
+            let key = "\(item.key)", value = "\(item.value)"
+            if (key != "aps") {
+                dict[key] = value
+            }
+        }
+        return dict
+    }
+}
+
 fileprivate extension UNNotificationAttachment {
     
     static func create(fromMedia media: Media) -> UNNotificationAttachment? {
@@ -176,6 +192,10 @@ public struct SharedManager {
         self.appGroupName = appGroupName
         sharedUserDefaults = UserDefaults(suiteName: appGroupName)
         sharedUserDefaults?.synchronize()
+    }
+    
+    mutating public func persistLastPushNotification(withContent content: UNNotificationContent) {
+        self.lastPushNotification = content.toDict()
     }
     
     public func createNotificationAttachment(forMediaType mediaType: MediaType,
