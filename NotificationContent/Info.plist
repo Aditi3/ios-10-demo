@@ -25,7 +25,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>UNNotificationExtensionCategory</key>
-			<string>myNotificationCategory</string>
+			<string>map</string>
 			<key>UNNotificationExtensionInitialContentSizeRatio</key>
 			<real>1</real>
 		</dict>
@@ -38,5 +38,7 @@
 	<string>487-66K-Z74Z</string>
 	<key>CleverTapToken</key>
 	<string>366-ab4</string>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoicGZ3aWxrbmlzcyIsImEiOiJjaXNnb25oNWwwMDAzMm5tc3N5eWVxa292In0.dJug9R2LnAklCMjM_D-IEA</string>
 </dict>
 </plist>

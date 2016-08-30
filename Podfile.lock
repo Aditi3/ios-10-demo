@@ -3,18 +3,29 @@ PODS:
     - CleverTap-iOS-SDK/Main (= 2.2.2)
   - CleverTap-iOS-SDK/AppExtension (2.2.2)
   - CleverTap-iOS-SDK/Main (2.2.2)
+  - MapboxStatic.swift (0.6.0)
 
 DEPENDENCIES:
   - CleverTap-iOS-SDK (from `../clevertap-ios-sdk/`)
   - CleverTap-iOS-SDK/AppExtension (from `../clevertap-ios-sdk/`)
+  - MapboxStatic.swift (from `https://github.com/mapbox/MapboxStatic.swift.git`, tag `v0.6.0`)
 
 EXTERNAL SOURCES:
   CleverTap-iOS-SDK:
     :path: "../clevertap-ios-sdk/"
+  MapboxStatic.swift:
+    :git: https://github.com/mapbox/MapboxStatic.swift.git
+    :tag: v0.6.0
+
+CHECKOUT OPTIONS:
+  MapboxStatic.swift:
+    :git: https://github.com/mapbox/MapboxStatic.swift.git
+    :tag: v0.6.0
 
 SPEC CHECKSUMS:
   CleverTap-iOS-SDK: 25695556a00350078a599b7e0b405e8419617b96
+  MapboxStatic.swift: 3185804edec6bea74be7d74fb3ca9a666009f7a2
 
-PODFILE CHECKSUM: 31330285deb06ea782009f71bfd66d3ea24afedd
+PODFILE CHECKSUM: 71219a20232270b4b0ad1b1c75d96c504d7d55ed
 
 COCOAPODS: 1.0.1
