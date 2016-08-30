@@ -14,8 +14,10 @@ import MapboxStatic
 
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
 
+    @IBOutlet var mapImageView: UIImageView!
     
     let appGroupName: String = "group.com.clevertap.demo10"
+    
     lazy var sharedManager: SharedManager = {
         return SharedManager(forAppGroup: self.appGroupName)
     }()
@@ -34,10 +36,15 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
         sharedManager.persistLastPushNotification(withContent: notification.request.content)
         
         let content = notification.request.content
-        let latitude = content.userInfo["latitude"] as! String
-        let longitude = content.userInfo["longitude"] as! String
         
-        let mapboxCoordinate = CLLocationCoordinate2D(latitude: Double(latitude)!, longitude: Double(longitude)!)
+        guard
+            let latString = content.userInfo["latitude"] as? String,
+            let latitude = Double(latString),
+            let lonString = content.userInfo["longitude"] as? String,
+            let longitude = Double(lonString)
+        else { return }
+        
+        let mapboxCoordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         
         let options = SnapshotOptions(
             mapIdentifiers: ["mapbox.light"],
@@ -56,15 +63,13 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
         
         let mapboxAccessToken = Bundle.main.infoDictionary!["MGLMapboxAccessToken"] as! String
         
-        print(mapboxAccessToken)
-        
-        // Use MapboxStatic.swift (https://github.com/mapbox/MapboxStatic.swift) to create a map image
-        // and assign it to the mapImageView that is defined for the view controller in the storyboard for this extension
         let snapshot = Snapshot(options: options, accessToken: mapboxAccessToken)
         
-        snapshot.generateImage(completionHandler: { (image, error) in
-            //self.imageView.image = image
+        let _ = snapshot.generateImage(completionHandler: { (image, error) in
+            self.mapImageView.image = image
         })
+        
+        CleverTap.sharedInstance().recordEvent("NotificationDidShowLocation", withProps: ["lat": "\(mapboxCoordinate.latitude)", "lon":"\(mapboxCoordinate.longitude)"])
     }
 
 }
