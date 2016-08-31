@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27CA8FAAADB2C09B27B7CF5B /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DA6E14F757561A0CF40D8A /* Pods_NotificationService.framework */; };
+		523569D21D764D6B0082BE09 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 523569D11D764D6B0082BE09 /* map.png */; };
 		526197071D720160000705E5 /* SharedManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 526197051D720160000705E5 /* SharedManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5261970A1D720160000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
 		5261970B1D720160000705E5 /* SharedManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -105,6 +106,7 @@
 		350A556C63E24C7E36EAA90E /* Pods_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		44DA6E14F757561A0CF40D8A /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		523569D11D764D6B0082BE09 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		526196E91D71F525000705E5 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
 		526196EA1D71F531000705E5 /* NotificationContent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationContent.entitlements; sourceTree = "<group>"; };
 		526196EB1D71F535000705E5 /* ShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareExtension.entitlements; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 		526197311D72902B000705E5 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				523569D11D764D6B0082BE09 /* map.png */,
 				5261973C1D72938E000705E5 /* sample.mp3 */,
 				526197321D72902B000705E5 /* bugs.gif */,
 				526197331D72902B000705E5 /* logo.png */,
@@ -546,6 +549,7 @@
 				526197371D72902B000705E5 /* bugs.gif in Resources */,
 				5261973D1D72938E000705E5 /* sample.mp3 in Resources */,
 				5261973B1D72902B000705E5 /* toys.gif in Resources */,
+				523569D21D764D6B0082BE09 /* map.png in Resources */,
 				526197391D72902B000705E5 /* peeps.png in Resources */,
 				5261973A1D72902B000705E5 /* sample.mp4 in Resources */,
 			);

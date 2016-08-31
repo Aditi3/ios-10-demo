@@ -16,6 +16,10 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
 
     @IBOutlet var mapImageView: UIImageView!
     
+    @IBOutlet var loadingIndicator: UIActivityIndicatorView!
+    
+    @IBOutlet var textLabel: UILabel!
+    
     let appGroupName: String = "group.com.clevertap.demo10"
     
     lazy var sharedManager: SharedManager = {
@@ -29,6 +33,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
         if let userId = sharedManager.userId {
             CleverTap.sharedInstance().onUserLogin(["Identity":userId])
         }
+        self.loadingIndicator.startAnimating()
     }
     
     func didReceive(_ notification: UNNotification) {
@@ -44,13 +49,15 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
             let longitude = Double(lonString)
         else { return }
         
+        self.textLabel.text = "Location (\(latString), \(lonString))"
+        
         let mapboxCoordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         
         let options = SnapshotOptions(
-            mapIdentifiers: ["mapbox.light"],
+            mapIdentifiers: ["mapbox.streets"],
             centerCoordinate: mapboxCoordinate,
-            zoomLevel: 12,
-            size: CGSize(width: 288, height: 200))
+            zoomLevel: 13,
+            size: CGSize(width: 200, height: 200))
         
         let markerOverlay = Marker(
             coordinate: mapboxCoordinate,
@@ -66,10 +73,30 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
         let snapshot = Snapshot(options: options, accessToken: mapboxAccessToken)
         
         let _ = snapshot.generateImage(completionHandler: { (image, error) in
+            self.loadingIndicator.stopAnimating()
             self.mapImageView.image = image
         })
         
         CleverTap.sharedInstance().recordEvent("NotificationDidShowLocation", withProps: ["lat": "\(mapboxCoordinate.latitude)", "lon":"\(mapboxCoordinate.longitude)"])
+    }
+    
+    func didReceive(_ response: UNNotificationResponse,
+                    completionHandler completion: @escaping (UNNotificationContentExtensionResponseOption) -> Void){
+        
+        let action = response.actionIdentifier
+        
+        switch (action) {
+        case "accept":
+            self.textLabel.textColor = UIColor.green
+            self.textLabel.text = "You accepted!"
+        case "decline":
+            self.textLabel.textColor = UIColor.red
+            self.textLabel.text = "You declined :("
+        case "dismiss":
+            completion(.dismiss)
+        default:
+            break
+        }
     }
 
 }

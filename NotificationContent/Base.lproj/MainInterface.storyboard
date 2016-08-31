@@ -19,12 +19,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MUn-Vn-Puk"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Gc1-TQ-4fA">
+                                <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIh-RN-TAu">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="sMb-9L-k1n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="MUn-Vn-Puk" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="1Se-9M-dEm"/>
+                            <constraint firstAttribute="trailing" secondItem="tIh-RN-TAu" secondAttribute="trailing" id="1bV-w5-X3B"/>
                             <constraint firstAttribute="trailing" secondItem="MUn-Vn-Puk" secondAttribute="trailing" id="FLD-eZ-Dhn"/>
-                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="MUn-Vn-Puk" secondAttribute="bottom" id="FSa-AJ-6Q6"/>
+                            <constraint firstItem="Gc1-TQ-4fA" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="HiF-Q9-Jef"/>
+                            <constraint firstItem="tIh-RN-TAu" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="MMf-Bj-kCR"/>
+                            <constraint firstItem="Gc1-TQ-4fA" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="NLP-cJ-H5T"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="MUn-Vn-Puk" secondAttribute="bottom" id="Xcr-3G-vjl"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="tIh-RN-TAu" secondAttribute="bottom" id="Y02-ft-dKS"/>
                             <constraint firstItem="MUn-Vn-Puk" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="oMm-Zp-aDr"/>
                         </constraints>
                     </view>
@@ -35,7 +52,9 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="320"/>
                     <connections>
+                        <outlet property="loadingIndicator" destination="Gc1-TQ-4fA" id="3aG-ij-FKR"/>
                         <outlet property="mapImageView" destination="MUn-Vn-Puk" id="Se8-uA-ODL"/>
+                        <outlet property="textLabel" destination="tIh-RN-TAu" id="u0K-Xu-Czv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>

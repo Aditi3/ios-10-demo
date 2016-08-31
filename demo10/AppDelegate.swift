@@ -25,6 +25,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // register for push notifications on next tick
         DispatchQueue.main.async {
+            
+            // register category with actions
+            let accept = UNNotificationAction(identifier: "accept", title: "Accept", options: [])
+            let decline = UNNotificationAction(identifier: "decline", title: "Decline", options: [])
+            let dismiss = UNNotificationAction(identifier: "dismiss", title: "Dismiss", options: [])
+            let category = UNNotificationCategory(identifier: "map", actions: [accept, decline, dismiss], intentIdentifiers: [], options: [])
+            UNUserNotificationCenter.current().setNotificationCategories([category])
+            
+            // request permissions
             UNUserNotificationCenter.current().requestAuthorization(options: [.sound, .alert, .badge]) {
                 (granted, error) in
                 if (granted) {
