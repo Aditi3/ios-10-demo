@@ -77,7 +77,8 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
             self.mapImageView.image = image
         })
         
-        CleverTap.sharedInstance().recordEvent("NotificationDidShowLocation", withProps: ["lat": "\(mapboxCoordinate.latitude)", "lon":"\(mapboxCoordinate.longitude)"])
+        CleverTap.sharedInstance().recordEvent("NotificationDidShowLocation",
+                                               withProps: ["lat": "\(mapboxCoordinate.latitude)", "lon":"\(mapboxCoordinate.longitude)"])
     }
     
     func didReceive(_ response: UNNotificationResponse,

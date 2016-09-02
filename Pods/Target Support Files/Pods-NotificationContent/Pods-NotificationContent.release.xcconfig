@@ -1,10 +1,10 @@
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
 FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/MapboxStatic.swift" "${PODS_ROOT}/../../clevertap-ios-sdk"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) CLEVERTAP_APP_EXTENSION
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CleverTap-iOS-SDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/MapboxStatic.swift/MapboxStatic.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CleverTap-iOS-SDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "CleverTapSDK.appex" -framework "CoreLocation" -framework "CoreTelephony" -framework "MapboxStatic" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "CleverTapSDK.appex" -framework "CoreLocation" -framework "MapboxStatic" -framework "SystemConfiguration" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

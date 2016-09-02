@@ -1,5 +1,5 @@
 //
-//  extension-bridging-header.h
+//  app-extension-bridging-header.h
 //  demo10
 //
 //  Created by pwilkniss on 8/22/16.

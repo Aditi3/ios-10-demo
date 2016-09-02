@@ -9,16 +9,20 @@
 import UIKit
 import UserNotifications
 import SharedManager
+import WatchConnectivity
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
+    
     var window: UIWindow?
     
     let appGroupName: String = "group.com.clevertap.demo10"
+    
+    private lazy var cleverTap: CleverTap = {
+       return CleverTap.sharedInstance()
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         
         CleverTap.setDebugLevel(1277182231)
         CleverTap.autoIntegrate()
@@ -42,19 +46,66 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
         
+        // demo: storing userId in shared group for app extension access
         let userId = "123456"
         var sharedManager = SharedManager(forAppGroup: appGroupName)
         sharedManager.userId = "123456"
-        CleverTap.sharedInstance().onUserLogin(["Identity":userId])
+        cleverTap.onUserLogin(["Identity":userId])
         
-        // grab the last push received saved by the Notification Service to the shared group user defaults
+        // demo: grab the last push received saved by the Notification Service to the shared group user defaults for use here
         if let lastPush = sharedManager.lastPushNotification {
             print("last push received: \(lastPush)")
         }
         
+        // demo: Watch session
+        if WCSession.isSupported() {
+            let session = WCSession.default()
+            session.delegate = self
+            session.activate()
+        }
+        
         return true
     }
-
+    
+    //MARK: WCSessionDelegate
+    
+    /** Called when the session has completed activation. If session state is WCSessionActivationStateNotActivated there will be an error with more details. */
+    @available(iOS 9.3, *)
+    public func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        // no-op for demo purposes
+    }
+    
+    /** Called when the session can no longer be used to modify or add any new transfers and, all interactive messages will be cancelled, but delegate callbacks for background transfers can still occur. This will happen when the selected watch is being changed. */
+    @available(iOS 9.3, *)
+    public func sessionDidBecomeInactive(_ session: WCSession) {
+        // no-op for demo purposes
+    }
+    
+    
+    /** Called when all delegate callbacks for the previously selected watch has occurred. The session can be re-activated for the now selected watch using activateSession. */
+    @available(iOS 9.3, *)
+    public func sessionDidDeactivate(_ session: WCSession) {
+        // no-op for demo purposes
+    }
+    
+    /** Called on the delegate of the receiver. Will be called on startup if the incoming message caused the receiver to launch. */
+    @available(iOS 9.0, *)
+    public func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        let handled = cleverTap.handleMessage(message, forWatch: session)
+        if (!handled) {
+            // handle the message as its not a CleverTap Message
+        }
+    }
+    
+    /** Called on the delegate of the receiver when the sender sends a message that expects a reply. Will be called on startup if the incoming message caused the receiver to launch. */
+    @available(iOS 9.0, *)
+    public func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Swift.Void) {
+        let handled = cleverTap.handleMessage(message, forWatch: session)
+        if (!handled) {
+            // handle the message as its not a CleverTap Message
+        }
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

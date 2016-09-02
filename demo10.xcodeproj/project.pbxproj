@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		27CA8FAAADB2C09B27B7CF5B /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DA6E14F757561A0CF40D8A /* Pods_NotificationService.framework */; };
 		523569D21D764D6B0082BE09 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 523569D11D764D6B0082BE09 /* map.png */; };
+		52439AF81D78B5C2000967C7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52439AF61D78B5C2000967C7 /* Interface.storyboard */; };
+		52439AFA1D78B5C2000967C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52439AF91D78B5C2000967C7 /* Assets.xcassets */; };
+		52439B011D78B5C2000967C7 /* WatchApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52439B001D78B5C2000967C7 /* WatchApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52439B081D78B5C2000967C7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52439B071D78B5C2000967C7 /* InterfaceController.swift */; };
+		52439B0A1D78B5C2000967C7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52439B091D78B5C2000967C7 /* ExtensionDelegate.swift */; };
+		52439B0C1D78B5C2000967C7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52439B0B1D78B5C2000967C7 /* NotificationController.swift */; };
+		52439B0E1D78B5C2000967C7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52439B0D1D78B5C2000967C7 /* ComplicationController.swift */; };
+		52439B101D78B5C2000967C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52439B0F1D78B5C2000967C7 /* Assets.xcassets */; };
+		52439B141D78B5C2000967C7 /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 52439AF41D78B5C2000967C7 /* WatchApp.app */; };
 		526197071D720160000705E5 /* SharedManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 526197051D720160000705E5 /* SharedManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5261970A1D720160000705E5 /* SharedManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; };
 		5261970B1D720160000705E5 /* SharedManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 526197031D720160000705E5 /* SharedManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -38,11 +47,26 @@
 		52F2363A1D637AF50027E5C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F236381D637AF50027E5C4 /* LaunchScreen.storyboard */; };
 		52F2364E1D639C870027E5C4 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52F236471D639C870027E5C4 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		89A8369962F62F172FE2E492 /* Pods_NotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3BF108CF94A60812DBB378 /* Pods_NotificationContent.framework */; };
+		9E0800798B1A262E0A79D122 /* Pods_WatchApp_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE17EA1B152AFA9EB8BB51BE /* Pods_WatchApp_Extension.framework */; };
 		ACE7AD0E5ECCD5D2216C564D /* Pods_ShareExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350A556C63E24C7E36EAA90E /* Pods_ShareExtension.framework */; };
 		E415763AFADAA1271790DFE6 /* Pods_demo10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A237D79FD8451BF554AC2A /* Pods_demo10.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		52439B021D78B5C2000967C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F236241D637AF50027E5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52439AFF1D78B5C2000967C7;
+			remoteInfo = "WatchApp Extension";
+		};
+		52439B121D78B5C2000967C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F236241D637AF50027E5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52439AF31D78B5C2000967C7;
+			remoteInfo = WatchApp;
+		};
 		526197081D720160000705E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52F236241D637AF50027E5C4 /* Project object */;
@@ -74,6 +98,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		52439B181D78B5C2000967C7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				52439B011D78B5C2000967C7 /* WatchApp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52439B1C1D78B5C2000967C7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				52439B141D78B5C2000967C7 /* WatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		526196FD1D71F809000705E5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,6 +153,19 @@
 		3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		44DA6E14F757561A0CF40D8A /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		523569D11D764D6B0082BE09 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		52439AEA1D7898C3000967C7 /* hostwatchos-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hostwatchos-bridging-header.h"; sourceTree = "<group>"; };
+		52439AF41D78B5C2000967C7 /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52439AF71D78B5C2000967C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		52439AF91D78B5C2000967C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52439AFB1D78B5C2000967C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52439B001D78B5C2000967C7 /* WatchApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52439B061D78B5C2000967C7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		52439B071D78B5C2000967C7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		52439B091D78B5C2000967C7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		52439B0B1D78B5C2000967C7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		52439B0D1D78B5C2000967C7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		52439B0F1D78B5C2000967C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52439B111D78B5C2000967C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526196E91D71F525000705E5 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
 		526196EA1D71F531000705E5 /* NotificationContent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationContent.entitlements; sourceTree = "<group>"; };
 		526196EB1D71F535000705E5 /* ShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareExtension.entitlements; sourceTree = "<group>"; };
@@ -124,7 +183,7 @@
 		52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		52B7F3D91D6B685C007DCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		52B7F3DB1D6B685C007DCFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52B7F3E21D6B9C96007DCFD4 /* extension-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "extension-bridging-header.h"; sourceTree = "<group>"; };
+		52B7F3E21D6B9C96007DCFD4 /* app-extension-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-extension-bridging-header.h"; sourceTree = "<group>"; };
 		52C91CDC1D6B605600218734 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52C91CE11D6B61EA00218734 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		52CFDD231D639FE400945DA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,13 +207,24 @@
 		5690295DA251575FF4A2F1AE /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
 		5A5BC5F6AA9D6B5844500127 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
 		65A237D79FD8451BF554AC2A /* Pods_demo10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C76AC71607D415DAE7313C /* Pods-WatchApp Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		9DCB25DD8145893DB2671DA5 /* Pods-demo10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo10.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo10/Pods-demo10.release.xcconfig"; sourceTree = "<group>"; };
+		9F2607AEB25F4F2C3D23C7B4 /* Pods-WatchApp Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.release.xcconfig"; sourceTree = "<group>"; };
 		B31DF93D6CBC185E424B055D /* Pods-NotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationContent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
 		DE3BF108CF94A60812DBB378 /* Pods_NotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF148D262F7C4BE48DB4EDF /* Pods-NotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationContent.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		FE17EA1B152AFA9EB8BB51BE /* Pods_WatchApp_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchApp_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52439AFD1D78B5C2000967C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0800798B1A262E0A79D122 /* Pods_WatchApp_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		526196FF1D720160000705E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,9 +270,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A54FCBC77A5BE4099314D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52439AF51D78B5C2000967C7 /* WatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				52439AF61D78B5C2000967C7 /* Interface.storyboard */,
+				52439AF91D78B5C2000967C7 /* Assets.xcassets */,
+				52439AFB1D78B5C2000967C7 /* Info.plist */,
+			);
+			path = WatchApp;
+			sourceTree = "<group>";
+		};
+		52439B041D78B5C2000967C7 /* WatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52439B071D78B5C2000967C7 /* InterfaceController.swift */,
+				52439B091D78B5C2000967C7 /* ExtensionDelegate.swift */,
+				52439B0B1D78B5C2000967C7 /* NotificationController.swift */,
+				52439B0D1D78B5C2000967C7 /* ComplicationController.swift */,
+				52439B0F1D78B5C2000967C7 /* Assets.xcassets */,
+				52439B111D78B5C2000967C7 /* Info.plist */,
+				52439B051D78B5C2000967C7 /* Supporting Files */,
+			);
+			path = "WatchApp Extension";
+			sourceTree = "<group>";
+		};
+		52439B051D78B5C2000967C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52439B061D78B5C2000967C7 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		526197041D720160000705E5 /* SharedManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +377,8 @@
 				52CFDD321D63A17100945DA7 /* NotificationContent */,
 				52B7F3D51D6B685C007DCFD4 /* ShareExtension */,
 				526197041D720160000705E5 /* SharedManager */,
+				52439AF51D78B5C2000967C7 /* WatchApp */,
+				52439B041D78B5C2000967C7 /* WatchApp Extension */,
 				52F2362D1D637AF50027E5C4 /* Products */,
 				85A323C5B10A46668C8E84C5 /* Pods */,
 				B252101F7B12716B0F4F8680 /* Frameworks */,
@@ -282,6 +393,8 @@
 				52CFDD2D1D63A17100945DA7 /* NotificationContent.appex */,
 				52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */,
 				526197031D720160000705E5 /* SharedManager.framework */,
+				52439AF41D78B5C2000967C7 /* WatchApp.app */,
+				52439B001D78B5C2000967C7 /* WatchApp Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,7 +404,8 @@
 			children = (
 				52F236421D6380FB0027E5C4 /* demo10.entitlements */,
 				52F236411D637C850027E5C4 /* bridging-header.h */,
-				52B7F3E21D6B9C96007DCFD4 /* extension-bridging-header.h */,
+				52439AEA1D7898C3000967C7 /* hostwatchos-bridging-header.h */,
+				52B7F3E21D6B9C96007DCFD4 /* app-extension-bridging-header.h */,
 				52F2362F1D637AF50027E5C4 /* AppDelegate.swift */,
 				52F236311D637AF50027E5C4 /* ViewController.swift */,
 				52F236331D637AF50027E5C4 /* Main.storyboard */,
@@ -313,6 +427,8 @@
 				5A5BC5F6AA9D6B5844500127 /* Pods-NotificationService.release.xcconfig */,
 				3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */,
 				016BE03D12045C37DA6D341C /* Pods-ShareExtension.release.xcconfig */,
+				82C76AC71607D415DAE7313C /* Pods-WatchApp Extension.debug.xcconfig */,
+				9F2607AEB25F4F2C3D23C7B4 /* Pods-WatchApp Extension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -328,6 +444,7 @@
 				44DA6E14F757561A0CF40D8A /* Pods_NotificationService.framework */,
 				350A556C63E24C7E36EAA90E /* Pods_ShareExtension.framework */,
 				65A237D79FD8451BF554AC2A /* Pods_demo10.framework */,
+				FE17EA1B152AFA9EB8BB51BE /* Pods_WatchApp_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -346,6 +463,44 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		52439AF31D78B5C2000967C7 /* WatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52439B191D78B5C2000967C7 /* Build configuration list for PBXNativeTarget "WatchApp" */;
+			buildPhases = (
+				52439AF21D78B5C2000967C7 /* Resources */,
+				52439B181D78B5C2000967C7 /* Embed App Extensions */,
+				8A54FCBC77A5BE4099314D19 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52439B031D78B5C2000967C7 /* PBXTargetDependency */,
+			);
+			name = WatchApp;
+			productName = WatchApp;
+			productReference = 52439AF41D78B5C2000967C7 /* WatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		52439AFF1D78B5C2000967C7 /* WatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52439B151D78B5C2000967C7 /* Build configuration list for PBXNativeTarget "WatchApp Extension" */;
+			buildPhases = (
+				2419644D07F0A78E6837CC41 /* [CP] Check Pods Manifest.lock */,
+				52439AFC1D78B5C2000967C7 /* Sources */,
+				52439AFD1D78B5C2000967C7 /* Frameworks */,
+				52439AFE1D78B5C2000967C7 /* Resources */,
+				53D84F9BEA17199C0F43D477 /* [CP] Embed Pods Frameworks */,
+				B47ED48089D5EE7ADEFC096F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchApp Extension";
+			productName = "WatchApp Extension";
+			productReference = 52439B001D78B5C2000967C7 /* WatchApp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		526197021D720160000705E5 /* SharedManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5261970C1D720160000705E5 /* Build configuration list for PBXNativeTarget "SharedManager" */;
@@ -416,6 +571,7 @@
 				7E848A09805792C689F7C31D /* [CP] Copy Pods Resources */,
 				52F236521D639C870027E5C4 /* Embed App Extensions */,
 				526196FD1D71F809000705E5 /* Embed Frameworks */,
+				52439B1C1D78B5C2000967C7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -424,6 +580,7 @@
 				52CFDD3A1D63A17100945DA7 /* PBXTargetDependency */,
 				52B7F3DD1D6B685C007DCFD4 /* PBXTargetDependency */,
 				526197091D720160000705E5 /* PBXTargetDependency */,
+				52439B131D78B5C2000967C7 /* PBXTargetDependency */,
 			);
 			name = demo10;
 			productName = demo10;
@@ -460,6 +617,18 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CleverTap;
 				TargetAttributes = {
+					52439AF31D78B5C2000967C7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A5J34NR598;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					52439AFF1D78B5C2000967C7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A5J34NR598;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
 					526197021D720160000705E5 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = A5J34NR598;
@@ -536,11 +705,30 @@
 				52CFDD2C1D63A17100945DA7 /* NotificationContent */,
 				52B7F3D31D6B685C007DCFD4 /* ShareExtension */,
 				526197021D720160000705E5 /* SharedManager */,
+				52439AF31D78B5C2000967C7 /* WatchApp */,
+				52439AFF1D78B5C2000967C7 /* WatchApp Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52439AF21D78B5C2000967C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52439AFA1D78B5C2000967C7 /* Assets.xcassets in Resources */,
+				52439AF81D78B5C2000967C7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52439AFE1D78B5C2000967C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52439B101D78B5C2000967C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		526197011D720160000705E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,6 +794,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2419644D07F0A78E6837CC41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		3034CF7DEFB1658C8783405C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,6 +852,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D84F9BEA17199C0F43D477 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7C787A0FB64956FA50CBB8AB /* [CP] Embed Pods Frameworks */ = {
@@ -709,6 +927,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B47ED48089D5EE7ADEFC096F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B483A22BC315EBB763C25A63 /* [CP] Check Pods Manifest.lock */ = {
@@ -774,6 +1007,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		52439AFC1D78B5C2000967C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52439B0C1D78B5C2000967C7 /* NotificationController.swift in Sources */,
+				52439B0E1D78B5C2000967C7 /* ComplicationController.swift in Sources */,
+				52439B0A1D78B5C2000967C7 /* ExtensionDelegate.swift in Sources */,
+				52439B081D78B5C2000967C7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		526196FE1D720160000705E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -818,6 +1062,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		52439B031D78B5C2000967C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52439AFF1D78B5C2000967C7 /* WatchApp Extension */;
+			targetProxy = 52439B021D78B5C2000967C7 /* PBXContainerItemProxy */;
+		};
+		52439B131D78B5C2000967C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52439AF31D78B5C2000967C7 /* WatchApp */;
+			targetProxy = 52439B121D78B5C2000967C7 /* PBXContainerItemProxy */;
+		};
 		526197091D720160000705E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 526197021D720160000705E5 /* SharedManager */;
@@ -841,6 +1095,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		52439AF61D78B5C2000967C7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52439AF71D78B5C2000967C7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -876,6 +1138,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		52439B161D78B5C2000967C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C76AC71607D415DAE7313C /* Pods-WatchApp Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = A5J34NR598;
+				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		52439B171D78B5C2000967C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2607AEB25F4F2C3D23C7B4 /* Pods-WatchApp Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = A5J34NR598;
+				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		52439B1A1D78B5C2000967C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5J34NR598;
+				IBSC_MODULE = WatchApp_Extension;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		52439B1B1D78B5C2000967C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5J34NR598;
+				IBSC_MODULE = WatchApp_Extension;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
 		5261970D1D720160000705E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -960,7 +1296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1000,7 +1336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1025,7 +1361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1050,7 +1386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1158,11 +1494,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = demo10/demo10.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = demo10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/hostwatchos-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1175,11 +1515,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = demo10/demo10.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = demo10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/hostwatchos-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1199,7 +1543,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1219,7 +1563,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1227,6 +1571,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		52439B151D78B5C2000967C7 /* Build configuration list for PBXNativeTarget "WatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52439B161D78B5C2000967C7 /* Debug */,
+				52439B171D78B5C2000967C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52439B191D78B5C2000967C7 /* Build configuration list for PBXNativeTarget "WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52439B1A1D78B5C2000967C7 /* Debug */,
+				52439B1B1D78B5C2000967C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5261970C1D720160000705E5 /* Build configuration list for PBXNativeTarget "SharedManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
