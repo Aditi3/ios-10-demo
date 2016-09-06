@@ -12,7 +12,11 @@ import SharedManager
 
 class ShareViewController: SLComposeServiceViewController {
     
-    let appGroupName: String = "group.com.clevertap.demo10"
+    private lazy var cleverTap: CleverTap = CleverTap.sharedInstance()
+    
+    private lazy var sharedManager: SharedManager = {
+        return SharedManager(forAppGroup: "group.com.clevertap.demo10")
+    }()
     
     override func isContentValid() -> Bool {
         // Do validation of contentText and/or NSExtensionContext attachments here
@@ -22,11 +26,10 @@ class ShareViewController: SLComposeServiceViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         CleverTap.setDebugLevel(1277182231)
-        let sharedManager = SharedManager(forAppGroup: appGroupName)
         if let userId = sharedManager.userId {
-            CleverTap.sharedInstance().onUserLogin(["Identity":userId])
+            cleverTap.onUserLogin(["Identity":userId])
         }
-        CleverTap.sharedInstance().recordEvent("CustomShareEvent")
+        cleverTap.recordEvent("CustomShareEvent")
     }
 
     override func didSelectPost() {

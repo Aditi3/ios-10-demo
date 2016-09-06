@@ -204,4 +204,9 @@ public struct SharedManager {
         
         loadAttachment(forMediaType: mediaType, withUrlString: url, completionHandler: completionHandler)
     }
+    
+    public func image(forName name: String) -> UIImage? {
+        let imagePath = SharedManager.bundle?.path(forResource: name, ofType: "")
+        return (imagePath != nil) ? UIImage(contentsOfFile: imagePath!) : nil
+    }
 }

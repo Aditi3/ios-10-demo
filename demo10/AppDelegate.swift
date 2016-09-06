@@ -16,40 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
     
     var window: UIWindow?
     
-    let appGroupName: String = "group.com.clevertap.demo10"
-    
-    private lazy var cleverTap: CleverTap = {
-       return CleverTap.sharedInstance()
+    private lazy var sharedManager: SharedManager = {
+        let appGroupName = Bundle.main.infoDictionary?["appGroupName"] as! String
+        return SharedManager(forAppGroup: appGroupName)
     }()
+    
+    private lazy var cleverTap: CleverTap = CleverTap.sharedInstance()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        // set up CleverTap
         CleverTap.setDebugLevel(1277182231)
         CleverTap.autoIntegrate()
         
-        // register for push notifications on next tick
-        DispatchQueue.main.async {
-            
-            // register category with actions
-            let accept = UNNotificationAction(identifier: "accept", title: "Accept", options: [])
-            let decline = UNNotificationAction(identifier: "decline", title: "Decline", options: [])
-            let dismiss = UNNotificationAction(identifier: "dismiss", title: "Dismiss", options: [])
-            let category = UNNotificationCategory(identifier: "map", actions: [accept, decline, dismiss], intentIdentifiers: [], options: [])
-            UNUserNotificationCenter.current().setNotificationCategories([category])
-            
-            // request permissions
-            UNUserNotificationCenter.current().requestAuthorization(options: [.sound, .alert, .badge]) {
-                (granted, error) in
-                if (granted) {
-                    UIApplication.shared.registerForRemoteNotifications()
-                }
-            }
-        }
-        
         // demo: storing userId in shared group for app extension access
         let userId = "123456"
-        var sharedManager = SharedManager(forAppGroup: appGroupName)
         sharedManager.userId = "123456"
+        
+        // demo: identify the user on the CleverTap profile
         cleverTap.onUserLogin(["Identity":userId])
         
         // demo: grab the last push received saved by the Notification Service to the shared group user defaults for use here
@@ -64,7 +48,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
             session.activate()
         }
         
+        // register for push notifications on next tick
+        DispatchQueue.main.async {
+            self.registerPush()
+        }
+        
         return true
+    }
+    
+    private func registerPush() {
+        // register category with actions
+        let accept = UNNotificationAction(identifier: "accept", title: "Accept", options: [])
+        let decline = UNNotificationAction(identifier: "decline", title: "Decline", options: [])
+        let dismiss = UNNotificationAction(identifier: "dismiss", title: "Dismiss", options: [])
+        let category = UNNotificationCategory(identifier: "map", actions: [accept, decline, dismiss], intentIdentifiers: [], options: [])
+        UNUserNotificationCenter.current().setNotificationCategories([category])
+        
+        // request permissions
+        UNUserNotificationCenter.current().requestAuthorization(options: [.sound, .alert, .badge]) {
+            (granted, error) in
+            if (granted) {
+                UIApplication.shared.registerForRemoteNotifications()
+            }
+        }
     }
     
     //MARK: WCSessionDelegate

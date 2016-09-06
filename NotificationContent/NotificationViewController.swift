@@ -20,10 +20,10 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     
     @IBOutlet var textLabel: UILabel!
     
-    let appGroupName: String = "group.com.clevertap.demo10"
+    private lazy var cleverTap: CleverTap = CleverTap.sharedInstance()
     
-    lazy var sharedManager: SharedManager = {
-        return SharedManager(forAppGroup: self.appGroupName)
+    private lazy var sharedManager: SharedManager = {
+        return SharedManager(forAppGroup: "group.com.clevertap.demo10")
     }()
     
     override func viewDidLoad() {
@@ -31,7 +31,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
         
         CleverTap.setDebugLevel(1277182231)
         if let userId = sharedManager.userId {
-            CleverTap.sharedInstance().onUserLogin(["Identity":userId])
+            cleverTap.onUserLogin(["Identity":userId])
         }
         self.loadingIndicator.startAnimating()
     }
@@ -77,7 +77,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
             self.mapImageView.image = image
         })
         
-        CleverTap.sharedInstance().recordEvent("NotificationDidShowLocation",
+        cleverTap.recordEvent("NotificationDidShowLocation",
                                                withProps: ["lat": "\(mapboxCoordinate.latitude)", "lon":"\(mapboxCoordinate.longitude)"])
     }
     

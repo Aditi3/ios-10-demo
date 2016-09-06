@@ -51,5 +51,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>appGroupName</key>
+	<string>group.com.clevertap.demo10</string>
 </dict>
 </plist>

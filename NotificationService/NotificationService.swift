@@ -13,16 +13,20 @@ class NotificationService: UNNotificationServiceExtension {
 
     var contentHandler: ((UNNotificationContent) -> Void)?
     var bestAttemptContent: UNMutableNotificationContent?
-    let appGroupName: String = "group.com.clevertap.demo10"
+    
+    private lazy var cleverTap: CleverTap = CleverTap.sharedInstance()
+    
+    private lazy var sharedManager: SharedManager = {
+        return SharedManager(forAppGroup: "group.com.clevertap.demo10")
+    }()
 
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
         self.contentHandler = contentHandler
         bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
         
         CleverTap.setDebugLevel(1277182231)
-        var sharedManager = SharedManager(forAppGroup: appGroupName)
         if let userId = sharedManager.userId {
-            CleverTap.sharedInstance().onUserLogin(["Identity":userId])
+           cleverTap.onUserLogin(["Identity":userId])
         }
         
         if let bestAttemptContent = bestAttemptContent {
@@ -48,7 +52,7 @@ class NotificationService: UNNotificationServiceExtension {
             sharedManager.createNotificationAttachment(forMediaType: mediaType, withUrl: url, completionHandler: { attachment in
                 if let attachment = attachment {
                     bestAttemptContent.attachments = [attachment]
-                    CleverTap.sharedInstance().recordEvent("NotificationAddAttachment", withProps: ["type": mediaType.rawValue, "url":url])
+                    self.cleverTap.recordEvent("NotificationAddAttachment", withProps: ["type": mediaType.rawValue, "url":url])
                 }
                 contentHandler(bestAttemptContent)
             })
