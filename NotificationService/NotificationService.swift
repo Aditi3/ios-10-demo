@@ -9,6 +9,7 @@
 import UserNotifications
 import SharedManager
 
+@available(iOSApplicationExtension 10.0, *)@available(iOSApplicationExtension 10.0, *)
 class NotificationService: UNNotificationServiceExtension {
 
     var contentHandler: ((UNNotificationContent) -> Void)?

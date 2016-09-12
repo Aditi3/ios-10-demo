@@ -6,7 +6,7 @@
 //  Copyright © 2016 CleverTap. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import UserNotifications
 
 public enum MediaType: String {
@@ -16,6 +16,7 @@ public enum MediaType: String {
     case audio = "audio"
 }
 
+@available(iOSApplicationExtension 10.0, *)
 fileprivate struct Media {
     private var data: Data
     private var ext: String
@@ -45,7 +46,20 @@ fileprivate struct Media {
     }
     
     var fileExt: String {
-        return self.ext
+        if self.ext.characters.count > 0 {
+            return self.ext
+        } else {
+            switch(self.type) {
+            case .image:
+                return "jpg"
+            case .gif:
+                return "gif"
+            case .video:
+                return "mp4"
+            case .audio:
+                return "mp3"
+            }
+        }
     }
     
     var mediaData: Data? {
@@ -53,6 +67,7 @@ fileprivate struct Media {
     }
 }
 
+@available(iOSApplicationExtension 10.0, *)
 fileprivate extension UNNotificationContent {
     func toDict() -> [String : String] {
         var dict = [String:String]()
@@ -69,6 +84,7 @@ fileprivate extension UNNotificationContent {
     }
 }
 
+@available(iOSApplicationExtension 10.0, *)
 fileprivate extension UNNotificationAttachment {
     
     static func create(fromMedia media: Media) -> UNNotificationAttachment? {
@@ -120,6 +136,7 @@ private func resourceURL(forUrlString urlString: String) -> URL? {
     return url
 }
 
+@available(iOSApplicationExtension 10.0, *)
 private func loadAttachment(forMediaType mediaType: MediaType, withUrlString urlString: String, completionHandler: ((UNNotificationAttachment?) -> Void)) {
     guard let url = resourceURL(forUrlString: urlString) else {
         completionHandler(nil)
@@ -140,7 +157,7 @@ private func loadAttachment(forMediaType mediaType: MediaType, withUrlString url
     }
 }
 
-public struct SharedManager {
+public class SharedManager: NSObject {
     
     static var bundle: Bundle? = Bundle(identifier: "com.clevertap.SharedManager")
     
@@ -154,10 +171,15 @@ public struct SharedManager {
     
     public var userId: String? {
         get {
-          return self.retrieve(key: userIdKey)
+            return self.retrieve(key: userIdKey)
         }
         set(newValue) {
-            self.save(value: newValue!, forKey: userIdKey)
+            if (newValue == nil) {
+                self.remove(key: userIdKey)
+                
+            } else {
+                self.save(value: newValue!, forKey: userIdKey)
+            }
         }
     }
     
@@ -181,11 +203,15 @@ public struct SharedManager {
     }
     
     private func retrieve(key: String) -> String? {
-        return sharedUserDefaults?.object(forKey: key) as? String
+        return sharedUserDefaults?.string(forKey: key)
+    }
+    
+    private func remove(key: String) {
+        sharedUserDefaults?.removeObject(forKey: key)
     }
     
     private func retrieve(key: String) -> [String: String]? {
-        return sharedUserDefaults?.object(forKey: key) as? [String: String]
+        return sharedUserDefaults?.dictionary(forKey: key) as? [String: String]
     }
     
     public init(forAppGroup appGroupName: String) {
@@ -194,10 +220,12 @@ public struct SharedManager {
         sharedUserDefaults?.synchronize()
     }
     
-    mutating public func persistLastPushNotification(withContent content: UNNotificationContent) {
+    @available(iOSApplicationExtension 10.0, *)
+    public func persistLastPushNotification(withContent content: UNNotificationContent) {
         self.lastPushNotification = content.toDict()
     }
     
+    @available(iOSApplicationExtension 10.0, *)
     public func createNotificationAttachment(forMediaType mediaType: MediaType,
                                              withUrl url: String,
                                              completionHandler: ((UNNotificationAttachment?) -> Void)) {

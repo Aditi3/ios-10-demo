@@ -436,7 +436,7 @@ open class Snapshot: NSObject {
      - parameter completionHandler: The closure (block) to call with the resulting image. This closure is executed on the application’s main thread.
      - returns: The data task used to perform the HTTP request. If, while waiting for the completion handler to execute, you no longer want the resulting image, cancel this task.
      */
-    open func generateImage(completionHandler handler: CompletionHandler) -> URLSessionDataTask {
+    open func generateImage(completionHandler handler: @escaping CompletionHandler) -> URLSessionDataTask {
         let task = URLSession.shared.dataTask(with: requestURL) { (data, response, error) in
             if let error = error {
                 DispatchQueue.main.async {
