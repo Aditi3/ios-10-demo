@@ -1,10 +1,3 @@
-//
-//  hostwatchos-bridging-header.h
-//  swifttest
-//
-//  Created by pwilkniss on 8/8/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 #import <CleverTapSDK.hostwatchos/CleverTap.h>
 #import <CleverTapSDK.hostwatchos/CleverTap+HostWatchOS.h>

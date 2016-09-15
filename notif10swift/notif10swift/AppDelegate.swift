@@ -1,12 +1,6 @@
-//
-//  AppDelegate.swift
-//  notif10swift
-//
-//  Created by pwilkniss on 9/15/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +10,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        CleverTap.setDebugLevel(1277182231)
+        CleverTap.autoIntegrate()
+        
+        // register for push notifications on next tick
+        DispatchQueue.main.async {
+            self.registerPush()
+        }
+        
         return true
+    }
+    
+    private func registerPush() {
+        // request permissions
+        UNUserNotificationCenter.current().requestAuthorization(options: [.sound, .alert, .badge]) {
+            (granted, error) in
+            if (granted) {
+                UIApplication.shared.registerForRemoteNotifications()
+            }
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

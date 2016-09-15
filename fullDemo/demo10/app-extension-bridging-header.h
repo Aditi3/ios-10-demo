@@ -1,10 +1,3 @@
-//
-//  app-extension-bridging-header.h
-//  demo10
-//
-//  Created by pwilkniss on 8/22/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 #import <CleverTapSDK.appex/CleverTap.h>
 #import <CleverTapSDK.appex/CleverTapBuildInfo.h>

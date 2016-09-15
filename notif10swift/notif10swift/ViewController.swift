@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  notif10swift
-//
-//  Created by pwilkniss on 9/15/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 import UIKit
 
