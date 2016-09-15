@@ -1,12 +1,8 @@
-//
-//  AppDelegate.m
-//  notif10objc
-//
-//  Created by pwilkniss on 9/15/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
+#import <UserNotifications/UserNotifications.h>
+#import <CleverTapSDK/CleverTap.h>
 
 @interface AppDelegate ()
 
@@ -17,9 +13,35 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [CleverTap setDebugLevel:1277182231];
+    [CleverTap autoIntegrate];
+    [self registerPush];
+    
     return YES;
 }
 
+- (void)registerPush {
+    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+    [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge) completionHandler:^(BOOL granted, NSError * _Nullable error){
+        if( !error ){
+            [[UIApplication sharedApplication] registerForRemoteNotifications];
+        }
+    }];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    NSLog(@"did receive notification %@", userInfo);
+}
+
+
+- (BOOL)application:(UIApplication *)app
+            openURL:(NSURL *)url
+            options:(NSDictionary *)options {
+    
+    NSLog(@"open url %@", url);
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
