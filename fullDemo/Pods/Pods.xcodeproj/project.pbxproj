@@ -13,9 +13,24 @@
 		<key>03D431C75F5003B68E53DA688BE2C71B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>702C0C40D6D9CE1FA9DA84C992A20EBE</string>
+			<string>573285EF46221079371813D85F3DC9F9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>041A53BA264D751DB509DFBE21B0AC33</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7EE4CD2FAEA412AE6310FBEE979C84A0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CleverTapSDK.appex.framework</string>
+			<key>path</key>
+			<string>CleverTapSDK.appex.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>04567181ED8770F6924A714B53C6365E</key>
 		<dict>
@@ -103,19 +118,6 @@
 			<string>text.plist.xml</string>
 			<key>path</key>
 			<string>Pods-NotificationContent-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>099F03C46C643298A6BAB30001743707</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CleverTapWatchOS.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -219,6 +221,21 @@
 			<key>remoteInfo</key>
 			<string>MapboxStatic.swift</string>
 		</dict>
+		<key>13405B6EAA2506E2C4A1A71272AEC373</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>34B4B810CAAA65F1CA88B0E7CC61913F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>A</string>
+			<key>path</key>
+			<string>A</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>13D3E627F8F43C32E95246BBFCD64CA4</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -245,6 +262,22 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>15F7D90DA35A5DB1399EE92CC66D4B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>17CEC02E6474141699E78B0D402E3BD5</string>
+				<string>EF49182AAF070D0EE7A860985083435E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CleverTap-iOS-SDK</string>
+			<key>path</key>
+			<string>../../../clevertap-ios-sdk</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>16EBFD5288BD40F56D414457F80B4C0E</key>
 		<dict>
@@ -318,6 +351,19 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>172B2498C77637346AB3E0DF680F9970</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTap.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>17CC9D87A79DC79B72F609514EAC9012</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -332,6 +378,33 @@
 			<string>Pods-NotificationService.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>17CEC02E6474141699E78B0D402E3BD5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>041A53BA264D751DB509DFBE21B0AC33</string>
+				<string>3B18920648646432C813C5A8394520DB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AppExtension</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>186CD18B27C6128179A1342D7DE991CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>18793417410802FD47885CBB26C00930</key>
 		<dict>
@@ -534,6 +607,34 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>1FE66866049B94383A9C9D495B5323A6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapBuildInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>227F98871E91165EB1C151673410D810</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A76730473C6625D6B5EC83E8FA7297B2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CleverTapSDK.hostwatchos.framework</string>
+			<key>path</key>
+			<string>CleverTapSDK.hostwatchos.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>22C624B355340FD79469B8B2988FF156</key>
 		<dict>
 			<key>children</key>
@@ -571,19 +672,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>259DB41AE076D9F2DFD3F3D8DEDBD479</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BB796651913E2D9C2B8542D9082A1187</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>25D5D64F522B08BB1EDCFC987A86314E</key>
 		<dict>
 			<key>fileRef</key>
@@ -594,7 +682,7 @@
 		<key>268826735940A0F4553525FFCBD5A0BA</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>D96D99120CB692C166FCCDB69665D870</string>
+			<string>FBC540EBF6312AB6B30F115D60E56B1C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>APPLICATION_EXTENSION_API_ONLY</key>
@@ -669,21 +757,6 @@
 			<string>MapboxStatic.swift</string>
 			<key>path</key>
 			<string>MapboxStatic.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>289C94E82230389BA8D4BA95288625ED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>099F03C46C643298A6BAB30001743707</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTapWatchOS</string>
-			<key>path</key>
-			<string>CleverTapWatchOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -831,21 +904,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>2B35345B0FA27FA7BD06F6037B80FE39</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>602CD114ECC31A16C258888C445F317A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>A</string>
-			<key>path</key>
-			<string>A</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2C0AB98F62EAB5DF84A03E804DF78053</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -936,6 +994,27 @@
 			<key>targetProxy</key>
 			<string>11FC99F53B21A17536088F0B2B7213A5</string>
 		</dict>
+		<key>34B4B810CAAA65F1CA88B0E7CC61913F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>172B2498C77637346AB3E0DF680F9970</string>
+				<string>7AA559A8E1D123A1EF454F63D60E0C17</string>
+				<string>F9CDCD8B780F002E8744ADDE734F0F66</string>
+				<string>97759EC40C0025FB86864779CCF61C52</string>
+				<string>FC7D69A91765BC398F39D8C96E4A10EB</string>
+				<string>F3A993D23DACEC743C1BCE1C5F71F7BB</string>
+				<string>EB4BB3DFB9D46F33A1CB523D9EE06A10</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Headers</string>
+			<key>path</key>
+			<string>Headers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>378502817D238D4CEA68F0CC6C41DE4C</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -950,7 +1029,20 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>37E302D87A8A1AC61F9D2B25F7EB70F7</key>
+		<key>3A88F46A6FEEE2EA7DA8DEC285F8204E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-WatchApp Extension-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3AF5C837130423396385B88ED90AC83F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -963,29 +1055,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A28D9D243B57D0D54510D161D6BFBEB</key>
+		<key>3B18920648646432C813C5A8394520DB</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>B0E17C32295A41A9F1186F1F15F3807C</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTap.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A88F46A6FEEE2EA7DA8DEC285F8204E</key>
+		<key>3EF24B886736EC11E3395306588FAF57</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>wrapper.framework</string>
 			<key>path</key>
-			<string>Pods-WatchApp Extension-umbrella.h</string>
+			<string>CleverTapSDK.hostwatchos.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1074,10 +1164,23 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>4094C8E6631CABAFE057FD85B86CF870</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapEventDetail.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>409DE0B8F5AB8A1D30CB4A364D50EA9F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>D96D99120CB692C166FCCDB69665D870</string>
+			<string>FBC540EBF6312AB6B30F115D60E56B1C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>APPLICATION_EXTENSION_API_ONLY</key>
@@ -1336,19 +1439,16 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>48E703F564647054E15B79D89A197580</key>
+		<key>48D00A6A34CBDAB32BCA5C3AE7625F66</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>289C94E82230389BA8D4BA95288625ED</string>
-				<string>A512D064DB822C3DF2434B8EA467A98B</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTapWatchOS</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>../../clevertap-ios-sdk</string>
+			<string>CleverTapSyncDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1381,16 +1481,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4A80291323E39B3029281DB4299D6FAD</key>
+		<key>50133F011205EEA001082005498E7A54</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>3EF24B886736EC11E3395306588FAF57</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapBuildInfo.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1509,6 +1609,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>573285EF46221079371813D85F3DC9F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>CleverTapWatchOS-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>57DFAEF9D8F889E7F8F5F53A3C2F242C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>CleverTapWatchOS.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>5924C259D2E667932B447845E0C174B0</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1548,19 +1674,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>5CFD35904D59093E84177D3493886BF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapEventDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5FF5A5DE032482CE932BD9C7518C4A98</key>
 		<dict>
 			<key>children</key>
@@ -1582,27 +1695,6 @@
 			<string>Pods-WatchApp Extension</string>
 			<key>path</key>
 			<string>Target Support Files/Pods-WatchApp Extension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>602CD114ECC31A16C258888C445F317A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E5C0CD0217237C18DAA042E89ED01A62</string>
-				<string>F93FA2975E32EDCA4DE4CBBA4216B9A6</string>
-				<string>686F89CC43D768E76D4A9834A44778F6</string>
-				<string>5CFD35904D59093E84177D3493886BF1</string>
-				<string>931868E8BF88098E8D96DC66155AF551</string>
-				<string>706370592B797DBB8DAE9FC2238AF67E</string>
-				<string>37E302D87A8A1AC61F9D2B25F7EB70F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Headers</string>
-			<key>path</key>
-			<string>Headers</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1634,18 +1726,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>61215FFF3B01718CC352995B9C6A91BB</key>
+		<key>61B01E5AB0AB6D99639CA696BBB08593</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>91FA5E2180CD042C5613F8E90C14FF80</string>
+				<string>15F7D90DA35A5DB1399EE92CC66D4B0C</string>
+				<string>CFA4E4F21894B2CAF843EB9A71ABB6A3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>CleverTapSDK.hostwatchos.framework</string>
-			<key>path</key>
-			<string>CleverTapSDK.hostwatchos.framework</string>
+			<string>Development Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1677,19 +1768,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>66C3ACCEF750722D6F98188C10619EE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapUTMDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>67F59A20A30FC0CD51D0262DD8406FFC</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1710,19 +1788,6 @@
 			<string>60AEF6CBEA7FAE0BB852DA7BC33F3FF5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>686F89CC43D768E76D4A9834A44778F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapBuildInfo.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>68B88F91D6AAE012CF84157CCFA1D8E4</key>
 		<dict>
@@ -1758,22 +1823,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>6B6C71DFE9BD4B543608ACC44C00546A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BAF33A9F9EE573984086488E0CC44C47</string>
-				<string>C01947D550858CBEB7E93D1425E0AE66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTap-iOS-SDK</string>
-			<key>path</key>
-			<string>../../clevertap-ios-sdk</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>6C7A57A575A8EFB3934825E6FF886285</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1798,20 +1847,7 @@
 			<key>targetProxy</key>
 			<string>E1614FCD569D0626A74B5DBE80C8ACFD</string>
 		</dict>
-		<key>702C0C40D6D9CE1FA9DA84C992A20EBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CleverTapWatchOS-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>706370592B797DBB8DAE9FC2238AF67E</key>
+		<key>6E0801A90DA96D94A786FD908CB63D10</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1820,24 +1856,30 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CleverTapSyncDelegate.h</string>
+			<string>CleverTapWatchOS-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6FB8577ECF2EAA5C81D6F787EBA52C05</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FFC861FFBE4D2311E59F90163BAD0A84</string>
+				<string>1FE66866049B94383A9C9D495B5323A6</string>
+				<string>4094C8E6631CABAFE057FD85B86CF870</string>
+				<string>48D00A6A34CBDAB32BCA5C3AE7625F66</string>
+				<string>3AF5C837130423396385B88ED90AC83F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Headers</string>
+			<key>path</key>
+			<string>Headers</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>72D46B50F960030B4DB701DB189B43EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7402F5A8435E5C484268D80AC40A12D3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1872,30 +1914,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>76638FF201741ADB84A08D93F9CAF5EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>CleverTapSDK.hostwatchos.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7871EAAEBFE6E751E021FDA76ED23590</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapWatchOS-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>791C89DE34EBB5E3BF4D3EB8C5997602</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -1923,6 +1941,19 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>7AA559A8E1D123A1EF454F63D60E0C17</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTap+HostWatchOS.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7D1097FA0B40913A5DF92BA5E8191903</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1941,7 +1972,7 @@
 			<key>children</key>
 			<array>
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>DDCCFF7C9A6B38AD8C9F619B44D9D147</string>
+				<string>61B01E5AB0AB6D99639CA696BBB08593</string>
 				<string>1B99BDB5D844C82DA93D1F5675200081</string>
 				<string>22C624B355340FD79469B8B2988FF156</string>
 				<string>D125D8EFB4DDF741CAB0C3DF15FF2EB8</string>
@@ -1949,6 +1980,41 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7EE4CD2FAEA412AE6310FBEE979C84A0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CDB86C0565C754E4AE21952B2CC28A4C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Versions</string>
+			<key>path</key>
+			<string>Versions</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>830C48DFB928FCDC673F671BA7ED495D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA279420B24FBE42B93F3CD9199DB10B</string>
+				<string>FBC540EBF6312AB6B30F115D60E56B1C</string>
+				<string>573285EF46221079371813D85F3DC9F9</string>
+				<string>6E0801A90DA96D94A786FD908CB63D10</string>
+				<string>F9BDD8C8EB7EBF66FBC88795BE0B52E6</string>
+				<string>186CD18B27C6128179A1342D7DE991CF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../demo10/fullDemo/Pods/Target Support Files/CleverTapWatchOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2170,60 +2236,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>91FA5E2180CD042C5613F8E90C14FF80</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2B35345B0FA27FA7BD06F6037B80FE39</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Versions</string>
-			<key>path</key>
-			<string>Versions</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>931868E8BF88098E8D96DC66155AF551</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapInAppNotificationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9348E9F95B22CB8FD5E5641308FCC80B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapSyncDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939C9B894C56A3133D59A1C5444DF825</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapEventDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -2268,6 +2280,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>97759EC40C0025FB86864779CCF61C52</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapEventDetail.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>97898196F8A0BF3856E1BEFD7C2E683D</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -2307,19 +2332,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9AA0CD52E11C23EF9B9BA5F3043F5B8D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>76638FF201741ADB84A08D93F9CAF5EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>9B1046028F8E8F32367C40634BED1A43</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2341,7 +2353,7 @@
 		<key>A3042D010FB4BFB648489905C30A6C30</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7871EAAEBFE6E751E021FDA76ED23590</string>
+			<string>F9BDD8C8EB7EBF66FBC88795BE0B52E6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2352,26 +2364,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A512D064DB822C3DF2434B8EA467A98B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D4DCFF438D0F35F1E3158335475AB60A</string>
-				<string>D96D99120CB692C166FCCDB69665D870</string>
-				<string>702C0C40D6D9CE1FA9DA84C992A20EBE</string>
-				<string>A6AFB6F18BF498D619CCF08063E3B779</string>
-				<string>7871EAAEBFE6E751E021FDA76ED23590</string>
-				<string>7402F5A8435E5C484268D80AC40A12D3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../demo10/Pods/Target Support Files/CleverTapWatchOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>A5D6DB38EC2A268374880E7101BC66BD</key>
 		<dict>
 			<key>fileRef</key>
@@ -2379,31 +2371,18 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A6AFB6F18BF498D619CCF08063E3B779</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapWatchOS-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9BA6BE67DF4228F9D31FDEBC1B03124</key>
+		<key>A76730473C6625D6B5EC83E8FA7297B2</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>BEE599323745004099A0CCD5060A51FE</string>
+				<string>13405B6EAA2506E2C4A1A71272AEC373</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>A</string>
+			<string>Versions</string>
 			<key>path</key>
-			<string>A</string>
+			<string>Versions</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2419,6 +2398,17 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>B0E17C32295A41A9F1186F1F15F3807C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>path</key>
+			<string>CleverTapSDK.appex.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B1AD85E8EE5D1630E375A87B7372728D</key>
 		<dict>
@@ -2634,31 +2624,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>BAF33A9F9EE573984086488E0CC44C47</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FF6BEECCC7B0595F4F47C2A9062B917E</string>
-				<string>259DB41AE076D9F2DFD3F3D8DEDBD479</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AppExtension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB796651913E2D9C2B8542D9082A1187</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>CleverTapSDK.appex.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>BD7F5431BDBD7DC055924842B249BD64</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -2698,39 +2663,6 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>watchOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BEE599323745004099A0CCD5060A51FE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3A28D9D243B57D0D54510D161D6BFBEB</string>
-				<string>4A80291323E39B3029281DB4299D6FAD</string>
-				<string>939C9B894C56A3133D59A1C5444DF825</string>
-				<string>9348E9F95B22CB8FD5E5641308FCC80B</string>
-				<string>66C3ACCEF750722D6F98188C10619EE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Headers</string>
-			<key>path</key>
-			<string>Headers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C01947D550858CBEB7E93D1425E0AE66</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61215FFF3B01718CC352995B9C6A91BB</string>
-				<string>9AA0CD52E11C23EF9B9BA5F3043F5B8D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HostWatchOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2985,6 +2917,21 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>CDB86C0565C754E4AE21952B2CC28A4C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6FB8577ECF2EAA5C81D6F787EBA52C05</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>A</string>
+			<key>path</key>
+			<string>A</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>CE8B879F1B81A72DC70C769A95B71169</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2995,6 +2942,22 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-demo10-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CFA4E4F21894B2CAF843EB9A71ABB6A3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FE978046FB869FD737168609B97CF862</string>
+				<string>830C48DFB928FCDC673F671BA7ED495D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CleverTapWatchOS</string>
+			<key>path</key>
+			<string>../../../clevertap-ios-sdk</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3102,17 +3065,6 @@
 				<string>791C89DE34EBB5E3BF4D3EB8C5997602</string>
 			</array>
 		</dict>
-		<key>D4DCFF438D0F35F1E3158335475AB60A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CleverTapWatchOS.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D4E2FED1411ABE20E16E5BDD396435A4</key>
 		<dict>
 			<key>fileRef</key>
@@ -3168,19 +3120,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>D96D99120CB692C166FCCDB69665D870</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>CleverTapWatchOS.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D98AD8ECFCBD22F60CF248021C1FFDE9</key>
 		<dict>
 			<key>fileRef</key>
@@ -3198,20 +3137,6 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-NotificationContent-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDCCFF7C9A6B38AD8C9F619B44D9D147</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6B6C71DFE9BD4B543608ACC44C00546A</string>
-				<string>48E703F564647054E15B79D89A197580</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3333,7 +3258,7 @@
 		<key>E18738EE68E364DE4F87D3E45A9A7010</key>
 		<dict>
 			<key>fileRef</key>
-			<string>099F03C46C643298A6BAB30001743707</string>
+			<string>57DFAEF9D8F889E7F8F5F53A3C2F242C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3435,19 +3360,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>E5C0CD0217237C18DAA042E89ED01A62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTap.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E663D6400B91D5DA247A1D6B7CF7BF9B</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3538,6 +3450,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>EB4BB3DFB9D46F33A1CB523D9EE06A10</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapUTMDetail.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>ED21B40733D7A273B7D322AEDC0FEE93</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -3608,18 +3533,17 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>EEF98950E20D7E553DCFEA1C3D7964F9</key>
+		<key>EF49182AAF070D0EE7A860985083435E</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>A9BA6BE67DF4228F9D31FDEBC1B03124</string>
+				<string>227F98871E91165EB1C151673410D810</string>
+				<string>50133F011205EEA001082005498E7A54</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Versions</string>
-			<key>path</key>
-			<string>Versions</string>
+			<string>HostWatchOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3636,6 +3560,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>F3A993D23DACEC743C1BCE1C5F71F7BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapSyncDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F55DB46D4A361A166D3A2AC0B4700297</key>
 		<dict>
@@ -3698,7 +3635,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>F93FA2975E32EDCA4DE4CBBA4216B9A6</key>
+		<key>F9BDD8C8EB7EBF66FBC88795BE0B52E6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3707,7 +3644,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CleverTap+HostWatchOS.h</string>
+			<string>CleverTapWatchOS-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9CDCD8B780F002E8744ADDE734F0F66</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapBuildInfo.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3736,6 +3686,17 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>FA279420B24FBE42B93F3CD9199DB10B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>CleverTapWatchOS.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FAE99226362D8E66AB1EAB41AB93C736</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -3750,6 +3711,32 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>FBC540EBF6312AB6B30F115D60E56B1C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>CleverTapWatchOS.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC7D69A91765BC398F39D8C96E4A10EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTapInAppNotificationDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FCC942F8C71B7832341A17D9C99775A6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3763,18 +3750,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FF6BEECCC7B0595F4F47C2A9062B917E</key>
+		<key>FE978046FB869FD737168609B97CF862</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>EEF98950E20D7E553DCFEA1C3D7964F9</string>
+				<string>57DFAEF9D8F889E7F8F5F53A3C2F242C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>CleverTapSDK.appex.framework</string>
+			<string>CleverTapWatchOS</string>
 			<key>path</key>
-			<string>CleverTapSDK.appex.framework</string>
+			<string>CleverTapWatchOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FFC861FFBE4D2311E59F90163BAD0A84</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CleverTap.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
