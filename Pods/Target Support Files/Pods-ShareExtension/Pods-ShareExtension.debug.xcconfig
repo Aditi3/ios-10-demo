@@ -1,4 +1,4 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../../clevertap-ios-sdk"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../clevertap-ios-sdk"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) CLEVERTAP_APP_EXTENSION
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CleverTap-iOS-SDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
