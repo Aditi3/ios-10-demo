@@ -78,6 +78,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
         return true
     }
     
+    open func open(_ url: URL, options: [String : Any] = [:],
+                   completionHandler completion: ((Bool) -> Swift.Void)? = nil){
+        print("open url \(url) with completionHandler")
+    }
+    
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
         
         print("did receive remote notification \(userInfo)")
