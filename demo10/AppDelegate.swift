@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // set up CleverTap
-        CleverTap.setDebugLevel(1277182231)
+        CleverTap.setDebugLevel(1)
         CleverTap.autoIntegrate()
         
         // demo: storing userId in shared group for app extension access
@@ -28,8 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         // demo: identify the user on the CleverTap profile
         cleverTap.onUserLogin(["Identity":userId])
-        
-        cleverTap.recordEvent("NotificationAddAttachment")
         
         // demo: grab the last push received saved by the Notification Service to the shared group user defaults for use here
         if let lastPush = sharedManager.lastPushNotification {
