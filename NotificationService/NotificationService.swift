@@ -1,10 +1,3 @@
-//
-//  NotificationService.swift
-//  NotificationService
-//
-//  Created by pwilkniss on 8/16/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 import UserNotifications
 import SharedManager

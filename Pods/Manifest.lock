@@ -5,16 +5,12 @@ PODS:
   - MapboxStatic.swift (0.6.0)
 
 DEPENDENCIES:
-  - CleverTap-iOS-SDK/AppExtension (from `../clevertap-ios-sdk/`)
-  - CleverTap-iOS-SDK/HostWatchOS (from `../clevertap-ios-sdk/`)
-  - CleverTapWatchOS (from `../clevertap-ios-sdk/`)
+  - CleverTap-iOS-SDK/AppExtension
+  - CleverTap-iOS-SDK/HostWatchOS
+  - CleverTapWatchOS
   - MapboxStatic.swift (from `https://github.com/mapbox/MapboxStatic.swift.git`, tag `v0.6.0`)
 
 EXTERNAL SOURCES:
-  CleverTap-iOS-SDK:
-    :path: "../clevertap-ios-sdk/"
-  CleverTapWatchOS:
-    :path: "../clevertap-ios-sdk/"
   MapboxStatic.swift:
     :git: https://github.com/mapbox/MapboxStatic.swift.git
     :tag: v0.6.0
@@ -29,6 +25,6 @@ SPEC CHECKSUMS:
   CleverTapWatchOS: 128003881944d15343a6007cbecb3eb4af6d8a0d
   MapboxStatic.swift: 3185804edec6bea74be7d74fb3ca9a666009f7a2
 
-PODFILE CHECKSUM: a7765a4eecbc7224d351386da92c259266f9ae5b
+PODFILE CHECKSUM: 4815896b56cabd02ba6882946c698dd7f672d56d
 
 COCOAPODS: 1.0.1

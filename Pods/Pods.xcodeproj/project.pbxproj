@@ -1,3785 +1,1404 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>03D431C75F5003B68E53DA688BE2C71B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>702C0C40D6D9CE1FA9DA84C992A20EBE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04567181ED8770F6924A714B53C6365E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-demo10.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04B6EE39CB2A2BE1C6F7EF857AFE1949</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-ShareExtension-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>073A6E7C62BDBCDE59B6E14F36129C29</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5CA78588179C8A2DBFBEEF6C687D32C4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>074F8A4439714895BD8284582024579B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ShareExtension-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08A74E0B00AED985329F7C40E52877B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-NotificationService-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08B63457B5C7227DB8616884B486C5C7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D787009C81C846D6829295DDBCA0F797</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>08C5F4EC0FC413FD4E28105D083489B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-NotificationContent-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>099F03C46C643298A6BAB30001743707</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CleverTapWatchOS.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0AAC510DC0AFE032E0E1D73BE1FF33A6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1EDED7099B37FEC74B2923DAF0B09C90</string>
-				<string>E4A617B859EB931A916EB9644CA4F029</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0AE53ED3A0E4DD9B539E8ED1BEAE124C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A5D6DB38EC2A268374880E7101BC66BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0CD740187D809B3AD66C43C91187DC48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MapboxStatic.swift-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E89A5208826731802690170D66B290A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D4E2FED1411ABE20E16E5BDD396435A4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0F1BBCA0F421B21EA4CDC6039011FAF6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>409DE0B8F5AB8A1D30CB4A364D50EA9F</string>
-				<string>268826735940A0F4553525FFCBD5A0BA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0F805A92A491CE57FE69F15BF9306C68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-NotificationContent.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1106C9A03AE30FC45410BC3271EC2E68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B9B692E8BB0EC6B173686ECC256F22D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>11FC99F53B21A17536088F0B2B7213A5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2B1D84EDAA6BBB8DD705007E8A5CCAF5</string>
-			<key>remoteInfo</key>
-			<string>MapboxStatic.swift</string>
-		</dict>
-		<key>13D3E627F8F43C32E95246BBFCD64CA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-demo10.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15E00252922CBFC506D84F4F8CE20593</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D1097FA0B40913A5DF92BA5E8191903</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>16EBFD5288BD40F56D414457F80B4C0E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B7D8F6DA9CA1EBE10779350C6A0B5118</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-ShareExtension/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-ShareExtension/Pods-ShareExtension.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_ShareExtension</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>17CC9D87A79DC79B72F609514EAC9012</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_NotificationService.framework</string>
-			<key>path</key>
-			<string>Pods-NotificationService.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>18793417410802FD47885CBB26C00930</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Snapshot.swift</string>
-			<key>path</key>
-			<string>MapboxStatic/Snapshot.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19871D6DC6783A9992523296A7C4CD96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-NotificationContent-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19971D1B45E33DA94121026443B9889C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B99BDB5D844C82DA93D1F5675200081</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>073A6E7C62BDBCDE59B6E14F36129C29</string>
-				<string>BE7AD0CE44FB59D3FEA3801D1A9832EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D3A27BED4FABC92652FDAB89770ADA0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DFE95BD4C83506DC2D1710173BFD5650</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D83736F9213A3BB29C5BD6A281403B95</string>
-				<string>E2CD161C34DB3F93D37F05739ACEC65A</string>
-				<string>529A86F72F5010556F334104507CC622</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ShareExtension</string>
-			<key>productName</key>
-			<string>Pods-ShareExtension</string>
-			<key>productReference</key>
-			<string>BD7F5431BDBD7DC055924842B249BD64</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>1E4A4EC69E231613DCB339A2A2BED04B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B9B692E8BB0EC6B173686ECC256F22D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1EC0EF2421BFAE649AACA57608DC4928</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1EDE9ECED6876AA67E45E8939BFDD841</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0AAC510DC0AFE032E0E1D73BE1FF33A6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C51FFB0BEAE3AA9D8E38AC249077530D</string>
-				<string>08B63457B5C7227DB8616884B486C5C7</string>
-				<string>2F6B044106EEEDDE55C095AD70C00465</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3473189B25F05F30D821B60C189DCC38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-NotificationContent</string>
-			<key>productName</key>
-			<string>Pods-NotificationContent</string>
-			<key>productReference</key>
-			<string>DE5DD35E7106A8B23D040E54B362B4D9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>1EDED7099B37FEC74B2923DAF0B09C90</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E663D6400B91D5DA247A1D6B7CF7BF9B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-NotificationContent/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-NotificationContent/Pods-NotificationContent.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_NotificationContent</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>22C624B355340FD79469B8B2988FF156</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>285040DDD17BAFE6CADFCA117052D914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22E9543276E589108E2101A1891FC7E5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A3042D010FB4BFB648489905C30A6C30</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>236869325C1CF5E56FA0BC93106040DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MapboxStatic.swift.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>259DB41AE076D9F2DFD3F3D8DEDBD479</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BB796651913E2D9C2B8542D9082A1187</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25D5D64F522B08BB1EDCFC987A86314E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D1644CF47F17AECAF209EF85FBA55ED7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>268826735940A0F4553525FFCBD5A0BA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D96D99120CB692C166FCCDB69665D870</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/CleverTapWatchOS/CleverTapWatchOS-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/CleverTapWatchOS/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/CleverTapWatchOS/CleverTapWatchOS.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>CleverTapWatchOS</string>
-				<key>SDKROOT</key>
-				<string>watchos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-				<key>WATCHOS_DEPLOYMENT_TARGET</key>
-				<string>2.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>285040DDD17BAFE6CADFCA117052D914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D1644CF47F17AECAF209EF85FBA55ED7</string>
-				<string>4A6E81FE18C0DCFD86CA9F7FB5740E7A</string>
-				<string>60AEF6CBEA7FAE0BB852DA7BC33F3FF5</string>
-				<string>18793417410802FD47885CBB26C00930</string>
-				<string>68B88F91D6AAE012CF84157CCFA1D8E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MapboxStatic.swift</string>
-			<key>path</key>
-			<string>MapboxStatic.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>289C94E82230389BA8D4BA95288625ED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>099F03C46C643298A6BAB30001743707</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTapWatchOS</string>
-			<key>path</key>
-			<string>CleverTapWatchOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28AE27E9117CFC8D31A502CE9031C46A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>WATCHOS_DEPLOYMENT_TARGET</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>29ECC5FC87EC2DBF5DE4819756F1A3BB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F604C417388601CF548204EECFA78A31</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2A8E5FEB3A73F5A2FD8E7C9F39B9BA57</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-NotificationService.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AAF9238A2D9ABD358C2F3B4E375C799</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MapboxStatic.swift-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B1D84EDAA6BBB8DD705007E8A5CCAF5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6AB4C109EF22A490FD00CAC6114E5185</string>
-			<key>buildPhases</key>
-			<array>
-				<string>855087F316A6C521E0BBD50CB26364FE</string>
-				<string>ACBF1511DB1943648020F888BC1BB2A7</string>
-				<string>67F59A20A30FC0CD51D0262DD8406FFC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MapboxStatic.swift</string>
-			<key>productName</key>
-			<string>MapboxStatic.swift</string>
-			<key>productReference</key>
-			<string>D7A7CC012D92479DFAAA308FAB7EF342</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>2B35345B0FA27FA7BD06F6037B80FE39</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>602CD114ECC31A16C258888C445F317A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>A</string>
-			<key>path</key>
-			<string>A</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C0AB98F62EAB5DF84A03E804DF78053</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>MapboxStatic.swift.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>28AE27E9117CFC8D31A502CE9031C46A</string>
-				<string>DF05F18246797D35A6F8B0F50EEB3931</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2F378B77101A5D7B673DDABFEC2A42CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-demo10-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F6B044106EEEDDE55C095AD70C00465</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4908005E85606B228545C7A02DDBB045</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>31417312D744DC9DDED65D494E73EA9A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-demo10-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>340C7614450C4F101DC7D9EF92B68D6E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MapboxStatic.swift-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3473189B25F05F30D821B60C189DCC38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MapboxStatic.swift</string>
-			<key>target</key>
-			<string>2B1D84EDAA6BBB8DD705007E8A5CCAF5</string>
-			<key>targetProxy</key>
-			<string>11FC99F53B21A17536088F0B2B7213A5</string>
-		</dict>
-		<key>378502817D238D4CEA68F0CC6C41DE4C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1106C9A03AE30FC45410BC3271EC2E68</string>
-				<string>546A32B867D4ABD9F94A46D44E282AA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>37E302D87A8A1AC61F9D2B25F7EB70F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapUTMDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A28D9D243B57D0D54510D161D6BFBEB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTap.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A88F46A6FEEE2EA7DA8DEC285F8204E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F2C801E7987B4029284208F5878C1FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>402A877FCDB2AFA8510DEBE9A0C36293</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CFF8E453368823A2DDFC09FFA0B6C65A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-WatchApp Extension/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_WatchApp_Extension</string>
-				<key>SDKROOT</key>
-				<string>watchos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-				<key>WATCHOS_DEPLOYMENT_TARGET</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>409DE0B8F5AB8A1D30CB4A364D50EA9F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D96D99120CB692C166FCCDB69665D870</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/CleverTapWatchOS/CleverTapWatchOS-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/CleverTapWatchOS/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/CleverTapWatchOS/CleverTapWatchOS.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>CleverTapWatchOS</string>
-				<key>SDKROOT</key>
-				<string>watchos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-				<key>WATCHOS_DEPLOYMENT_TARGET</key>
-				<string>2.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>41114BF95D83C0373D045F814688452F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C55F26A11D8CDD3B821ED64B4D5C50B9</string>
-				<string>9B1046028F8E8F32367C40634BED1A43</string>
-				<string>5924C259D2E667932B447845E0C174B0</string>
-				<string>FCC942F8C71B7832341A17D9C99775A6</string>
-				<string>08A74E0B00AED985329F7C40E52877B9</string>
-				<string>F7FBF9291504E815A2062577F5EFCAB9</string>
-				<string>46844BE7B055374B803D3A5047CFEEFD</string>
-				<string>872E969F7C5CF990AD04D54E9A5E5C1E</string>
-				<string>2A8E5FEB3A73F5A2FD8E7C9F39B9BA57</string>
-				<string>C7E1723F66E2BC73DF8BF8F0CC73F511</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-NotificationService</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-NotificationService</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4364AC01EE4B102B1802437178BA124F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1E4A4EC69E231613DCB339A2A2BED04B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>43F9F86E74A3D169D5143A830B46E29C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-ShareExtension-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44EB26FC41FD492F29AF5948D39B6CA9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>19971D1B45E33DA94121026443B9889C</string>
-				<string>94282473CA4549A7C5C05767A721C432</string>
-				<string>43F9F86E74A3D169D5143A830B46E29C</string>
-				<string>D4F5B4522288199CA9116BB526F7405D</string>
-				<string>074F8A4439714895BD8284582024579B</string>
-				<string>04B6EE39CB2A2BE1C6F7EF857AFE1949</string>
-				<string>987D0B7BDE9FD925393879FC288ED202</string>
-				<string>5B99BFDB3E3A187605B1587EA445B0F5</string>
-				<string>60FBD3CEB9A2A634444CF348A7DCD13F</string>
-				<string>B7D8F6DA9CA1EBE10779350C6A0B5118</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-ShareExtension</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-ShareExtension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>457A9082C74C747C0E5019DCFCE896B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>18793417410802FD47885CBB26C00930</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>465704F21997240546CC8994A3E80D21</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>65C5CE4AF365EF59AE3FB13024BE4733</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-demo10/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-demo10/Pods-demo10.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_demo10</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>46844BE7B055374B803D3A5047CFEEFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-NotificationService-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46B04D1137DA0B7A276C4A7BD940554E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4716CA054B759BCFBCA906A198B97C65</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>402A877FCDB2AFA8510DEBE9A0C36293</string>
-				<string>ED21B40733D7A273B7D322AEDC0FEE93</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>471F2B5423CF88B602A1D8B5B207C657</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CA78588179C8A2DBFBEEF6C687D32C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>48E703F564647054E15B79D89A197580</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>289C94E82230389BA8D4BA95288625ED</string>
-				<string>A512D064DB822C3DF2434B8EA467A98B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTapWatchOS</string>
-			<key>path</key>
-			<string>../../clevertap-ios-sdk</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4908005E85606B228545C7A02DDBB045</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19871D6DC6783A9992523296A7C4CD96</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4A6E81FE18C0DCFD86CA9F7FB5740E7A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MapboxStatic.h</string>
-			<key>path</key>
-			<string>MapboxStatic/MapboxStatic.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A80291323E39B3029281DB4299D6FAD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapBuildInfo.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50E0FB0347463F13461AB391F858652A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CA78588179C8A2DBFBEEF6C687D32C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>50E8314EBF345BCE481331EE4C8BE8C2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>72D46B50F960030B4DB701DB189B43EF</string>
-				<string>04567181ED8770F6924A714B53C6365E</string>
-				<string>97F9834A5C429FCF7A8C4AF179AF327C</string>
-				<string>31417312D744DC9DDED65D494E73EA9A</string>
-				<string>B86A2A171CC613F0E6239986F7B29B7A</string>
-				<string>2F378B77101A5D7B673DDABFEC2A42CF</string>
-				<string>CE8B879F1B81A72DC70C769A95B71169</string>
-				<string>7D1097FA0B40913A5DF92BA5E8191903</string>
-				<string>13D3E627F8F43C32E95246BBFCD64CA4</string>
-				<string>65C5CE4AF365EF59AE3FB13024BE4733</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-demo10</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-demo10</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>529A86F72F5010556F334104507CC622</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9413E24417333FCD9B3B56D13FA55823</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>536757662483E6E805059A0745818887</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53723D09A8DEA5BDAA7DAE6A38AEAE24</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>546A32B867D4ABD9F94A46D44E282AA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A807CCD6861EE666ECA522AF8AE1C92</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>55D336D44F97004A1DD96CD9937CCB39</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F80368119E8A26FFBBF74116DB471429</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0AE53ED3A0E4DD9B539E8ED1BEAE124C</string>
-				<string>29ECC5FC87EC2DBF5DE4819756F1A3BB</string>
-				<string>B9103B064BB51C29261DDE08275552E3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-demo10</string>
-			<key>productName</key>
-			<string>Pods-demo10</string>
-			<key>productReference</key>
-			<string>66070F90A34E2D001AB8EEF424F41BE9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>570757737836D4A687D049BE315E4BBC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5924C259D2E667932B447845E0C174B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-NotificationService-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B99BFDB3E3A187605B1587EA445B0F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ShareExtension-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CA78588179C8A2DBFBEEF6C687D32C4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>5CFD35904D59093E84177D3493886BF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapEventDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FF5A5DE032482CE932BD9C7518C4A98</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>570757737836D4A687D049BE315E4BBC</string>
-				<string>84DC692946A1D0BBB5947BDBFC3B6AF2</string>
-				<string>B7AADD7647E4C22DD00BFCB8EB073A2D</string>
-				<string>6C7A57A575A8EFB3934825E6FF886285</string>
-				<string>1EC0EF2421BFAE649AACA57608DC4928</string>
-				<string>F55DB46D4A361A166D3A2AC0B4700297</string>
-				<string>536757662483E6E805059A0745818887</string>
-				<string>3A88F46A6FEEE2EA7DA8DEC285F8204E</string>
-				<string>CFF8E453368823A2DDFC09FFA0B6C65A</string>
-				<string>46B04D1137DA0B7A276C4A7BD940554E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-WatchApp Extension</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-WatchApp Extension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>602CD114ECC31A16C258888C445F317A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E5C0CD0217237C18DAA042E89ED01A62</string>
-				<string>F93FA2975E32EDCA4DE4CBBA4216B9A6</string>
-				<string>686F89CC43D768E76D4A9834A44778F6</string>
-				<string>5CFD35904D59093E84177D3493886BF1</string>
-				<string>931868E8BF88098E8D96DC66155AF551</string>
-				<string>706370592B797DBB8DAE9FC2238AF67E</string>
-				<string>37E302D87A8A1AC61F9D2B25F7EB70F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Headers</string>
-			<key>path</key>
-			<string>Headers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60AEF6CBEA7FAE0BB852DA7BC33F3FF5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Overlay.swift</string>
-			<key>path</key>
-			<string>MapboxStatic/Overlay.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60FBD3CEB9A2A634444CF348A7DCD13F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ShareExtension.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61215FFF3B01718CC352995B9C6A91BB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>91FA5E2180CD042C5613F8E90C14FF80</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTapSDK.hostwatchos.framework</string>
-			<key>path</key>
-			<string>CleverTapSDK.hostwatchos.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>65C5CE4AF365EF59AE3FB13024BE4733</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-demo10.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66070F90A34E2D001AB8EEF424F41BE9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_demo10.framework</string>
-			<key>path</key>
-			<string>Pods-demo10.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>66C3ACCEF750722D6F98188C10619EE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapUTMDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67F59A20A30FC0CD51D0262DD8406FFC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F815B43ADD32A673FF20692D5C5462A4</string>
-				<string>F055A89759EAC3BCDB8C573CC75297E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67FCFB17A3923FCE03FE44C471998313</key>
-		<dict>
-			<key>fileRef</key>
-			<string>60AEF6CBEA7FAE0BB852DA7BC33F3FF5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>686F89CC43D768E76D4A9834A44778F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapBuildInfo.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68B88F91D6AAE012CF84157CCFA1D8E4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>53723D09A8DEA5BDAA7DAE6A38AEAE24</string>
-				<string>236869325C1CF5E56FA0BC93106040DC</string>
-				<string>2C0AB98F62EAB5DF84A03E804DF78053</string>
-				<string>2AAF9238A2D9ABD358C2F3B4E375C799</string>
-				<string>340C7614450C4F101DC7D9EF92B68D6E</string>
-				<string>0CD740187D809B3AD66C43C91187DC48</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/MapboxStatic.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6AB4C109EF22A490FD00CAC6114E5185</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E8EFC716C51049B2635CC5F2E5F1466C</string>
-				<string>B99D56DAEB44EA820EDA2804055775C1</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6B6C71DFE9BD4B543608ACC44C00546A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BAF33A9F9EE573984086488E0CC44C47</string>
-				<string>C01947D550858CBEB7E93D1425E0AE66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTap-iOS-SDK</string>
-			<key>path</key>
-			<string>../../clevertap-ios-sdk</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C7A57A575A8EFB3934825E6FF886285</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C7CA141FD14E3D41EBA892619BB07D1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>CleverTapWatchOS</string>
-			<key>target</key>
-			<string>8423D4ECDE7D9334BDE727CA839DB3A5</string>
-			<key>targetProxy</key>
-			<string>E1614FCD569D0626A74B5DBE80C8ACFD</string>
-		</dict>
-		<key>702C0C40D6D9CE1FA9DA84C992A20EBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CleverTapWatchOS-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>706370592B797DBB8DAE9FC2238AF67E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapSyncDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72D46B50F960030B4DB701DB189B43EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7402F5A8435E5C484268D80AC40A12D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75945F5CB52691BEE468FEFE15FCE252</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CleverTapWatchOS.framework</string>
-			<key>path</key>
-			<string>CleverTapWatchOS.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>760CC1CEE154A5F7ABF144DA12BEC43C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B46BC310A8F5A01A4DC1E33F2A2F8787</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>76638FF201741ADB84A08D93F9CAF5EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>CleverTapSDK.hostwatchos.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7871EAAEBFE6E751E021FDA76ED23590</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapWatchOS-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>791C89DE34EBB5E3BF4D3EB8C5997602</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4716CA054B759BCFBCA906A198B97C65</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0E89A5208826731802690170D66B290A</string>
-				<string>4364AC01EE4B102B1802437178BA124F</string>
-				<string>D08710B8782D295F4E960079B2557767</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6C7CA141FD14E3D41EBA892619BB07D1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-WatchApp Extension</string>
-			<key>productName</key>
-			<string>Pods-WatchApp Extension</string>
-			<key>productReference</key>
-			<string>CC2B57111B68D91EF4F85710DA6CAA29</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>7D1097FA0B40913A5DF92BA5E8191903</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-demo10-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>DDCCFF7C9A6B38AD8C9F619B44D9D147</string>
-				<string>1B99BDB5D844C82DA93D1F5675200081</string>
-				<string>22C624B355340FD79469B8B2988FF156</string>
-				<string>D125D8EFB4DDF741CAB0C3DF15FF2EB8</string>
-				<string>CAD0DA4E1A2E1E9999C5A47D6F22609A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8423D4ECDE7D9334BDE727CA839DB3A5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0F1BBCA0F421B21EA4CDC6039011FAF6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8E451FF99F1EE2C385EB998B3D8DC217</string>
-				<string>378502817D238D4CEA68F0CC6C41DE4C</string>
-				<string>22E9543276E589108E2101A1891FC7E5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CleverTapWatchOS</string>
-			<key>productName</key>
-			<string>CleverTapWatchOS</string>
-			<key>productReference</key>
-			<string>75945F5CB52691BEE468FEFE15FCE252</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>8425ACA96DF83C2E12F2886951574DEA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8EE3170391387B862841C9CFFD8FE14B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84DC692946A1D0BBB5947BDBFC3B6AF2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>855087F316A6C521E0BBD50CB26364FE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>25D5D64F522B08BB1EDCFC987A86314E</string>
-				<string>8D2507D16DECE029698957DA40251D26</string>
-				<string>67FCFB17A3923FCE03FE44C471998313</string>
-				<string>457A9082C74C747C0E5019DCFCE896B6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>872E969F7C5CF990AD04D54E9A5E5C1E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-NotificationService-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A5D592DCD5D8938DF855E0B44ABDE1D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2A8E5FEB3A73F5A2FD8E7C9F39B9BA57</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-NotificationService/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-NotificationService/Pods-NotificationService.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_NotificationService</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8A807CCD6861EE666ECA522AF8AE1C92</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>WatchConnectivity.framework</string>
-			<key>path</key>
-			<string>Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/WatchConnectivity.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>8B85DC9AA86ADD55E1F260F8D259200C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-NotificationContent-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D2507D16DECE029698957DA40251D26</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AAF9238A2D9ABD358C2F3B4E375C799</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DFD1A97775EE18AC90C005D0C27DA66</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08A74E0B00AED985329F7C40E52877B9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E451FF99F1EE2C385EB998B3D8DC217</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>03D431C75F5003B68E53DA688BE2C71B</string>
-				<string>E18738EE68E364DE4F87D3E45A9A7010</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8EE3170391387B862841C9CFFD8FE14B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>872E969F7C5CF990AD04D54E9A5E5C1E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>91FA5E2180CD042C5613F8E90C14FF80</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2B35345B0FA27FA7BD06F6037B80FE39</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Versions</string>
-			<key>path</key>
-			<string>Versions</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>931868E8BF88098E8D96DC66155AF551</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapInAppNotificationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9348E9F95B22CB8FD5E5641308FCC80B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapSyncDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939C9B894C56A3133D59A1C5444DF825</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapEventDetail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>9413E24417333FCD9B3B56D13FA55823</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5B99BFDB3E3A187605B1587EA445B0F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>94282473CA4549A7C5C05767A721C432</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-ShareExtension.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97898196F8A0BF3856E1BEFD7C2E683D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>471F2B5423CF88B602A1D8B5B207C657</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>97F9834A5C429FCF7A8C4AF179AF327C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-demo10-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>987D0B7BDE9FD925393879FC288ED202</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-ShareExtension-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AA0CD52E11C23EF9B9BA5F3043F5B8D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>76638FF201741ADB84A08D93F9CAF5EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B1046028F8E8F32367C40634BED1A43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-NotificationService.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E62A760126E926A0251F5FB82BAB077</key>
-		<dict>
-			<key>fileRef</key>
-			<string>074F8A4439714895BD8284582024579B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3042D010FB4BFB648489905C30A6C30</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7871EAAEBFE6E751E021FDA76ED23590</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A512D064DB822C3DF2434B8EA467A98B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D4DCFF438D0F35F1E3158335475AB60A</string>
-				<string>D96D99120CB692C166FCCDB69665D870</string>
-				<string>702C0C40D6D9CE1FA9DA84C992A20EBE</string>
-				<string>A6AFB6F18BF498D619CCF08063E3B779</string>
-				<string>7871EAAEBFE6E751E021FDA76ED23590</string>
-				<string>7402F5A8435E5C484268D80AC40A12D3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../demo10/Pods/Target Support Files/CleverTapWatchOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5D6DB38EC2A268374880E7101BC66BD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B86A2A171CC613F0E6239986F7B29B7A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A6AFB6F18BF498D619CCF08063E3B779</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTapWatchOS-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9BA6BE67DF4228F9D31FDEBC1B03124</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BEE599323745004099A0CCD5060A51FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>A</string>
-			<key>path</key>
-			<string>A</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ACBF1511DB1943648020F888BC1BB2A7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>50E0FB0347463F13461AB391F858652A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B1AD85E8EE5D1630E375A87B7372728D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>60FBD3CEB9A2A634444CF348A7DCD13F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-ShareExtension/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-ShareExtension/Pods-ShareExtension.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_ShareExtension</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B46BC310A8F5A01A4DC1E33F2A2F8787</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-NotificationContent-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7AADD7647E4C22DD00BFCB8EB073A2D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7D8F6DA9CA1EBE10779350C6A0B5118</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ShareExtension.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B86A2A171CC613F0E6239986F7B29B7A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-demo10-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9103B064BB51C29261DDE08275552E3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>15E00252922CBFC506D84F4F8CE20593</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B99D56DAEB44EA820EDA2804055775C1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2C0AB98F62EAB5DF84A03E804DF78053</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MapboxStatic.swift/MapboxStatic.swift-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MapboxStatic.swift/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MapboxStatic.swift/MapboxStatic.swift.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>MapboxStatic</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B9B692E8BB0EC6B173686ECC256F22D6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>BAF33A9F9EE573984086488E0CC44C47</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FF6BEECCC7B0595F4F47C2A9062B917E</string>
-				<string>259DB41AE076D9F2DFD3F3D8DEDBD479</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AppExtension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB796651913E2D9C2B8542D9082A1187</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>CleverTapSDK.appex.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD7F5431BDBD7DC055924842B249BD64</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_ShareExtension.framework</string>
-			<key>path</key>
-			<string>Pods-ShareExtension.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BE0E1B06FDA90F182BA83D8FF312746E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8DFD1A97775EE18AC90C005D0C27DA66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BE7AD0CE44FB59D3FEA3801D1A9832EC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B9B692E8BB0EC6B173686ECC256F22D6</string>
-				<string>8A807CCD6861EE666ECA522AF8AE1C92</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>watchOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BEE599323745004099A0CCD5060A51FE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3A28D9D243B57D0D54510D161D6BFBEB</string>
-				<string>4A80291323E39B3029281DB4299D6FAD</string>
-				<string>939C9B894C56A3133D59A1C5444DF825</string>
-				<string>9348E9F95B22CB8FD5E5641308FCC80B</string>
-				<string>66C3ACCEF750722D6F98188C10619EE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Headers</string>
-			<key>path</key>
-			<string>Headers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C01947D550858CBEB7E93D1425E0AE66</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61215FFF3B01718CC352995B9C6A91BB</string>
-				<string>9AA0CD52E11C23EF9B9BA5F3043F5B8D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HostWatchOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C05FA2708A9F01A72BF3E2A7124F0931</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3F2C801E7987B4029284208F5878C1FE</string>
-				<string>E93A80C54C83D23D87810E8ACB42A8CD</string>
-				<string>E21B298B0E50DF56D45FD6CE43463703</string>
-				<string>08C5F4EC0FC413FD4E28105D083489B3</string>
-				<string>B46BC310A8F5A01A4DC1E33F2A2F8787</string>
-				<string>8B85DC9AA86ADD55E1F260F8D259200C</string>
-				<string>DADF5D82B096AA8987CE80F31364AF43</string>
-				<string>19871D6DC6783A9992523296A7C4CD96</string>
-				<string>E663D6400B91D5DA247A1D6B7CF7BF9B</string>
-				<string>0F805A92A491CE57FE69F15BF9306C68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-NotificationContent</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-NotificationContent</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C51FFB0BEAE3AA9D8E38AC249077530D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>760CC1CEE154A5F7ABF144DA12BEC43C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C55F26A11D8CDD3B821ED64B4D5C50B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7E1723F66E2BC73DF8BF8F0CC73F511</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-NotificationService.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C846DC2EB0DD14DB7DECE84E7FF090B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A88F46A6FEEE2EA7DA8DEC285F8204E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CAD0DA4E1A2E1E9999C5A47D6F22609A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>50E8314EBF345BCE481331EE4C8BE8C2</string>
-				<string>C05FA2708A9F01A72BF3E2A7124F0931</string>
-				<string>41114BF95D83C0373D045F814688452F</string>
-				<string>44EB26FC41FD492F29AF5948D39B6CA9</string>
-				<string>5FF5A5DE032482CE932BD9C7518C4A98</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB9607279B2653096768A647F63E75AA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>13D3E627F8F43C32E95246BBFCD64CA4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-demo10/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-demo10/Pods-demo10.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_demo10</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CC2B57111B68D91EF4F85710DA6CAA29</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_WatchApp_Extension.framework</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CC69783853C58E84B1B757D4AB951F0D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C7E1723F66E2BC73DF8BF8F0CC73F511</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-NotificationService/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-NotificationService/Pods-NotificationService.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_NotificationService</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>CE8B879F1B81A72DC70C769A95B71169</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-demo10-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFF8E453368823A2DDFC09FFA0B6C65A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D08710B8782D295F4E960079B2557767</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C846DC2EB0DD14DB7DECE84E7FF090B9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D125D8EFB4DDF741CAB0C3DF15FF2EB8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>75945F5CB52691BEE468FEFE15FCE252</string>
-				<string>D7A7CC012D92479DFAAA308FAB7EF342</string>
-				<string>66070F90A34E2D001AB8EEF424F41BE9</string>
-				<string>DE5DD35E7106A8B23D040E54B362B4D9</string>
-				<string>17CC9D87A79DC79B72F609514EAC9012</string>
-				<string>BD7F5431BDBD7DC055924842B249BD64</string>
-				<string>CC2B57111B68D91EF4F85710DA6CAA29</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1644CF47F17AECAF209EF85FBA55ED7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Color.swift</string>
-			<key>path</key>
-			<string>MapboxStatic/Color.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>D125D8EFB4DDF741CAB0C3DF15FF2EB8</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8423D4ECDE7D9334BDE727CA839DB3A5</string>
-				<string>2B1D84EDAA6BBB8DD705007E8A5CCAF5</string>
-				<string>55D336D44F97004A1DD96CD9937CCB39</string>
-				<string>1EDE9ECED6876AA67E45E8939BFDD841</string>
-				<string>FA260BE486AA3CBA714E5BBAA13B611D</string>
-				<string>1D3A27BED4FABC92652FDAB89770ADA0</string>
-				<string>791C89DE34EBB5E3BF4D3EB8C5997602</string>
-			</array>
-		</dict>
-		<key>D4DCFF438D0F35F1E3158335475AB60A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CleverTapWatchOS.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D4E2FED1411ABE20E16E5BDD396435A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1EC0EF2421BFAE649AACA57608DC4928</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D4F5B4522288199CA9116BB526F7405D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-ShareExtension-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D787009C81C846D6829295DDBCA0F797</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CA78588179C8A2DBFBEEF6C687D32C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D7A7CC012D92479DFAAA308FAB7EF342</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>MapboxStatic.framework</string>
-			<key>path</key>
-			<string>MapboxStatic.swift.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D83736F9213A3BB29C5BD6A281403B95</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9E62A760126E926A0251F5FB82BAB077</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D96D99120CB692C166FCCDB69665D870</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>CleverTapWatchOS.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D98AD8ECFCBD22F60CF248021C1FFDE9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CA78588179C8A2DBFBEEF6C687D32C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DADF5D82B096AA8987CE80F31364AF43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-NotificationContent-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDCCFF7C9A6B38AD8C9F619B44D9D147</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6B6C71DFE9BD4B543608ACC44C00546A</string>
-				<string>48E703F564647054E15B79D89A197580</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE5DD35E7106A8B23D040E54B362B4D9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_NotificationContent.framework</string>
-			<key>path</key>
-			<string>Pods-NotificationContent.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DF05F18246797D35A6F8B0F50EEB3931</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-				<key>WATCHOS_DEPLOYMENT_TARGET</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DFE95BD4C83506DC2D1710173BFD5650</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B1AD85E8EE5D1630E375A87B7372728D</string>
-				<string>16EBFD5288BD40F56D414457F80B4C0E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E1614FCD569D0626A74B5DBE80C8ACFD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8423D4ECDE7D9334BDE727CA839DB3A5</string>
-			<key>remoteInfo</key>
-			<string>CleverTapWatchOS</string>
-		</dict>
-		<key>E18738EE68E364DE4F87D3E45A9A7010</key>
-		<dict>
-			<key>fileRef</key>
-			<string>099F03C46C643298A6BAB30001743707</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E21B298B0E50DF56D45FD6CE43463703</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-NotificationContent-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2CD161C34DB3F93D37F05739ACEC65A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D98AD8ECFCBD22F60CF248021C1FFDE9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E4A617B859EB931A916EB9644CA4F029</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0F805A92A491CE57FE69F15BF9306C68</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-NotificationContent/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-NotificationContent/Pods-NotificationContent.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_NotificationContent</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E5C0CD0217237C18DAA042E89ED01A62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTap.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E663D6400B91D5DA247A1D6B7CF7BF9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-NotificationContent.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8EFC716C51049B2635CC5F2E5F1466C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2C0AB98F62EAB5DF84A03E804DF78053</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MapboxStatic.swift/MapboxStatic.swift-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MapboxStatic.swift/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MapboxStatic.swift/MapboxStatic.swift.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>MapboxStatic</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E93A80C54C83D23D87810E8ACB42A8CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-NotificationContent.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED21B40733D7A273B7D322AEDC0FEE93</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>46B04D1137DA0B7A276C4A7BD940554E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-WatchApp Extension/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_WatchApp_Extension</string>
-				<key>SDKROOT</key>
-				<string>watchos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-				<key>WATCHOS_DEPLOYMENT_TARGET</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EEF98950E20D7E553DCFEA1C3D7964F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A9BA6BE67DF4228F9D31FDEBC1B03124</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Versions</string>
-			<key>path</key>
-			<string>Versions</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F055A89759EAC3BCDB8C573CC75297E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CD740187D809B3AD66C43C91187DC48</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F55DB46D4A361A166D3A2AC0B4700297</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-WatchApp Extension-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F604C417388601CF548204EECFA78A31</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CA78588179C8A2DBFBEEF6C687D32C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F7FBF9291504E815A2062577F5EFCAB9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-NotificationService-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F80368119E8A26FFBBF74116DB471429</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>CB9607279B2653096768A647F63E75AA</string>
-				<string>465704F21997240546CC8994A3E80D21</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F815B43ADD32A673FF20692D5C5462A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A6E81FE18C0DCFD86CA9F7FB5740E7A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F93FA2975E32EDCA4DE4CBBA4216B9A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CleverTap+HostWatchOS.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA260BE486AA3CBA714E5BBAA13B611D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FAE99226362D8E66AB1EAB41AB93C736</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BE0E1B06FDA90F182BA83D8FF312746E</string>
-				<string>97898196F8A0BF3856E1BEFD7C2E683D</string>
-				<string>8425ACA96DF83C2E12F2886951574DEA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-NotificationService</string>
-			<key>productName</key>
-			<string>Pods-NotificationService</string>
-			<key>productReference</key>
-			<string>17CC9D87A79DC79B72F609514EAC9012</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>FAE99226362D8E66AB1EAB41AB93C736</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8A5D592DCD5D8938DF855E0B44ABDE1D</string>
-				<string>CC69783853C58E84B1B757D4AB951F0D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FCC942F8C71B7832341A17D9C99775A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-NotificationService-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF6BEECCC7B0595F4F47C2A9062B917E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EEF98950E20D7E553DCFEA1C3D7964F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CleverTapSDK.appex.framework</string>
-			<key>path</key>
-			<string>CleverTapSDK.appex.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1106C9A03AE30FC45410BC3271EC2E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B692E8BB0EC6B173686ECC256F22D6 /* Foundation.framework */; };
+		15E00252922CBFC506D84F4F8CE20593 /* Pods-demo10-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1097FA0B40913A5DF92BA5E8191903 /* Pods-demo10-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E4A4EC69E231613DCB339A2A2BED04B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B692E8BB0EC6B173686ECC256F22D6 /* Foundation.framework */; };
+		25D5D64F522B08BB1EDCFC987A86314E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475339817E9FE43C3A2F35CFE8283CB /* Color.swift */; };
+		31C9A93B694F58CBC86DADFC839D29D7 /* CleverTapWatchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3843BF46543B44CDB44EDE20DA6995A2 /* CleverTapWatchOS-dummy.m */; };
+		457A9082C74C747C0E5019DCFCE896B6 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA3123DBA38AD2BFE66D8855ED924A /* Snapshot.swift */; };
+		471F2B5423CF88B602A1D8B5B207C657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
+		4908005E85606B228545C7A02DDBB045 /* Pods-NotificationContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19871D6DC6783A9992523296A7C4CD96 /* Pods-NotificationContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E0FB0347463F13461AB391F858652A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
+		546A32B867D4ABD9F94A46D44E282AA7 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A807CCD6861EE666ECA522AF8AE1C92 /* WatchConnectivity.framework */; };
+		67FCFB17A3923FCE03FE44C471998313 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116B904D684F04423830F0E4DE9DA88 /* Overlay.swift */; };
+		760CC1CEE154A5F7ABF144DA12BEC43C /* Pods-NotificationContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46BC310A8F5A01A4DC1E33F2A2F8787 /* Pods-NotificationContent-dummy.m */; };
+		8D2507D16DECE029698957DA40251D26 /* MapboxStatic.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2258B6C93CAB18E5B788D2357AE1465B /* MapboxStatic.swift-dummy.m */; };
+		8DFD1A97775EE18AC90C005D0C27DA66 /* Pods-NotificationService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A74E0B00AED985329F7C40E52877B9 /* Pods-NotificationService-dummy.m */; };
+		8EE3170391387B862841C9CFFD8FE14B /* Pods-NotificationService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 872E969F7C5CF990AD04D54E9A5E5C1E /* Pods-NotificationService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9413E24417333FCD9B3B56D13FA55823 /* Pods-ShareExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B99BFDB3E3A187605B1587EA445B0F5 /* Pods-ShareExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E62A760126E926A0251F5FB82BAB077 /* Pods-ShareExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F8A4439714895BD8284582024579B /* Pods-ShareExtension-dummy.m */; };
+		A3042D010FB4BFB648489905C30A6C30 /* CleverTapWatchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EE62867454F6EA5A8E3966B11DDF72 /* CleverTapWatchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D6DB38EC2A268374880E7101BC66BD /* Pods-demo10-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B86A2A171CC613F0E6239986F7B29B7A /* Pods-demo10-dummy.m */; };
+		B74A19F4C4B02AC89CD00396C0AC98FC /* CleverTapWatchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DA8384587E1FDE6582D9DE82407E8 /* CleverTapWatchOS.swift */; };
+		C846DC2EB0DD14DB7DECE84E7FF090B9 /* Pods-WatchApp Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A88F46A6FEEE2EA7DA8DEC285F8204E /* Pods-WatchApp Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4E2FED1411ABE20E16E5BDD396435A4 /* Pods-WatchApp Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC0EF2421BFAE649AACA57608DC4928 /* Pods-WatchApp Extension-dummy.m */; };
+		D787009C81C846D6829295DDBCA0F797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
+		D98AD8ECFCBD22F60CF248021C1FFDE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
+		F055A89759EAC3BCDB8C573CC75297E4 /* MapboxStatic.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EF81DCA6F4CA789DA48117BE14E053 /* MapboxStatic.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F604C417388601CF548204EECFA78A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
+		F815B43ADD32A673FF20692D5C5462A4 /* MapboxStatic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7D43E5DD060E217F1FC1EC74511419 /* MapboxStatic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11FC99F53B21A17536088F0B2B7213A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1D84EDAA6BBB8DD705007E8A5CCAF5;
+			remoteInfo = MapboxStatic.swift;
+		};
+		E1614FCD569D0626A74B5DBE80C8ACFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8423D4ECDE7D9334BDE727CA839DB3A5;
+			remoteInfo = CleverTapWatchOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04567181ED8770F6924A714B53C6365E /* Pods-demo10.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-demo10.modulemap"; sourceTree = "<group>"; };
+		04B6EE39CB2A2BE1C6F7EF857AFE1949 /* Pods-ShareExtension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareExtension-frameworks.sh"; sourceTree = "<group>"; };
+		074F8A4439714895BD8284582024579B /* Pods-ShareExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareExtension-dummy.m"; sourceTree = "<group>"; };
+		08A74E0B00AED985329F7C40E52877B9 /* Pods-NotificationService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotificationService-dummy.m"; sourceTree = "<group>"; };
+		08C5F4EC0FC413FD4E28105D083489B3 /* Pods-NotificationContent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationContent-acknowledgements.plist"; sourceTree = "<group>"; };
+		09EE62867454F6EA5A8E3966B11DDF72 /* CleverTapWatchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleverTapWatchOS-umbrella.h"; sourceTree = "<group>"; };
+		0F805A92A491CE57FE69F15BF9306C68 /* Pods-NotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		13D3E627F8F43C32E95246BBFCD64CA4 /* Pods-demo10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo10.debug.xcconfig"; sourceTree = "<group>"; };
+		1709A11ED971976695EB225F4582786B /* CleverTapWatchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleverTapWatchOS.xcconfig; sourceTree = "<group>"; };
+		17B83B11755DC7663F0DEB3CFB38E62E /* CleverTapSyncDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapSyncDelegate.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTapSyncDelegate.h; sourceTree = "<group>"; };
+		17CC9D87A79DC79B72F609514EAC9012 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EA3123DBA38AD2BFE66D8855ED924A /* Snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snapshot.swift; path = MapboxStatic/Snapshot.swift; sourceTree = "<group>"; };
+		19871D6DC6783A9992523296A7C4CD96 /* Pods-NotificationContent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationContent-umbrella.h"; sourceTree = "<group>"; };
+		19971D1B45E33DA94121026443B9889C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC0EF2421BFAE649AACA57608DC4928 /* Pods-WatchApp Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchApp Extension-dummy.m"; sourceTree = "<group>"; };
+		2258B6C93CAB18E5B788D2357AE1465B /* MapboxStatic.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapboxStatic.swift-dummy.m"; sourceTree = "<group>"; };
+		2A8E5FEB3A73F5A2FD8E7C9F39B9BA57 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		2F19765CF680FE0487F0F9DFC89F7F03 /* CleverTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTap.h; path = CleverTapSDK.appex.framework/Versions/A/Headers/CleverTap.h; sourceTree = "<group>"; };
+		2F378B77101A5D7B673DDABFEC2A42CF /* Pods-demo10-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo10-frameworks.sh"; sourceTree = "<group>"; };
+		2F4DA8384587E1FDE6582D9DE82407E8 /* CleverTapWatchOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleverTapWatchOS.swift; path = CleverTapWatchOS/CleverTapWatchOS.swift; sourceTree = "<group>"; };
+		31417312D744DC9DDED65D494E73EA9A /* Pods-demo10-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo10-acknowledgements.plist"; sourceTree = "<group>"; };
+		36A04B3B1D9BEACAB98B8AA657321E4A /* CleverTapUTMDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapUTMDetail.h; path = CleverTapSDK.appex.framework/Versions/A/Headers/CleverTapUTMDetail.h; sourceTree = "<group>"; };
+		3843BF46543B44CDB44EDE20DA6995A2 /* CleverTapWatchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleverTapWatchOS-dummy.m"; sourceTree = "<group>"; };
+		38DF01030063ABA5B467C07AC9C83292 /* CleverTapWatchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleverTapWatchOS-prefix.pch"; sourceTree = "<group>"; };
+		3A88F46A6FEEE2EA7DA8DEC285F8204E /* Pods-WatchApp Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchApp Extension-umbrella.h"; sourceTree = "<group>"; };
+		3F2C801E7987B4029284208F5878C1FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D299B9F782BC46B6271B590C069822 /* CleverTapBuildInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapBuildInfo.h; path = CleverTapSDK.appex.framework/Versions/A/Headers/CleverTapBuildInfo.h; sourceTree = "<group>"; };
+		43F9F86E74A3D169D5143A830B46E29C /* Pods-ShareExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44168DD73D55FAE0E9EA95DECEE01512 /* CleverTapUTMDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapUTMDetail.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTapUTMDetail.h; sourceTree = "<group>"; };
+		46844BE7B055374B803D3A5047CFEEFD /* Pods-NotificationService-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationService-resources.sh"; sourceTree = "<group>"; };
+		46B04D1137DA0B7A276C4A7BD940554E /* Pods-WatchApp Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchApp Extension.release.xcconfig"; sourceTree = "<group>"; };
+		536757662483E6E805059A0745818887 /* Pods-WatchApp Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchApp Extension-resources.sh"; sourceTree = "<group>"; };
+		570757737836D4A687D049BE315E4BBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5924C259D2E667932B447845E0C174B0 /* Pods-NotificationService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationService-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B99BFDB3E3A187605B1587EA445B0F5 /* Pods-ShareExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareExtension-umbrella.h"; sourceTree = "<group>"; };
+		5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60FBD3CEB9A2A634444CF348A7DCD13F /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		616655BEBBCA9514510E3547F248769D /* CleverTapSyncDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapSyncDelegate.h; path = CleverTapSDK.appex.framework/Versions/A/Headers/CleverTapSyncDelegate.h; sourceTree = "<group>"; };
+		65C5CE4AF365EF59AE3FB13024BE4733 /* Pods-demo10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo10.release.xcconfig"; sourceTree = "<group>"; };
+		66070F90A34E2D001AB8EEF424F41BE9 /* Pods_demo10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688042957C15EBA7C157B83750423F44 /* MapboxStatic.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MapboxStatic.swift.modulemap; sourceTree = "<group>"; };
+		6C7A57A575A8EFB3934825E6FF886285 /* Pods-WatchApp Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchApp Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		7139B54EB218D8945500F272890C7F0F /* CleverTapWatchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CleverTapWatchOS.modulemap; sourceTree = "<group>"; };
+		72D46B50F960030B4DB701DB189B43EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A41DF00CB83F3D699B2884DF6B21F0 /* MapboxStatic.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxStatic.swift-prefix.pch"; sourceTree = "<group>"; };
+		75945F5CB52691BEE468FEFE15FCE252 /* CleverTapWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleverTapWatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78683FB50269D843210F802E4794D035 /* CleverTapSDK.hostwatchos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CleverTapSDK.hostwatchos.framework; sourceTree = "<group>"; };
+		790E05137A4D1F455D9CAB2E463E38E5 /* CleverTapSDK.appex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CleverTapSDK.appex.framework; sourceTree = "<group>"; };
+		7D1097FA0B40913A5DF92BA5E8191903 /* Pods-demo10-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-demo10-umbrella.h"; sourceTree = "<group>"; };
+		8116B904D684F04423830F0E4DE9DA88 /* Overlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Overlay.swift; path = MapboxStatic/Overlay.swift; sourceTree = "<group>"; };
+		82D460104847CD5922399D80FABB8632 /* CleverTapEventDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapEventDetail.h; path = CleverTapSDK.appex.framework/Versions/A/Headers/CleverTapEventDetail.h; sourceTree = "<group>"; };
+		84DC692946A1D0BBB5947BDBFC3B6AF2 /* Pods-WatchApp Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WatchApp Extension.modulemap"; sourceTree = "<group>"; };
+		872E969F7C5CF990AD04D54E9A5E5C1E /* Pods-NotificationService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationService-umbrella.h"; sourceTree = "<group>"; };
+		89B6472A397DC4863259131A6DBB22D7 /* CleverTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTap.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTap.h; sourceTree = "<group>"; };
+		8A807CCD6861EE666ECA522AF8AE1C92 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		8B85DC9AA86ADD55E1F260F8D259200C /* Pods-NotificationContent-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationContent-frameworks.sh"; sourceTree = "<group>"; };
+		921AF35794EB56D345DEAD9B0E8C69B5 /* CleverTapEventDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapEventDetail.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTapEventDetail.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94282473CA4549A7C5C05767A721C432 /* Pods-ShareExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShareExtension.modulemap"; sourceTree = "<group>"; };
+		9475339817E9FE43C3A2F35CFE8283CB /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = MapboxStatic/Color.swift; sourceTree = "<group>"; };
+		97F9834A5C429FCF7A8C4AF179AF327C /* Pods-demo10-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-demo10-acknowledgements.markdown"; sourceTree = "<group>"; };
+		987D0B7BDE9FD925393879FC288ED202 /* Pods-ShareExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareExtension-resources.sh"; sourceTree = "<group>"; };
+		9B1046028F8E8F32367C40634BED1A43 /* Pods-NotificationService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NotificationService.modulemap"; sourceTree = "<group>"; };
+		9C7D43E5DD060E217F1FC1EC74511419 /* MapboxStatic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapboxStatic.h; path = MapboxStatic/MapboxStatic.h; sourceTree = "<group>"; };
+		A406FC38D5A9CE7130431E2721354571 /* CleverTap+HostWatchOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CleverTap+HostWatchOS.h"; path = "CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTap+HostWatchOS.h"; sourceTree = "<group>"; };
+		A7EF81DCA6F4CA789DA48117BE14E053 /* MapboxStatic.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxStatic.swift-umbrella.h"; sourceTree = "<group>"; };
+		B0530F49C090AA5FD78604AC2DD19304 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46BC310A8F5A01A4DC1E33F2A2F8787 /* Pods-NotificationContent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotificationContent-dummy.m"; sourceTree = "<group>"; };
+		B7AADD7647E4C22DD00BFCB8EB073A2D /* Pods-WatchApp Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchApp Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7D8F6DA9CA1EBE10779350C6A0B5118 /* Pods-ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
+		B86A2A171CC613F0E6239986F7B29B7A /* Pods-demo10-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demo10-dummy.m"; sourceTree = "<group>"; };
+		B9B692E8BB0EC6B173686ECC256F22D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB118A76263738EF6544127205F8BAB3 /* CleverTapBuildInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapBuildInfo.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTapBuildInfo.h; sourceTree = "<group>"; };
+		BD7F5431BDBD7DC055924842B249BD64 /* Pods_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0139A5CF6BD9971B4DF794BF865F95F /* MapboxStatic.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapboxStatic.swift.xcconfig; sourceTree = "<group>"; };
+		C55F26A11D8CDD3B821ED64B4D5C50B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E1723F66E2BC73DF8BF8F0CC73F511 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		C7F217DA69B86D6B368E81F83B894F8D /* CleverTapInAppNotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapInAppNotificationDelegate.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTapInAppNotificationDelegate.h; sourceTree = "<group>"; };
+		CC2B57111B68D91EF4F85710DA6CAA29 /* Pods_WatchApp_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchApp_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8B879F1B81A72DC70C769A95B71169 /* Pods-demo10-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo10-resources.sh"; sourceTree = "<group>"; };
+		CF7DF131C774A4DE36C637D481ADBF0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF8E453368823A2DDFC09FFA0B6C65A /* Pods-WatchApp Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchApp Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D4F5B4522288199CA9116BB526F7405D /* Pods-ShareExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7A7CC012D92479DFAAA308FAB7EF342 /* MapboxStatic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxStatic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADF5D82B096AA8987CE80F31364AF43 /* Pods-NotificationContent-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationContent-resources.sh"; sourceTree = "<group>"; };
+		DE5DD35E7106A8B23D040E54B362B4D9 /* Pods_NotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21B298B0E50DF56D45FD6CE43463703 /* Pods-NotificationContent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationContent-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E663D6400B91D5DA247A1D6B7CF7BF9B /* Pods-NotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+		E93A80C54C83D23D87810E8ACB42A8CD /* Pods-NotificationContent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NotificationContent.modulemap"; sourceTree = "<group>"; };
+		F55DB46D4A361A166D3A2AC0B4700297 /* Pods-WatchApp Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchApp Extension-frameworks.sh"; sourceTree = "<group>"; };
+		F7FBF9291504E815A2062577F5EFCAB9 /* Pods-NotificationService-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationService-frameworks.sh"; sourceTree = "<group>"; };
+		FCC942F8C71B7832341A17D9C99775A6 /* Pods-NotificationService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationService-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B63457B5C7227DB8616884B486C5C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D787009C81C846D6829295DDBCA0F797 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29ECC5FC87EC2DBF5DE4819756F1A3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F604C417388601CF548204EECFA78A31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378502817D238D4CEA68F0CC6C41DE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1106C9A03AE30FC45410BC3271EC2E68 /* Foundation.framework in Frameworks */,
+				546A32B867D4ABD9F94A46D44E282AA7 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4364AC01EE4B102B1802437178BA124F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4A4EC69E231613DCB339A2A2BED04B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97898196F8A0BF3856E1BEFD7C2E683D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471F2B5423CF88B602A1D8B5B207C657 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBF1511DB1943648020F888BC1BB2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E0FB0347463F13461AB391F858652A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CD161C34DB3F93D37F05739ACEC65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98AD8ECFCBD22F60CF248021C1FFDE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073A6E7C62BDBCDE59B6E14F36129C29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1B99BDB5D844C82DA93D1F5675200081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				073A6E7C62BDBCDE59B6E14F36129C29 /* iOS */,
+				BE7AD0CE44FB59D3FEA3801D1A9832EC /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24A21448640EDF8480A1C403AD877AF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D7EB0C559CBD2B0333229DD61F276 /* CleverTap-iOS-SDK */,
+				F6DC18B0C79BAA1A610987931217FB0E /* CleverTapWatchOS */,
+				C5818D468EB36FAC82AC02D2A3B2B3E4 /* MapboxStatic.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41114BF95D83C0373D045F814688452F /* Pods-NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				C55F26A11D8CDD3B821ED64B4D5C50B9 /* Info.plist */,
+				9B1046028F8E8F32367C40634BED1A43 /* Pods-NotificationService.modulemap */,
+				5924C259D2E667932B447845E0C174B0 /* Pods-NotificationService-acknowledgements.markdown */,
+				FCC942F8C71B7832341A17D9C99775A6 /* Pods-NotificationService-acknowledgements.plist */,
+				08A74E0B00AED985329F7C40E52877B9 /* Pods-NotificationService-dummy.m */,
+				F7FBF9291504E815A2062577F5EFCAB9 /* Pods-NotificationService-frameworks.sh */,
+				46844BE7B055374B803D3A5047CFEEFD /* Pods-NotificationService-resources.sh */,
+				872E969F7C5CF990AD04D54E9A5E5C1E /* Pods-NotificationService-umbrella.h */,
+				2A8E5FEB3A73F5A2FD8E7C9F39B9BA57 /* Pods-NotificationService.debug.xcconfig */,
+				C7E1723F66E2BC73DF8BF8F0CC73F511 /* Pods-NotificationService.release.xcconfig */,
+			);
+			name = "Pods-NotificationService";
+			path = "Target Support Files/Pods-NotificationService";
+			sourceTree = "<group>";
+		};
+		44EB26FC41FD492F29AF5948D39B6CA9 /* Pods-ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				19971D1B45E33DA94121026443B9889C /* Info.plist */,
+				94282473CA4549A7C5C05767A721C432 /* Pods-ShareExtension.modulemap */,
+				43F9F86E74A3D169D5143A830B46E29C /* Pods-ShareExtension-acknowledgements.markdown */,
+				D4F5B4522288199CA9116BB526F7405D /* Pods-ShareExtension-acknowledgements.plist */,
+				074F8A4439714895BD8284582024579B /* Pods-ShareExtension-dummy.m */,
+				04B6EE39CB2A2BE1C6F7EF857AFE1949 /* Pods-ShareExtension-frameworks.sh */,
+				987D0B7BDE9FD925393879FC288ED202 /* Pods-ShareExtension-resources.sh */,
+				5B99BFDB3E3A187605B1587EA445B0F5 /* Pods-ShareExtension-umbrella.h */,
+				60FBD3CEB9A2A634444CF348A7DCD13F /* Pods-ShareExtension.debug.xcconfig */,
+				B7D8F6DA9CA1EBE10779350C6A0B5118 /* Pods-ShareExtension.release.xcconfig */,
+			);
+			name = "Pods-ShareExtension";
+			path = "Target Support Files/Pods-ShareExtension";
+			sourceTree = "<group>";
+		};
+		4A8D7EB0C559CBD2B0333229DD61F276 /* CleverTap-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				4DCD716658BD08F186CF9A8B0E3BD91D /* AppExtension */,
+				BE31A5C01168A33A1EDE858A1EDEFA5D /* HostWatchOS */,
+			);
+			path = "CleverTap-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		4DCD716658BD08F186CF9A8B0E3BD91D /* AppExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2F19765CF680FE0487F0F9DFC89F7F03 /* CleverTap.h */,
+				42D299B9F782BC46B6271B590C069822 /* CleverTapBuildInfo.h */,
+				82D460104847CD5922399D80FABB8632 /* CleverTapEventDetail.h */,
+				616655BEBBCA9514510E3547F248769D /* CleverTapSyncDelegate.h */,
+				36A04B3B1D9BEACAB98B8AA657321E4A /* CleverTapUTMDetail.h */,
+				64BEE60912B65F265097C7BFFAFD11C8 /* Frameworks */,
+			);
+			name = AppExtension;
+			sourceTree = "<group>";
+		};
+		50E8314EBF345BCE481331EE4C8BE8C2 /* Pods-demo10 */ = {
+			isa = PBXGroup;
+			children = (
+				72D46B50F960030B4DB701DB189B43EF /* Info.plist */,
+				04567181ED8770F6924A714B53C6365E /* Pods-demo10.modulemap */,
+				97F9834A5C429FCF7A8C4AF179AF327C /* Pods-demo10-acknowledgements.markdown */,
+				31417312D744DC9DDED65D494E73EA9A /* Pods-demo10-acknowledgements.plist */,
+				B86A2A171CC613F0E6239986F7B29B7A /* Pods-demo10-dummy.m */,
+				2F378B77101A5D7B673DDABFEC2A42CF /* Pods-demo10-frameworks.sh */,
+				CE8B879F1B81A72DC70C769A95B71169 /* Pods-demo10-resources.sh */,
+				7D1097FA0B40913A5DF92BA5E8191903 /* Pods-demo10-umbrella.h */,
+				13D3E627F8F43C32E95246BBFCD64CA4 /* Pods-demo10.debug.xcconfig */,
+				65C5CE4AF365EF59AE3FB13024BE4733 /* Pods-demo10.release.xcconfig */,
+			);
+			name = "Pods-demo10";
+			path = "Target Support Files/Pods-demo10";
+			sourceTree = "<group>";
+		};
+		598E5B4BC4C42CE575F7A13B2EF23778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78683FB50269D843210F802E4794D035 /* CleverTapSDK.hostwatchos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FF5A5DE032482CE932BD9C7518C4A98 /* Pods-WatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				570757737836D4A687D049BE315E4BBC /* Info.plist */,
+				84DC692946A1D0BBB5947BDBFC3B6AF2 /* Pods-WatchApp Extension.modulemap */,
+				B7AADD7647E4C22DD00BFCB8EB073A2D /* Pods-WatchApp Extension-acknowledgements.markdown */,
+				6C7A57A575A8EFB3934825E6FF886285 /* Pods-WatchApp Extension-acknowledgements.plist */,
+				1EC0EF2421BFAE649AACA57608DC4928 /* Pods-WatchApp Extension-dummy.m */,
+				F55DB46D4A361A166D3A2AC0B4700297 /* Pods-WatchApp Extension-frameworks.sh */,
+				536757662483E6E805059A0745818887 /* Pods-WatchApp Extension-resources.sh */,
+				3A88F46A6FEEE2EA7DA8DEC285F8204E /* Pods-WatchApp Extension-umbrella.h */,
+				CFF8E453368823A2DDFC09FFA0B6C65A /* Pods-WatchApp Extension.debug.xcconfig */,
+				46B04D1137DA0B7A276C4A7BD940554E /* Pods-WatchApp Extension.release.xcconfig */,
+			);
+			name = "Pods-WatchApp Extension";
+			path = "Target Support Files/Pods-WatchApp Extension";
+			sourceTree = "<group>";
+		};
+		64BEE60912B65F265097C7BFFAFD11C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790E05137A4D1F455D9CAB2E463E38E5 /* CleverTapSDK.appex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1B99BDB5D844C82DA93D1F5675200081 /* Frameworks */,
+				24A21448640EDF8480A1C403AD877AF0 /* Pods */,
+				D125D8EFB4DDF741CAB0C3DF15FF2EB8 /* Products */,
+				CAD0DA4E1A2E1E9999C5A47D6F22609A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BE31A5C01168A33A1EDE858A1EDEFA5D /* HostWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				89B6472A397DC4863259131A6DBB22D7 /* CleverTap.h */,
+				A406FC38D5A9CE7130431E2721354571 /* CleverTap+HostWatchOS.h */,
+				BB118A76263738EF6544127205F8BAB3 /* CleverTapBuildInfo.h */,
+				921AF35794EB56D345DEAD9B0E8C69B5 /* CleverTapEventDetail.h */,
+				C7F217DA69B86D6B368E81F83B894F8D /* CleverTapInAppNotificationDelegate.h */,
+				17B83B11755DC7663F0DEB3CFB38E62E /* CleverTapSyncDelegate.h */,
+				44168DD73D55FAE0E9EA95DECEE01512 /* CleverTapUTMDetail.h */,
+				598E5B4BC4C42CE575F7A13B2EF23778 /* Frameworks */,
+			);
+			name = HostWatchOS;
+			sourceTree = "<group>";
+		};
+		BE7AD0CE44FB59D3FEA3801D1A9832EC /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				B9B692E8BB0EC6B173686ECC256F22D6 /* Foundation.framework */,
+				8A807CCD6861EE666ECA522AF8AE1C92 /* WatchConnectivity.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		C05FA2708A9F01A72BF3E2A7124F0931 /* Pods-NotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C801E7987B4029284208F5878C1FE /* Info.plist */,
+				E93A80C54C83D23D87810E8ACB42A8CD /* Pods-NotificationContent.modulemap */,
+				E21B298B0E50DF56D45FD6CE43463703 /* Pods-NotificationContent-acknowledgements.markdown */,
+				08C5F4EC0FC413FD4E28105D083489B3 /* Pods-NotificationContent-acknowledgements.plist */,
+				B46BC310A8F5A01A4DC1E33F2A2F8787 /* Pods-NotificationContent-dummy.m */,
+				8B85DC9AA86ADD55E1F260F8D259200C /* Pods-NotificationContent-frameworks.sh */,
+				DADF5D82B096AA8987CE80F31364AF43 /* Pods-NotificationContent-resources.sh */,
+				19871D6DC6783A9992523296A7C4CD96 /* Pods-NotificationContent-umbrella.h */,
+				E663D6400B91D5DA247A1D6B7CF7BF9B /* Pods-NotificationContent.debug.xcconfig */,
+				0F805A92A491CE57FE69F15BF9306C68 /* Pods-NotificationContent.release.xcconfig */,
+			);
+			name = "Pods-NotificationContent";
+			path = "Target Support Files/Pods-NotificationContent";
+			sourceTree = "<group>";
+		};
+		C5818D468EB36FAC82AC02D2A3B2B3E4 /* MapboxStatic.swift */ = {
+			isa = PBXGroup;
+			children = (
+				9475339817E9FE43C3A2F35CFE8283CB /* Color.swift */,
+				9C7D43E5DD060E217F1FC1EC74511419 /* MapboxStatic.h */,
+				8116B904D684F04423830F0E4DE9DA88 /* Overlay.swift */,
+				18EA3123DBA38AD2BFE66D8855ED924A /* Snapshot.swift */,
+				CC69B436EBF6C0256B01582D64AD0050 /* Support Files */,
+			);
+			path = MapboxStatic.swift;
+			sourceTree = "<group>";
+		};
+		CAD0DA4E1A2E1E9999C5A47D6F22609A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E8314EBF345BCE481331EE4C8BE8C2 /* Pods-demo10 */,
+				C05FA2708A9F01A72BF3E2A7124F0931 /* Pods-NotificationContent */,
+				41114BF95D83C0373D045F814688452F /* Pods-NotificationService */,
+				44EB26FC41FD492F29AF5948D39B6CA9 /* Pods-ShareExtension */,
+				5FF5A5DE032482CE932BD9C7518C4A98 /* Pods-WatchApp Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC69B436EBF6C0256B01582D64AD0050 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0530F49C090AA5FD78604AC2DD19304 /* Info.plist */,
+				688042957C15EBA7C157B83750423F44 /* MapboxStatic.swift.modulemap */,
+				C0139A5CF6BD9971B4DF794BF865F95F /* MapboxStatic.swift.xcconfig */,
+				2258B6C93CAB18E5B788D2357AE1465B /* MapboxStatic.swift-dummy.m */,
+				74A41DF00CB83F3D699B2884DF6B21F0 /* MapboxStatic.swift-prefix.pch */,
+				A7EF81DCA6F4CA789DA48117BE14E053 /* MapboxStatic.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapboxStatic.swift";
+			sourceTree = "<group>";
+		};
+		D125D8EFB4DDF741CAB0C3DF15FF2EB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75945F5CB52691BEE468FEFE15FCE252 /* CleverTapWatchOS.framework */,
+				D7A7CC012D92479DFAAA308FAB7EF342 /* MapboxStatic.framework */,
+				66070F90A34E2D001AB8EEF424F41BE9 /* Pods_demo10.framework */,
+				DE5DD35E7106A8B23D040E54B362B4D9 /* Pods_NotificationContent.framework */,
+				17CC9D87A79DC79B72F609514EAC9012 /* Pods_NotificationService.framework */,
+				BD7F5431BDBD7DC055924842B249BD64 /* Pods_ShareExtension.framework */,
+				CC2B57111B68D91EF4F85710DA6CAA29 /* Pods_WatchApp_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D6B9AAE028509F7FDDEACA5D6C78A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7139B54EB218D8945500F272890C7F0F /* CleverTapWatchOS.modulemap */,
+				1709A11ED971976695EB225F4582786B /* CleverTapWatchOS.xcconfig */,
+				3843BF46543B44CDB44EDE20DA6995A2 /* CleverTapWatchOS-dummy.m */,
+				38DF01030063ABA5B467C07AC9C83292 /* CleverTapWatchOS-prefix.pch */,
+				09EE62867454F6EA5A8E3966B11DDF72 /* CleverTapWatchOS-umbrella.h */,
+				CF7DF131C774A4DE36C637D481ADBF0A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CleverTapWatchOS";
+			sourceTree = "<group>";
+		};
+		F6DC18B0C79BAA1A610987931217FB0E /* CleverTapWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F4DA8384587E1FDE6582D9DE82407E8 /* CleverTapWatchOS.swift */,
+				E6D6B9AAE028509F7FDDEACA5D6C78A3 /* Support Files */,
+			);
+			path = CleverTapWatchOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22E9543276E589108E2101A1891FC7E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3042D010FB4BFB648489905C30A6C30 /* CleverTapWatchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6B044106EEEDDE55C095AD70C00465 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4908005E85606B228545C7A02DDBB045 /* Pods-NotificationContent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529A86F72F5010556F334104507CC622 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9413E24417333FCD9B3B56D13FA55823 /* Pods-ShareExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F59A20A30FC0CD51D0262DD8406FFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F815B43ADD32A673FF20692D5C5462A4 /* MapboxStatic.h in Headers */,
+				F055A89759EAC3BCDB8C573CC75297E4 /* MapboxStatic.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425ACA96DF83C2E12F2886951574DEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE3170391387B862841C9CFFD8FE14B /* Pods-NotificationService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9103B064BB51C29261DDE08275552E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E00252922CBFC506D84F4F8CE20593 /* Pods-demo10-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08710B8782D295F4E960079B2557767 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C846DC2EB0DD14DB7DECE84E7FF090B9 /* Pods-WatchApp Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D3A27BED4FABC92652FDAB89770ADA0 /* Pods-ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE95BD4C83506DC2D1710173BFD5650 /* Build configuration list for PBXNativeTarget "Pods-ShareExtension" */;
+			buildPhases = (
+				D83736F9213A3BB29C5BD6A281403B95 /* Sources */,
+				E2CD161C34DB3F93D37F05739ACEC65A /* Frameworks */,
+				529A86F72F5010556F334104507CC622 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ShareExtension";
+			productName = "Pods-ShareExtension";
+			productReference = BD7F5431BDBD7DC055924842B249BD64 /* Pods_ShareExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EDE9ECED6876AA67E45E8939BFDD841 /* Pods-NotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAC510DC0AFE032E0E1D73BE1FF33A6 /* Build configuration list for PBXNativeTarget "Pods-NotificationContent" */;
+			buildPhases = (
+				C51FFB0BEAE3AA9D8E38AC249077530D /* Sources */,
+				08B63457B5C7227DB8616884B486C5C7 /* Frameworks */,
+				2F6B044106EEEDDE55C095AD70C00465 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3473189B25F05F30D821B60C189DCC38 /* PBXTargetDependency */,
+			);
+			name = "Pods-NotificationContent";
+			productName = "Pods-NotificationContent";
+			productReference = DE5DD35E7106A8B23D040E54B362B4D9 /* Pods_NotificationContent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B1D84EDAA6BBB8DD705007E8A5CCAF5 /* MapboxStatic.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB4C109EF22A490FD00CAC6114E5185 /* Build configuration list for PBXNativeTarget "MapboxStatic.swift" */;
+			buildPhases = (
+				855087F316A6C521E0BBD50CB26364FE /* Sources */,
+				ACBF1511DB1943648020F888BC1BB2A7 /* Frameworks */,
+				67F59A20A30FC0CD51D0262DD8406FFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapboxStatic.swift;
+			productName = MapboxStatic.swift;
+			productReference = D7A7CC012D92479DFAAA308FAB7EF342 /* MapboxStatic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55D336D44F97004A1DD96CD9937CCB39 /* Pods-demo10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80368119E8A26FFBBF74116DB471429 /* Build configuration list for PBXNativeTarget "Pods-demo10" */;
+			buildPhases = (
+				0AE53ED3A0E4DD9B539E8ED1BEAE124C /* Sources */,
+				29ECC5FC87EC2DBF5DE4819756F1A3BB /* Frameworks */,
+				B9103B064BB51C29261DDE08275552E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-demo10";
+			productName = "Pods-demo10";
+			productReference = 66070F90A34E2D001AB8EEF424F41BE9 /* Pods_demo10.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		791C89DE34EBB5E3BF4D3EB8C5997602 /* Pods-WatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4716CA054B759BCFBCA906A198B97C65 /* Build configuration list for PBXNativeTarget "Pods-WatchApp Extension" */;
+			buildPhases = (
+				0E89A5208826731802690170D66B290A /* Sources */,
+				4364AC01EE4B102B1802437178BA124F /* Frameworks */,
+				D08710B8782D295F4E960079B2557767 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7CA141FD14E3D41EBA892619BB07D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-WatchApp Extension";
+			productName = "Pods-WatchApp Extension";
+			productReference = CC2B57111B68D91EF4F85710DA6CAA29 /* Pods_WatchApp_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8423D4ECDE7D9334BDE727CA839DB3A5 /* CleverTapWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1BBCA0F421B21EA4CDC6039011FAF6 /* Build configuration list for PBXNativeTarget "CleverTapWatchOS" */;
+			buildPhases = (
+				A0D9901757E5C894E36AA0B0B149B88E /* Sources */,
+				378502817D238D4CEA68F0CC6C41DE4C /* Frameworks */,
+				22E9543276E589108E2101A1891FC7E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleverTapWatchOS;
+			productName = CleverTapWatchOS;
+			productReference = 75945F5CB52691BEE468FEFE15FCE252 /* CleverTapWatchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA260BE486AA3CBA714E5BBAA13B611D /* Pods-NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE99226362D8E66AB1EAB41AB93C736 /* Build configuration list for PBXNativeTarget "Pods-NotificationService" */;
+			buildPhases = (
+				BE0E1B06FDA90F182BA83D8FF312746E /* Sources */,
+				97898196F8A0BF3856E1BEFD7C2E683D /* Frameworks */,
+				8425ACA96DF83C2E12F2886951574DEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NotificationService";
+			productName = "Pods-NotificationService";
+			productReference = 17CC9D87A79DC79B72F609514EAC9012 /* Pods_NotificationService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D125D8EFB4DDF741CAB0C3DF15FF2EB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8423D4ECDE7D9334BDE727CA839DB3A5 /* CleverTapWatchOS */,
+				2B1D84EDAA6BBB8DD705007E8A5CCAF5 /* MapboxStatic.swift */,
+				55D336D44F97004A1DD96CD9937CCB39 /* Pods-demo10 */,
+				1EDE9ECED6876AA67E45E8939BFDD841 /* Pods-NotificationContent */,
+				FA260BE486AA3CBA714E5BBAA13B611D /* Pods-NotificationService */,
+				1D3A27BED4FABC92652FDAB89770ADA0 /* Pods-ShareExtension */,
+				791C89DE34EBB5E3BF4D3EB8C5997602 /* Pods-WatchApp Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE53ED3A0E4DD9B539E8ED1BEAE124C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D6DB38EC2A268374880E7101BC66BD /* Pods-demo10-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E89A5208826731802690170D66B290A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E2FED1411ABE20E16E5BDD396435A4 /* Pods-WatchApp Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855087F316A6C521E0BBD50CB26364FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D5D64F522B08BB1EDCFC987A86314E /* Color.swift in Sources */,
+				8D2507D16DECE029698957DA40251D26 /* MapboxStatic.swift-dummy.m in Sources */,
+				67FCFB17A3923FCE03FE44C471998313 /* Overlay.swift in Sources */,
+				457A9082C74C747C0E5019DCFCE896B6 /* Snapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D9901757E5C894E36AA0B0B149B88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C9A93B694F58CBC86DADFC839D29D7 /* CleverTapWatchOS-dummy.m in Sources */,
+				B74A19F4C4B02AC89CD00396C0AC98FC /* CleverTapWatchOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0E1B06FDA90F182BA83D8FF312746E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFD1A97775EE18AC90C005D0C27DA66 /* Pods-NotificationService-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51FFB0BEAE3AA9D8E38AC249077530D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760CC1CEE154A5F7ABF144DA12BEC43C /* Pods-NotificationContent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83736F9213A3BB29C5BD6A281403B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E62A760126E926A0251F5FB82BAB077 /* Pods-ShareExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3473189B25F05F30D821B60C189DCC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapboxStatic.swift;
+			target = 2B1D84EDAA6BBB8DD705007E8A5CCAF5 /* MapboxStatic.swift */;
+			targetProxy = 11FC99F53B21A17536088F0B2B7213A5 /* PBXContainerItemProxy */;
+		};
+		6C7CA141FD14E3D41EBA892619BB07D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleverTapWatchOS;
+			target = 8423D4ECDE7D9334BDE727CA839DB3A5 /* CleverTapWatchOS */;
+			targetProxy = E1614FCD569D0626A74B5DBE80C8ACFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16EBFD5288BD40F56D414457F80B4C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D8F6DA9CA1EBE10779350C6A0B5118 /* Pods-ShareExtension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareExtension/Pods-ShareExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShareExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EDED7099B37FEC74B2923DAF0B09C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E663D6400B91D5DA247A1D6B7CF7BF9B /* Pods-NotificationContent.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationContent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationContent/Pods-NotificationContent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotificationContent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		268826735940A0F4553525FFCBD5A0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1709A11ED971976695EB225F4582786B /* CleverTapWatchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CleverTapWatchOS/CleverTapWatchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleverTapWatchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CleverTapWatchOS/CleverTapWatchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CleverTapWatchOS;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		28AE27E9117CFC8D31A502CE9031C46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		402A877FCDB2AFA8510DEBE9A0C36293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF8E453368823A2DDFC09FFA0B6C65A /* Pods-WatchApp Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchApp Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WatchApp_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		409DE0B8F5AB8A1D30CB4A364D50EA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1709A11ED971976695EB225F4582786B /* CleverTapWatchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CleverTapWatchOS/CleverTapWatchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleverTapWatchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CleverTapWatchOS/CleverTapWatchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CleverTapWatchOS;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		465704F21997240546CC8994A3E80D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C5CE4AF365EF59AE3FB13024BE4733 /* Pods-demo10.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-demo10/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-demo10/Pods-demo10.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_demo10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A5D592DCD5D8938DF855E0B44ABDE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8E5FEB3A73F5A2FD8E7C9F39B9BA57 /* Pods-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationService/Pods-NotificationService.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotificationService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1AD85E8EE5D1630E375A87B7372728D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60FBD3CEB9A2A634444CF348A7DCD13F /* Pods-ShareExtension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareExtension/Pods-ShareExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShareExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B99D56DAEB44EA820EDA2804055775C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0139A5CF6BD9971B4DF794BF865F95F /* MapboxStatic.swift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxStatic.swift/MapboxStatic.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxStatic.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MapboxStatic.swift/MapboxStatic.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MapboxStatic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB9607279B2653096768A647F63E75AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D3E627F8F43C32E95246BBFCD64CA4 /* Pods-demo10.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-demo10/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-demo10/Pods-demo10.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_demo10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC69783853C58E84B1B757D4AB951F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E1723F66E2BC73DF8BF8F0CC73F511 /* Pods-NotificationService.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationService/Pods-NotificationService.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotificationService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF05F18246797D35A6F8B0F50EEB3931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		E4A617B859EB931A916EB9644CA4F029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F805A92A491CE57FE69F15BF9306C68 /* Pods-NotificationContent.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationContent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationContent/Pods-NotificationContent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NotificationContent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8EFC716C51049B2635CC5F2E5F1466C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0139A5CF6BD9971B4DF794BF865F95F /* MapboxStatic.swift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxStatic.swift/MapboxStatic.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxStatic.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MapboxStatic.swift/MapboxStatic.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MapboxStatic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED21B40733D7A273B7D322AEDC0FEE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B04D1137DA0B7A276C4A7BD940554E /* Pods-WatchApp Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchApp Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WatchApp_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AAC510DC0AFE032E0E1D73BE1FF33A6 /* Build configuration list for PBXNativeTarget "Pods-NotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDED7099B37FEC74B2923DAF0B09C90 /* Debug */,
+				E4A617B859EB931A916EB9644CA4F029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1BBCA0F421B21EA4CDC6039011FAF6 /* Build configuration list for PBXNativeTarget "CleverTapWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409DE0B8F5AB8A1D30CB4A364D50EA9F /* Debug */,
+				268826735940A0F4553525FFCBD5A0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE27E9117CFC8D31A502CE9031C46A /* Debug */,
+				DF05F18246797D35A6F8B0F50EEB3931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4716CA054B759BCFBCA906A198B97C65 /* Build configuration list for PBXNativeTarget "Pods-WatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402A877FCDB2AFA8510DEBE9A0C36293 /* Debug */,
+				ED21B40733D7A273B7D322AEDC0FEE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB4C109EF22A490FD00CAC6114E5185 /* Build configuration list for PBXNativeTarget "MapboxStatic.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8EFC716C51049B2635CC5F2E5F1466C /* Debug */,
+				B99D56DAEB44EA820EDA2804055775C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE95BD4C83506DC2D1710173BFD5650 /* Build configuration list for PBXNativeTarget "Pods-ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AD85E8EE5D1630E375A87B7372728D /* Debug */,
+				16EBFD5288BD40F56D414457F80B4C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80368119E8A26FFBBF74116DB471429 /* Build configuration list for PBXNativeTarget "Pods-demo10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9607279B2653096768A647F63E75AA /* Debug */,
+				465704F21997240546CC8994A3E80D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE99226362D8E66AB1EAB41AB93C736 /* Build configuration list for PBXNativeTarget "Pods-NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5D592DCD5D8938DF855E0B44ABDE1D /* Debug */,
+				CC69783853C58E84B1B757D4AB951F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

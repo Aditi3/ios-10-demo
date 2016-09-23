@@ -527,8 +527,8 @@
 				52B7F3D01D6B685C007DCFD4 /* Sources */,
 				52B7F3D11D6B685C007DCFD4 /* Frameworks */,
 				52B7F3D21D6B685C007DCFD4 /* Resources */,
-				B08A5D988BF50D33F0C741EA /* [CP] Embed Pods Frameworks */,
 				3034CF7DEFB1658C8783405C /* [CP] Copy Pods Resources */,
+				6B997A05B936B4E736E04CB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -547,8 +547,8 @@
 				52CFDD291D63A17100945DA7 /* Sources */,
 				52CFDD2A1D63A17100945DA7 /* Frameworks */,
 				52CFDD2B1D63A17100945DA7 /* Resources */,
-				9E998A41D369226D705CA2FC /* [CP] Embed Pods Frameworks */,
 				48F4F5A5D8A212CFDEF83948 /* [CP] Copy Pods Resources */,
+				A9966C2CC12AC0D13924FABB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -567,11 +567,11 @@
 				52F236281D637AF50027E5C4 /* Sources */,
 				52F236291D637AF50027E5C4 /* Frameworks */,
 				52F2362A1D637AF50027E5C4 /* Resources */,
-				7C787A0FB64956FA50CBB8AB /* [CP] Embed Pods Frameworks */,
 				7E848A09805792C689F7C31D /* [CP] Copy Pods Resources */,
 				52F236521D639C870027E5C4 /* Embed App Extensions */,
 				526196FD1D71F809000705E5 /* Embed Frameworks */,
 				52439B1C1D78B5C2000967C7 /* Embed Watch Content */,
+				96A330F86B935C7A191D0FB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -595,8 +595,8 @@
 				52F236431D639C870027E5C4 /* Sources */,
 				52F236441D639C870027E5C4 /* Frameworks */,
 				52F236451D639C870027E5C4 /* Resources */,
-				065F6BDB9464FCD9EFABD7B8 /* [CP] Embed Pods Frameworks */,
 				328B88EA0536891B2792B1B9 /* [CP] Copy Pods Resources */,
+				E7508A0ED0FCC1668EA13868 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -779,21 +779,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		065F6BDB9464FCD9EFABD7B8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2419644D07F0A78E6837CC41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -869,7 +854,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C787A0FB64956FA50CBB8AB /* [CP] Embed Pods Frameworks */ = {
+		6B997A05B936B4E736E04CB3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -881,7 +866,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo10/Pods-demo10-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7E848A09805792C689F7C31D /* [CP] Copy Pods Resources */ = {
@@ -899,7 +884,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo10/Pods-demo10-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E998A41D369226D705CA2FC /* [CP] Embed Pods Frameworks */ = {
+		96A330F86B935C7A191D0FB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo10/Pods-demo10-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9966C2CC12AC0D13924FABB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -912,21 +912,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B08A5D988BF50D33F0C741EA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B47ED48089D5EE7ADEFC096F /* [CP] Copy Pods Resources */ = {
@@ -1002,6 +987,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7508A0ED0FCC1668EA13868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1142,7 +1142,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82C76AC71607D415DAE7313C /* Pods-WatchApp Extension.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
@@ -1161,7 +1161,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F2607AEB25F4F2C3D23C7B4 /* Pods-WatchApp Extension.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
@@ -1265,6 +1265,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1305,6 +1306,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 016BE03D12045C37DA6D341C /* Pods-ShareExtension.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1532,6 +1534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5690295DA251575FF4A2F1AE /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1552,6 +1555,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A5BC5F6AA9D6B5844500127 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  demo10
-//
-//  Created by pwilkniss on 8/16/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 import UIKit
 import SharedManager

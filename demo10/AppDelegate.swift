@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  demo10
-//
-//  Created by pwilkniss on 8/16/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 import UIKit
 import UserNotifications
@@ -35,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         // demo: identify the user on the CleverTap profile
         cleverTap.onUserLogin(["Identity":userId])
+        
+        cleverTap.recordEvent("NotificationAddAttachment")
         
         // demo: grab the last push received saved by the Notification Service to the shared group user defaults for use here
         if let lastPush = sharedManager.lastPushNotification {
@@ -77,18 +72,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-        print("open url \(url)")
+        debugPrint("APPDELEGATE: open url \(url)")
         return true
     }
     
-    open func open(_ url: URL, options: [String : Any] = [:],
+    func open(_ url: URL, options: [String : Any] = [:],
                    completionHandler completion: ((Bool) -> Swift.Void)? = nil){
-        print("open url \(url) with completionHandler")
+        print("APPDELEGATE: open url \(url) with completionHandler")
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+        print("APPDELEGATE: did receive remote notification \(userInfo)")
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        
-        print("did receive remote notification \(userInfo)")
+        print("APPDELEGATE: did receive remote notification completionHandler \(userInfo)")
         completionHandler(.noData)
     }
     
@@ -99,8 +97,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                                 willPresent notification: UNNotification,
                                 withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         
-        print("willPresentNotification \(notification.request.content.userInfo)")
-        
         /**
          If your app is in the foreground when a notification arrives, the notification center calls this method to deliver the notification directly to your app. If you implement this method, you can take whatever actions are necessary to process the notification and update your app. When you finish, execute the completionHandler block and specify how you want the system to alert the user, if at all.
          
@@ -109,6 +105,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
          see https://developer.apple.com/reference/usernotifications/unusernotificationcenterdelegate/1649518-usernotificationcenter
          
          **/
+        
+        print("APPDELEGATE: willPresentNotification \(notification.request.content.userInfo)")
         
     }
     
@@ -127,6 +125,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
          see https://developer.apple.com/reference/usernotifications/unusernotificationcenterdelegate/1649501-usernotificationcenter
          
          **/
+        
+        print("APPDELEGATE: didReceiveResponseWithCompletionHandler \(response.notification.request.content.userInfo)")
+        
+        // if you wish CleverTap to record the notification open and fire any deep links contained in the payload
+        CleverTap.sharedInstance().handleNotification(withData: response.notification.request.content.userInfo)
+        
+        completionHandler()
         
     }
     
@@ -190,7 +195,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 

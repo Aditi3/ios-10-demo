@@ -1,10 +1,3 @@
-//
-//  SharedManager.h
-//  SharedManager
-//
-//  Created by pwilkniss on 8/27/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 

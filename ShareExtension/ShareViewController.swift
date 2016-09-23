@@ -1,10 +1,3 @@
-//
-//  ShareViewController.swift
-//  ShareExtension
-//
-//  Created by pwilkniss on 8/22/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 import UIKit
 import Social

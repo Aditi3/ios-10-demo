@@ -1,10 +1,3 @@
-//
-//  NotificationController.swift
-//  WatchApp Extension
-//
-//  Created by pwilkniss on 9/1/16.
-//  Copyright © 2016 CleverTap. All rights reserved.
-//
 
 import WatchKit
 import Foundation
