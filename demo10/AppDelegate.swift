@@ -70,13 +70,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-        debugPrint("APPDELEGATE: open url \(url)")
+        print("APPDELEGATE: open url \(url)")
         return true
     }
     
     func open(_ url: URL, options: [String : Any] = [:],
                    completionHandler completion: ((Bool) -> Swift.Void)? = nil){
         print("APPDELEGATE: open url \(url) with completionHandler")
+        completion?(false)
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
@@ -85,6 +86,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
         print("APPDELEGATE: did receive remote notification completionHandler \(userInfo)")
+        CleverTap.sharedInstance()?.handleNotification(withData: userInfo)
         completionHandler(.noData)
     }
     
