@@ -18,7 +18,7 @@ class NotificationService: UNNotificationServiceExtension {
         self.contentHandler = contentHandler
         bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
         
-        CleverTap.setDebugLevel(1277182231)
+        CleverTap.setDebugLevel(1)
         if let userId = sharedManager.userId {
            cleverTap.onUserLogin(["Identity":userId])
         }

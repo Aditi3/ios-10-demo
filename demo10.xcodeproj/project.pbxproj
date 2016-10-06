@@ -614,7 +614,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = CleverTap;
 				TargetAttributes = {
 					52439AF31D78B5C2000967C7 = {
@@ -1142,7 +1142,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82C76AC71607D415DAE7313C /* Pods-WatchApp Extension.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
@@ -1161,7 +1161,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F2607AEB25F4F2C3D23C7B4 /* Pods-WatchApp Extension.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";

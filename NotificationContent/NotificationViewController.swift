@@ -22,7 +22,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        CleverTap.setDebugLevel(1277182231)
+        CleverTap.setDebugLevel(1)
         if let userId = sharedManager.userId {
             cleverTap.onUserLogin(["Identity":userId])
         }
