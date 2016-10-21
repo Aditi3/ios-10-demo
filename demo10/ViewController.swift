@@ -16,10 +16,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         if let image = sharedManager.image(forName: "logo.png") {
-             self.imageView.image = image
+            self.imageView.image = image
+            let gestureRecognizer = UITapGestureRecognizer.init(target: self, action:#selector(tap))
+            self.imageView.addGestureRecognizer(gestureRecognizer);
+            self.imageView.isUserInteractionEnabled = true;
         }
     }
 
+    @objc func tap() {
+        CleverTap.sharedInstance().recordEvent("testEvent");
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

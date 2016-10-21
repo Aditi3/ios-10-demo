@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1106C9A03AE30FC45410BC3271EC2E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B692E8BB0EC6B173686ECC256F22D6 /* Foundation.framework */; };
 		15E00252922CBFC506D84F4F8CE20593 /* Pods-demo10-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1097FA0B40913A5DF92BA5E8191903 /* Pods-demo10-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E4A4EC69E231613DCB339A2A2BED04B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B692E8BB0EC6B173686ECC256F22D6 /* Foundation.framework */; };
 		25D5D64F522B08BB1EDCFC987A86314E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475339817E9FE43C3A2F35CFE8283CB /* Color.swift */; };
+		2DC49C9B86A82F4F697AC92F7C1E9287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661461534B25029A0D1DCAE056107010 /* Foundation.framework */; };
 		31C9A93B694F58CBC86DADFC839D29D7 /* CleverTapWatchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3843BF46543B44CDB44EDE20DA6995A2 /* CleverTapWatchOS-dummy.m */; };
+		36D3AFE185A55B483621F0E0D669AC46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661461534B25029A0D1DCAE056107010 /* Foundation.framework */; };
 		457A9082C74C747C0E5019DCFCE896B6 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA3123DBA38AD2BFE66D8855ED924A /* Snapshot.swift */; };
-		471F2B5423CF88B602A1D8B5B207C657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
 		4908005E85606B228545C7A02DDBB045 /* Pods-NotificationContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19871D6DC6783A9992523296A7C4CD96 /* Pods-NotificationContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50E0FB0347463F13461AB391F858652A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
-		546A32B867D4ABD9F94A46D44E282AA7 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A807CCD6861EE666ECA522AF8AE1C92 /* WatchConnectivity.framework */; };
+		54A8B18EBB030362EF9904DF09641A2C /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A3F4C67870BC674EE18986063B142 /* WatchConnectivity.framework */; };
 		67FCFB17A3923FCE03FE44C471998313 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116B904D684F04423830F0E4DE9DA88 /* Overlay.swift */; };
+		6B8FAB098122E9E3F5600896C2129D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9984A4D89DF5FCC76EC1CA1C7FCAD2 /* Foundation.framework */; };
 		760CC1CEE154A5F7ABF144DA12BEC43C /* Pods-NotificationContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46BC310A8F5A01A4DC1E33F2A2F8787 /* Pods-NotificationContent-dummy.m */; };
+		83BD9412F8B7E534E10C65749AEB902C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661461534B25029A0D1DCAE056107010 /* Foundation.framework */; };
+		89B542DC748E74650568D3A292BEB936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661461534B25029A0D1DCAE056107010 /* Foundation.framework */; };
 		8D2507D16DECE029698957DA40251D26 /* MapboxStatic.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2258B6C93CAB18E5B788D2357AE1465B /* MapboxStatic.swift-dummy.m */; };
 		8DFD1A97775EE18AC90C005D0C27DA66 /* Pods-NotificationService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A74E0B00AED985329F7C40E52877B9 /* Pods-NotificationService-dummy.m */; };
 		8EE3170391387B862841C9CFFD8FE14B /* Pods-NotificationService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 872E969F7C5CF990AD04D54E9A5E5C1E /* Pods-NotificationService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,14 +27,13 @@
 		9E62A760126E926A0251F5FB82BAB077 /* Pods-ShareExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F8A4439714895BD8284582024579B /* Pods-ShareExtension-dummy.m */; };
 		A3042D010FB4BFB648489905C30A6C30 /* CleverTapWatchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EE62867454F6EA5A8E3966B11DDF72 /* CleverTapWatchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5D6DB38EC2A268374880E7101BC66BD /* Pods-demo10-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B86A2A171CC613F0E6239986F7B29B7A /* Pods-demo10-dummy.m */; };
+		A8F88CFAA45B50543CF3CACE8AD2D035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661461534B25029A0D1DCAE056107010 /* Foundation.framework */; };
 		B74A19F4C4B02AC89CD00396C0AC98FC /* CleverTapWatchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DA8384587E1FDE6582D9DE82407E8 /* CleverTapWatchOS.swift */; };
 		C846DC2EB0DD14DB7DECE84E7FF090B9 /* Pods-WatchApp Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A88F46A6FEEE2EA7DA8DEC285F8204E /* Pods-WatchApp Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4E2FED1411ABE20E16E5BDD396435A4 /* Pods-WatchApp Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC0EF2421BFAE649AACA57608DC4928 /* Pods-WatchApp Extension-dummy.m */; };
-		D787009C81C846D6829295DDBCA0F797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
-		D98AD8ECFCBD22F60CF248021C1FFDE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
 		F055A89759EAC3BCDB8C573CC75297E4 /* MapboxStatic.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EF81DCA6F4CA789DA48117BE14E053 /* MapboxStatic.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F604C417388601CF548204EECFA78A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */; };
 		F815B43ADD32A673FF20692D5C5462A4 /* MapboxStatic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7D43E5DD060E217F1FC1EC74511419 /* MapboxStatic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC79EA4BFC592CD7B6350B3C36C4540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9984A4D89DF5FCC76EC1CA1C7FCAD2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +70,7 @@
 		19971D1B45E33DA94121026443B9889C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EC0EF2421BFAE649AACA57608DC4928 /* Pods-WatchApp Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchApp Extension-dummy.m"; sourceTree = "<group>"; };
 		2258B6C93CAB18E5B788D2357AE1465B /* MapboxStatic.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapboxStatic.swift-dummy.m"; sourceTree = "<group>"; };
+		2A4A3F4C67870BC674EE18986063B142 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		2A8E5FEB3A73F5A2FD8E7C9F39B9BA57 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
 		2F19765CF680FE0487F0F9DFC89F7F03 /* CleverTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTap.h; path = CleverTapSDK.appex.framework/Versions/A/Headers/CleverTap.h; sourceTree = "<group>"; };
 		2F378B77101A5D7B673DDABFEC2A42CF /* Pods-demo10-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo10-frameworks.sh"; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		3843BF46543B44CDB44EDE20DA6995A2 /* CleverTapWatchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleverTapWatchOS-dummy.m"; sourceTree = "<group>"; };
 		38DF01030063ABA5B467C07AC9C83292 /* CleverTapWatchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleverTapWatchOS-prefix.pch"; sourceTree = "<group>"; };
 		3A88F46A6FEEE2EA7DA8DEC285F8204E /* Pods-WatchApp Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchApp Extension-umbrella.h"; sourceTree = "<group>"; };
+		3E9984A4D89DF5FCC76EC1CA1C7FCAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F2C801E7987B4029284208F5878C1FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42D299B9F782BC46B6271B590C069822 /* CleverTapBuildInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapBuildInfo.h; path = CleverTapSDK.appex.framework/Versions/A/Headers/CleverTapBuildInfo.h; sourceTree = "<group>"; };
 		43F9F86E74A3D169D5143A830B46E29C /* Pods-ShareExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -89,11 +91,11 @@
 		570757737836D4A687D049BE315E4BBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5924C259D2E667932B447845E0C174B0 /* Pods-NotificationService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationService-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B99BFDB3E3A187605B1587EA445B0F5 /* Pods-ShareExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareExtension-umbrella.h"; sourceTree = "<group>"; };
-		5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		60FBD3CEB9A2A634444CF348A7DCD13F /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		616655BEBBCA9514510E3547F248769D /* CleverTapSyncDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapSyncDelegate.h; path = CleverTapSDK.appex.framework/Versions/A/Headers/CleverTapSyncDelegate.h; sourceTree = "<group>"; };
 		65C5CE4AF365EF59AE3FB13024BE4733 /* Pods-demo10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo10.release.xcconfig"; sourceTree = "<group>"; };
 		66070F90A34E2D001AB8EEF424F41BE9 /* Pods_demo10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661461534B25029A0D1DCAE056107010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		688042957C15EBA7C157B83750423F44 /* MapboxStatic.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MapboxStatic.swift.modulemap; sourceTree = "<group>"; };
 		6C7A57A575A8EFB3934825E6FF886285 /* Pods-WatchApp Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchApp Extension-acknowledgements.plist"; sourceTree = "<group>"; };
 		7139B54EB218D8945500F272890C7F0F /* CleverTapWatchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CleverTapWatchOS.modulemap; sourceTree = "<group>"; };
@@ -108,7 +110,6 @@
 		84DC692946A1D0BBB5947BDBFC3B6AF2 /* Pods-WatchApp Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WatchApp Extension.modulemap"; sourceTree = "<group>"; };
 		872E969F7C5CF990AD04D54E9A5E5C1E /* Pods-NotificationService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationService-umbrella.h"; sourceTree = "<group>"; };
 		89B6472A397DC4863259131A6DBB22D7 /* CleverTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTap.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTap.h; sourceTree = "<group>"; };
-		8A807CCD6861EE666ECA522AF8AE1C92 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		8B85DC9AA86ADD55E1F260F8D259200C /* Pods-NotificationContent-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationContent-frameworks.sh"; sourceTree = "<group>"; };
 		921AF35794EB56D345DEAD9B0E8C69B5 /* CleverTapEventDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapEventDetail.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTapEventDetail.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -125,7 +126,6 @@
 		B7AADD7647E4C22DD00BFCB8EB073A2D /* Pods-WatchApp Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchApp Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7D8F6DA9CA1EBE10779350C6A0B5118 /* Pods-ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
 		B86A2A171CC613F0E6239986F7B29B7A /* Pods-demo10-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demo10-dummy.m"; sourceTree = "<group>"; };
-		B9B692E8BB0EC6B173686ECC256F22D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BB118A76263738EF6544127205F8BAB3 /* CleverTapBuildInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapBuildInfo.h; path = CleverTapSDK.hostwatchos.framework/Versions/A/Headers/CleverTapBuildInfo.h; sourceTree = "<group>"; };
 		BD7F5431BDBD7DC055924842B249BD64 /* Pods_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0139A5CF6BD9971B4DF794BF865F95F /* MapboxStatic.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapboxStatic.swift.xcconfig; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D787009C81C846D6829295DDBCA0F797 /* Foundation.framework in Frameworks */,
+				A8F88CFAA45B50543CF3CACE8AD2D035 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F604C417388601CF548204EECFA78A31 /* Foundation.framework in Frameworks */,
+				83BD9412F8B7E534E10C65749AEB902C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,8 +169,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1106C9A03AE30FC45410BC3271EC2E68 /* Foundation.framework in Frameworks */,
-				546A32B867D4ABD9F94A46D44E282AA7 /* WatchConnectivity.framework in Frameworks */,
+				6B8FAB098122E9E3F5600896C2129D32 /* Foundation.framework in Frameworks */,
+				54A8B18EBB030362EF9904DF09641A2C /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E4A4EC69E231613DCB339A2A2BED04B /* Foundation.framework in Frameworks */,
+				FAC79EA4BFC592CD7B6350B3C36C4540 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471F2B5423CF88B602A1D8B5B207C657 /* Foundation.framework in Frameworks */,
+				36D3AFE185A55B483621F0E0D669AC46 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E0FB0347463F13461AB391F858652A /* Foundation.framework in Frameworks */,
+				89B542DC748E74650568D3A292BEB936 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,26 +202,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98AD8ECFCBD22F60CF248021C1FFDE9 /* Foundation.framework in Frameworks */,
+				2DC49C9B86A82F4F697AC92F7C1E9287 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		073A6E7C62BDBCDE59B6E14F36129C29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5CA78588179C8A2DBFBEEF6C687D32C4 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		1B99BDB5D844C82DA93D1F5675200081 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				073A6E7C62BDBCDE59B6E14F36129C29 /* iOS */,
-				BE7AD0CE44FB59D3FEA3801D1A9832EC /* watchOS */,
+				F413C0FFF5ABF0707BCB610EF5FB8C3C /* iOS */,
+				5055EFCE8490CDE15618FC6E5E2C7B09 /* watchOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,6 +284,15 @@
 				64BEE60912B65F265097C7BFFAFD11C8 /* Frameworks */,
 			);
 			name = AppExtension;
+			sourceTree = "<group>";
+		};
+		5055EFCE8490CDE15618FC6E5E2C7B09 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E9984A4D89DF5FCC76EC1CA1C7FCAD2 /* Foundation.framework */,
+				2A4A3F4C67870BC674EE18986063B142 /* WatchConnectivity.framework */,
+			);
+			name = watchOS;
 			sourceTree = "<group>";
 		};
 		50E8314EBF345BCE481331EE4C8BE8C2 /* Pods-demo10 */ = {
@@ -370,15 +371,6 @@
 				598E5B4BC4C42CE575F7A13B2EF23778 /* Frameworks */,
 			);
 			name = HostWatchOS;
-			sourceTree = "<group>";
-		};
-		BE7AD0CE44FB59D3FEA3801D1A9832EC /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				B9B692E8BB0EC6B173686ECC256F22D6 /* Foundation.framework */,
-				8A807CCD6861EE666ECA522AF8AE1C92 /* WatchConnectivity.framework */,
-			);
-			name = watchOS;
 			sourceTree = "<group>";
 		};
 		C05FA2708A9F01A72BF3E2A7124F0931 /* Pods-NotificationContent */ = {
@@ -463,6 +455,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CleverTapWatchOS";
+			sourceTree = "<group>";
+		};
+		F413C0FFF5ABF0707BCB610EF5FB8C3C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				661461534B25029A0D1DCAE056107010 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F6DC18B0C79BAA1A610987931217FB0E /* CleverTapWatchOS */ = {
