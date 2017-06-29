@@ -4,6 +4,7 @@ import UserNotifications
 import UserNotificationsUI
 import SharedManager
 import MapboxStatic
+import CleverTapAppEx
 
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
 

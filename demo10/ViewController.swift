@@ -1,8 +1,9 @@
 
 import UIKit
 import SharedManager
+import CleverTapSDK
 
-class ViewController: UIViewController {
+class ViewController: CleverTapTrackedViewController {
 
     @IBOutlet var imageView: UIImageView!
     
@@ -14,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.screenName = "Demo10ViewController"
         
         if let image = sharedManager.image(forName: "logo.png") {
             self.imageView.image = image

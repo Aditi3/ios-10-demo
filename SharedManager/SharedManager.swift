@@ -21,7 +21,7 @@ fileprivate struct Media {
         self.ext = ext
     }
     
-    var attachmentOptions: [String: Any?] {
+    var attachmentOptions: [String: Any] {
         switch(self.type) {
         case .image:
             return [UNNotificationAttachmentOptionsThumbnailClippingRectKey: CGRect(x: 0.0, y: 0.0, width: 1.0, height: 0.50).dictionaryRepresentation]

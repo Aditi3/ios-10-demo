@@ -3,6 +3,7 @@ import UIKit
 import UserNotifications
 import SharedManager
 import WatchConnectivity
+import CleverTapSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, WCSessionDelegate {
@@ -19,7 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // set up CleverTap
+#if DEBUG
         CleverTap.setDebugLevel(1)
+#endif
+        
         CleverTap.autoIntegrate()
         
         // demo: storing userId in shared group for app extension access
@@ -64,7 +68,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         UNUserNotificationCenter.current().requestAuthorization(options: [.sound, .alert, .badge]) {
             (granted, error) in
             if (granted) {
-                UIApplication.shared.registerForRemoteNotifications()
+                DispatchQueue.main.async {
+                    UIApplication.shared.registerForRemoteNotifications()
+                }
             }
         }
     }
@@ -78,6 +84,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                    completionHandler completion: ((Bool) -> Swift.Void)? = nil){
         print("APPDELEGATE: open url \(url) with completionHandler")
         completion?(false)
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        print("APPDELEGATE: didRegisterForRemoteNotification")
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("didFailToRegisterForRemoteNotification \(error.localizedDescription)")
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {

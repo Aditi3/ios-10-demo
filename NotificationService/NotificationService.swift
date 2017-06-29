@@ -1,6 +1,7 @@
 
 import UserNotifications
 import SharedManager
+import CleverTapAppEx
 
 @available(iOSApplicationExtension 10.0, *)@available(iOSApplicationExtension 10.0, *)
 class NotificationService: UNNotificationServiceExtension {

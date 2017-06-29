@@ -2,6 +2,7 @@
 import UIKit
 import Social
 import SharedManager
+import CleverTapAppEx
 
 class ShareViewController: SLComposeServiceViewController {
     

@@ -33,13 +33,13 @@
 		5261973D1D72938E000705E5 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5261973C1D72938E000705E5 /* sample.mp3 */; };
 		52B7F3D71D6B685C007DCFD4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */; };
 		52B7F3DA1D6B685C007DCFD4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B7F3D81D6B685C007DCFD4 /* MainInterface.storyboard */; };
-		52B7F3DE1D6B685C007DCFD4 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52CFDD281D639FFA00945DA7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFDD241D639FE400945DA7 /* NotificationService.swift */; };
 		52CFDD2F1D63A17100945DA7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFDD2E1D63A17100945DA7 /* UserNotifications.framework */; };
 		52CFDD311D63A17100945DA7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFDD301D63A17100945DA7 /* UserNotificationsUI.framework */; };
 		52CFDD341D63A17100945DA7 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFDD331D63A17100945DA7 /* NotificationViewController.swift */; };
 		52CFDD371D63A17100945DA7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CFDD351D63A17100945DA7 /* MainInterface.storyboard */; };
 		52CFDD3B1D63A17100945DA7 /* NotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52CFDD2D1D63A17100945DA7 /* NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52EF31721E8DD86D002AD0E1 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52B7F3D41D6B685C007DCFD4 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52F236301D637AF50027E5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2362F1D637AF50027E5C4 /* AppDelegate.swift */; };
 		52F236321D637AF50027E5C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F236311D637AF50027E5C4 /* ViewController.swift */; };
 		52F236351D637AF50027E5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F236331D637AF50027E5C4 /* Main.storyboard */; };
@@ -137,7 +137,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				52B7F3DE1D6B685C007DCFD4 /* ShareExtension.appex in Embed App Extensions */,
+				52EF31721E8DD86D002AD0E1 /* ShareExtension.appex in Embed App Extensions */,
 				52F2364E1D639C870027E5C4 /* NotificationService.appex in Embed App Extensions */,
 				52CFDD3B1D63A17100945DA7 /* NotificationContent.appex in Embed App Extensions */,
 			);
@@ -153,7 +153,6 @@
 		3BACB7D5F1139F0BD5BD6FE1 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		44DA6E14F757561A0CF40D8A /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		523569D11D764D6B0082BE09 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
-		52439AEA1D7898C3000967C7 /* hostwatchos-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hostwatchos-bridging-header.h"; sourceTree = "<group>"; };
 		52439AF41D78B5C2000967C7 /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52439AF71D78B5C2000967C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		52439AF91D78B5C2000967C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,7 +182,6 @@
 		52B7F3D61D6B685C007DCFD4 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		52B7F3D91D6B685C007DCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		52B7F3DB1D6B685C007DCFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52B7F3E21D6B9C96007DCFD4 /* app-extension-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-extension-bridging-header.h"; sourceTree = "<group>"; };
 		52C91CDC1D6B605600218734 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52C91CE11D6B61EA00218734 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		52CFDD231D639FE400945DA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -201,7 +199,6 @@
 		52F236361D637AF50027E5C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F236391D637AF50027E5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F2363B1D637AF50027E5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52F236411D637C850027E5C4 /* bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
 		52F236421D6380FB0027E5C4 /* demo10.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = demo10.entitlements; sourceTree = "<group>"; };
 		52F236471D639C870027E5C4 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5690295DA251575FF4A2F1AE /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
@@ -403,9 +400,6 @@
 			isa = PBXGroup;
 			children = (
 				52F236421D6380FB0027E5C4 /* demo10.entitlements */,
-				52F236411D637C850027E5C4 /* bridging-header.h */,
-				52439AEA1D7898C3000967C7 /* hostwatchos-bridging-header.h */,
-				52B7F3E21D6B9C96007DCFD4 /* app-extension-bridging-header.h */,
 				52F2362F1D637AF50027E5C4 /* AppDelegate.swift */,
 				52F236311D637AF50027E5C4 /* ViewController.swift */,
 				52F236331D637AF50027E5C4 /* Main.storyboard */,
@@ -528,7 +522,6 @@
 				52B7F3D11D6B685C007DCFD4 /* Frameworks */,
 				52B7F3D21D6B685C007DCFD4 /* Resources */,
 				3034CF7DEFB1658C8783405C /* [CP] Copy Pods Resources */,
-				B9A5D7B35126C713499282C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -548,7 +541,6 @@
 				52CFDD2A1D63A17100945DA7 /* Frameworks */,
 				52CFDD2B1D63A17100945DA7 /* Resources */,
 				48F4F5A5D8A212CFDEF83948 /* [CP] Copy Pods Resources */,
-				5F9FCBF43C7BB189F1B6496B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -571,7 +563,7 @@
 				52F236521D639C870027E5C4 /* Embed App Extensions */,
 				526196FD1D71F809000705E5 /* Embed Frameworks */,
 				52439B1C1D78B5C2000967C7 /* Embed Watch Content */,
-				96A330F86B935C7A191D0FB9 /* [CP] Embed Pods Frameworks */,
+				B6EF60CFCC9493CCAB075AAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -596,7 +588,6 @@
 				52F236441D639C870027E5C4 /* Frameworks */,
 				52F236451D639C870027E5C4 /* Resources */,
 				328B88EA0536891B2792B1B9 /* [CP] Copy Pods Resources */,
-				A4F0DA558DE95FFAB679BE8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -613,8 +604,8 @@
 		52F236241D637AF50027E5C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0810;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CleverTap;
 				TargetAttributes = {
 					52439AF31D78B5C2000967C7 = {
@@ -791,7 +782,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		3034CF7DEFB1658C8783405C /* [CP] Copy Pods Resources */ = {
@@ -854,21 +845,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F9FCBF43C7BB189F1B6496B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationContent/Pods-NotificationContent-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7E848A09805792C689F7C31D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -882,36 +858,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo10/Pods-demo10-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96A330F86B935C7A191D0FB9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo10/Pods-demo10-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A4F0DA558DE95FFAB679BE8F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B47ED48089D5EE7ADEFC096F /* [CP] Copy Pods Resources */ = {
@@ -941,10 +887,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B9A5D7B35126C713499282C8 /* [CP] Embed Pods Frameworks */ = {
+		B6EF60CFCC9493CCAB075AAC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -956,7 +902,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo10/Pods-demo10-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C1C29A9FDDF7CC9A23672F72 /* [CP] Check Pods Manifest.lock */ = {
@@ -971,7 +917,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C6181FEBB991D35E3ADDE4DF /* [CP] Check Pods Manifest.lock */ = {
@@ -986,7 +932,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DFDC6179D94D4B0314B84224 /* [CP] Check Pods Manifest.lock */ = {
@@ -1001,7 +947,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1275,6 +1221,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
+					"CLEVERTAP_APP_EXTENSION=1",
 				);
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1291,13 +1238,11 @@
 					"\"SystemConfiguration\"",
 					"-framework",
 					"\"UIKit\"",
-					"-framework",
-					"\"CleverTapSDK.appex\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1316,6 +1261,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
+					"CLEVERTAP_APP_EXTENSION=1",
 				);
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1332,13 +1278,11 @@
 					"\"SystemConfiguration\"",
 					"-framework",
 					"\"UIKit\"",
-					"-framework",
-					"\"CleverTapSDK.appex\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1357,13 +1301,14 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
+					"CLEVERTAP_APP_EXTENSION=1",
 				);
 				INFOPLIST_FILE = NotificationContent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1382,13 +1327,14 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
+					"CLEVERTAP_APP_EXTENSION=1",
 				);
 				INFOPLIST_FILE = NotificationContent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1440,6 +1386,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1483,6 +1430,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1499,12 +1447,13 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
+					"CLEVERTAP_HOST_WATCHOS=1",
 				);
 				INFOPLIST_FILE = demo10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/hostwatchos-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1520,12 +1469,13 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
+					"CLEVERTAP_HOST_WATCHOS=1",
 				);
 				INFOPLIST_FILE = demo10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/hostwatchos-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1541,12 +1491,17 @@
 					"$(inherited)",
 					"\"${PODS_ROOT}/../../clevertap-ios-sdk\"/**",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CLEVERTAP_APP_EXTENSION=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/NotificationService/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1562,12 +1517,17 @@
 					"$(inherited)",
 					"\"${PODS_ROOT}/../../clevertap-ios-sdk\"/**",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CLEVERTAP_APP_EXTENSION=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/NotificationService/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.demo10.ns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "demo10/app-extension-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
